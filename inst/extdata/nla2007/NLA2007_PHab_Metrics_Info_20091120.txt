@@ -1,0 +1,363 @@
+VARNUM	NAME	LABEL	TYPE	LENGTH
+1	SITE_ID	ID Assigned to Each Site	2	25
+2	YEAR	Year of Site Visit	1	
+3	VISIT_NO	Sequential Visit Number Within Year	1	
+4	UID	Unique site_visit no. identifier	2	37
+5	DATEPHAB	Date of habitat characterization (=DATE_COL in lake information file)	1	
+6	SAMPLED_PHAB	Habitat data collected (Yes/Not done)	2	11
+7	sifpIsland	"Fractional presence of stations at an island (=mean(islandAtA, islandAtB, … islandAtJ))"	1	
+8	sixDepth	"Mean station depth (m)  (=mean(depthA, depthB, … depthJ))"	1	
+9	sivDepth	"Std. dev. of station depth (m) (=stdev(depthA, depthB, … depthJ))"	1	
+10	sinDepth	"Number of station with depth measurements (=count(depthA, depthB, … depthJ))"	1	
+11	L_sixDepth	Log10(0.1 + Mean Littoral Station Depth [m])	1	
+12	L_sivDepth	Log10(0.1 + Std. dev. of Littoral Station Depth m)	1	
+13	CVLitDepth	Coefficient of variation of Littoral Depth (=std. dev. of depth/mean depth)	1	
+14	lzoFilm	Mode of littoral surface film types (=mode(surface_film)	2	3
+15	lzfpFilm	"Fractional presence of any type of littoral surface film other than None (=mean(atA, atB… atJ))"	1	
+16	lziFilmVariety	"Mean number of littoral surface film types other than None at each station) (=mean(countOfTypesAtA, countOfTypesAtB, … countOfTypesAtJ))"	1
+17	bsfpBedrock	"Fractional presence of bottom substrate= Bedrock (=mean(atA, atB, … atJ))"	1
+18	bsfpBoulders	"Fractional presence of bottom substrate= Boulder (=mean(atA, atB, … atJ))"	1
+19	bsfpCobble	"Fractional presence of bottom substrate= Cobble (=mean(atA, atB, … atJ))"	1
+20	bsfpGravel	"Fractional presence of bottom substrate= Gravel (=mean(atA, atB, … atJ))"	1
+21	bsfpSand	"Fractional presence of bottom substrate= Sand (=mean(atA, atB, … atJ))"	1
+22	bsfpSilt	"Fractional presence of bottom substrate= Silt (=mean(atA, atB, … atJ))"	1
+23	bsfpOrganic	"Fractional presence of bottom substrate= Organic (=mean(atA, atB, … atJ))"	1
+24	bsfpWood	"Fractional presence of bottom substrate= Wood (=mean(atA, atB, … atJ))"	1
+25	bsfcBedrock	"Fractional areal cover of bottom substrate that is Bedrock (=mean(wtA, wtB, … wtJ))"	1
+26	bsfcBoulders	"Fractional areal cover of bottom substrate that is Boulders (=mean(wtA, wtB, … wtJ))"	1
+27	bsfcCobble	"Fractional areal cover of bottom substrate that is Cobble (=mean(wtA, wtB, … wtJ))"	1
+28	bsfcGravel	"Fractional areal cover of bottom substrate that is Gravel (=mean(wtA, wtB, … wtJ))"	1
+29	bsfcSand	"Fractional areal cover of bottom substrate that is Sand (=mean(wtA, wtB, … wtJ))"	1
+30	bsfcSilt	"Fractional areal cover of bottom substrate that is Silt (=mean(wtA, wtB, … wtJ))"	1
+31	bsfcOrganic	"Fractional areal cover of bottom substrate that is Organic (=mean(wtA, wtB, … wtJ))"	1
+32	bsfcWood	"Fractional areal cover of bottom substrate that is Wood (=mean(wtA, wtB, … wtJ))"	1
+33	bsiStaVariety	Number of bottom substrate classes present at a station	1
+34	bsiSiteVariety	Number of bottom substrate classes present at a site (among all stations)	1
+35	bsiStStaVariety	Index of Large-scale Bottom Substrate Variety (= bsiSiteVariety/bsiStaVariety)	1
+36	bsvBedrock	"Std dev. of areal cover of bottom substrate that is Bedrock (=stdev(wtA, wtB, wtC… wtJ))"	1
+37	bsvBoulders	"Std dev. of areal cover of bottom substrate that is Boulders (=stdev(wtA, wtB, wtC… wtJ))"	1
+38	bsvCobble	"Std dev. of areal cover of bottom substrate that is Cobble (=stdev(wtA, wtB, wtC… wtJ))"	1
+39	bsvGravel	"Std dev. of areal cover of bottom substrate that is Gravelk (=stdev(wtA, wtB, wtC… wtJ))"	1
+40	bsvSand	"Std dev. of areal cover of bottom substrate that is Silt (=stdev(wtA, wtB, wtC… wtJ))"	1
+41	bsvSilt	"Std dev. of areal cover of bottom substrate that is Silt (=stdev(wtA, wtB, wtC… wtJ))"	1
+42	bsvOrganic	"Std dev. of areal cover of bottom substrate that is Organick (=stdev(wtA, wtB, wtC… wtJ))"	1
+43	bsvWood	"Std dev. of areal cover of bottom substrate that is Wood (=stdev(wtA, wtB, wtC… wtJ))"	1
+44	bsnBedrock	"Number of stations with bottom substrate bedrock data (=count(atA, atB… atJ)"	1
+45	bsnBoulders	"Number of stations with bottom substrate boulder data (=count(atA, atB… atJ)"	1
+46	bsnCobble	"Number of stations with bottom substrate cobble data (=count(atA, atB… atJ)"	1
+47	bsnGravel	"Number of stations with bottom substrate gravel data (=count(atA, atB… atJ)"	1
+48	bsnSand	"Number of stations with bottom substrate sand data (=count(atA, atB… atJ)"	1	
+49	bsnSilt	"Number of stations with bottom substrate silt data (=count(atA, atB… atJ)"	1	
+50	bsnOrganic	"Number of stations with bottom substrate organic data (=count(atA, atB… atJ)"	1	
+51	bsnWood	"Number of stations with bottom substrate woodc data (=count(atA, atB… atJ)"	1	
+52	bsxLdia	"Mean log10-transformed bottom substrate diameter (mineral) (=mean(Dm*Csm), where Dm=log10(characteristic diam), Csm=fractional cover of class at a station)"	1	
+53	bsvLdia	"Std dev. of Log10-transformed bottom substrate diameter (mineral) (=stdev(Dm*Csm), where Dm=log10(characteristic diam), Csm=fractional cover of class at a station)"	1	
+54	bs16Ldia	16th percentile of bottom substrate diameter	1	
+55	bs25Ldia	25th percentile of bottom substrate diameter	1	
+56	bs50Ldia	50th percentile of bottom substrate diameter	1	
+57	bs75Ldia	75th percentile of bottom substrate diameter	1	
+58	bs84Ldia	84th percentile of bottom substrate diameter	1	
+59	bsopClass	Mode of bottom substrate by presence (=space-delimited list of 1+ classes with presence = max(bsfp*))	2	57
+60	bsofClass	Mode of bottom substrate by cover (=space-delimited list of 1+ classes with sum(bsfcClass) = max(sum(bsfcClass)))	2	20
+61	bsfBlack	"Fraction of stations with bottom substrate having color= Black (=count(atA, atB… atJ) / bsnColor)"	1	
+62	bsfBrown	"Fraction of stations with bottom substrate having color= Brown (=count(atA, atB… atJ) / bsnColor)"	1	
+63	bsfGray	"Fraction of stations with bottom substrate having color= Gray (=count(atA, atB… atJ) / bsnColor)"	1	
+64	bsfRed	"Fraction of bottom substrate samples with color= Red (=count(atA, atB… atJ) / bsnColor)"	1	
+65	bsfOtherColor	"Fraction of bottom substrate samples with color=Other (=count(atA, atB… atJ) / bsnColor)"	1	
+66	bsoColor	"Mode of bottom substrate color (=mode(colorA, colorB… colorJ))"	2	15
+67	bsnColor	"Number of stations with bottom substrate color data (=count(atA, atB… atJ)"	1	
+68	bsfNoneOdor	"Fraction of stations with bottom substrate odor= None (=mean(A=odor, B=odor, … J=odor))"	1	
+69	bsfAnoxic	Fraction of stations with bottom substrate odor= Anoxic	1	
+70	bsfChemical	Fraction of stations with bottom substrate odor= Chemical	1	
+71	bsfH2S	"Fraction of stations with bottom substrate odor=H2S (hydrogen sulfide) (=mean(A=odor, B=odor, … J=odor))"	1	
+72	bsfOil	"Fraction of stations with bottom substrate odor= Oil (=mean(A=odor, B=odor, … J=odor))"	1	
+73	bsfOtherOdor	"Fraction of stations with bottom substrate odor= Other (=mean(A=odor, B=odor, … J=odor))"	1	
+74	bsoOdor	"Mode of bottom substrate odor (=mode(odorA, odorB… odorJ))"	2	7
+75	bsnOdor	"Number of stations with bottom substrate odor data (=count(atA, atB… atJ)"	1	
+76	amfpEmergent	"Fractional presence of littoral emergent macrophytes (=mean(atA, atB, … atJ))"	1	
+77	amfpFloating	"Fractional presence of littoral floating macrophytes (=mean(atA, atB, … atJ))"	1	
+78	amfpSubmergent	"Fractional presence of littoral submerged macrophytes (=mean(atA, atB, … atJ))"	1	
+79	amfpAll	"Fractional presence of all littoral macrophytes (=mean(atA, atB, … atJ))"	1	
+80	amfcEmergent	"Fractional areal cover of littoral emergent macrophytes (=mean(wtA, wtB, … wtJ))"	1
+81	amfcFloating	"Fractional areal cover of littoral floating macrophytes (=mean(wtA, wtB, … wtJ))"	1
+82	amfcSubmergent	"Fractional areal cover of littoral submerged macrophytes (=mean(wtA, wtB, … wtJ))"	1
+83	amfcAll	"Fractional areal cover of all littoral macrophytes (=mean(wtA, wtB, … wtJ))"	1
+84	amfcFltEmg	Fractional areal cover of littoral floating + emergent macrophytes (amfcEmergent+amfcFloating)	1
+85	amvEmergent	"Std dev. Cover of littoral Emergent macrophytes (=stdev(wtA, wtB, wtC… wtJ))"	1
+86	amvFloating	"Std dev. Cover of littoral Submergent macrophytes (=stdev(wtA, wtB, wtC… wtJ))"	1
+87	amvSubmergent	"Std dev. Cover of littoral Submergent macrophytes (=stdev(wtA, wtB, wtC… wtJ))"	1
+88	amvAll	"Std dev. Cover of all littoral macrophytes (=stdev(wtA, wtB, wtC… wtJ))"	1
+89	amiqAll	"Interquartile range of areal cover from all littoral macrophytes (P75(wtA, wtB, … wtJ) - P25(wtA, wtB, … wtJ))"	1
+90	amidAll	"Interdecimile range of areal cover from all littoral macrophytes (P90(wtA, wtB, … wtJ) - pP10 (wtA, wtB, … wtJ))"	1
+91	amnEmergent	"Number of stations with littoral Emergent macrophyte data (=count(atA, atB… atJ))"	1
+92	amnFloating	"Number of stations with littoral Floating macrophyte data (=count(atA, atB… atJ))"	1
+93	amnSubmergent	"Number of stations with littoral Submergent macrophyte data (=count(atA, atB… atJ))"	1
+94	amnAll	"Number of stations with littoral macrophyte Total cover data (=count(atA, atB… atJ))"	1
+95	amiTotal	"Index of total cover from littoral aquatic macrophytes (=mean(Aemergent+Afloating+Asubmergent, Bemergent+Bfloating+Bsubmergent, …Jemergent+Jfloating+Jsubmergent))"	1
+96	fcfpAquatic	"Fractional presence of littoral fish cover=Aquatic Vegetation (=mean(atA, atB… atJ))"	1
+97	fcfpBoulders	"Fractional presence of littoral fish cover=Boulders (=mean(atA, atB… atJ))"	1
+98	fcfpBrush	"Fractional presence of littoral fish cover=Brush (=mean(atA, atB… atJ))"	1
+99	fcfpLedges	"Fractional presence of littoral fish cover=Ledges (=mean(atA, atB… atJ))"	1
+100	fcfpLivetrees	"Fractional presence of littoral fish cover=Live Trees (=mean(atA, atB… atJ))"	1
+101	fcfpOverhang	"Fractional presence of littoral fish cover=Overhang (=mean(atA, atB… atJ))"	1
+102	fcfpSnag	"Fractional presence of littoral fish cover=Snags (=mean(atA, atB… atJ))"	1
+103	fcfpStructures	"Fractional presence of littoral fish cover=Artificial Structures (=mean(atA, atB… atJ))"	1
+104	fcfcAquatic	"Fractional cover of littoral fish cover=Aquatic Vegetation (=mean(wtA, wtB… wtJ))"	1
+105	fcfcBoulders	"Fractional cover of littoral fish cover=Boulders (=mean(wtA, wtB… wtJ))"	1
+106	fcfcBrush	"Fractional cover of littoral fish cover=Brush (=mean(wtA, wtB… wtJ))"	1
+107	fcfcLedges	"Fractional cover of littoral fish cover=Ledges (=mean(wtA, wtB… wtJ))"	1
+108	fcfcLiveTrees	"Fractional cover of littoral fish cover=Live Trees (=mean(wtA, wtB… wtJ))"	1
+109	fcfcOverhang	"Fractional cover of littoral fish cover=Overhang (=mean(wtA, wtB… wtJ))"	1
+110	fcfcSnag	"Fractional cover of littoral fish cover=Snags (=mean(wtA, wtB… wtJ))"	1
+111	fcfcStructures	"Fractional cover of littoral fish cover=Artificial Structures (=mean(wtA, wtB… wtJ))"	1
+112	fcfpAll	"Fractional presence of any littoral fish cover (=mean(atA, atB… atJ))"	1
+113	fciAll	"Index of total littoral fish cover (=sum(fcfcAquatic, fcfcBoulders, fcfcBrush, fcfcLedges, fcfcLivetrees, fcfcOverhang, fcfcSnag, fcfcStructures))"	1
+114	fciBig	"Index of littoral fish cover from large structures (=sum(fcfcBoulders, fcfcLedges, fcfcOverhang, fcfcStructures))"	1
+115	fciNatural	"Index of littoral fish cover from natural structures (=sum(fcfcAquatic, fcfcBoulders, fcfcBrush, fcfcLedges, fcfcLiveTrees fcfcOverhang, fcfcSnag))"	1
+116	fciRipVeg	"Index of littoral fish cover from riparian vegetation (= sum(fcfcBrush, fcfcLiveTrees, fcfcSnag,))"	1
+117	SomeNatCvr	Fractional presence of natural littoral fish cover types (=fcfcBoulders+fcfcBrush+fcfcLedges+fcfcLivetrees+fcfcOverhang)	1
+118	fcvAquatic	"Std dev. of littoral fish cover from Aquatic Vegetation (=stdev(wtA, wtB… wtJ))"	1
+119	fcvBoulders	"Std dev. of littoral fish cover from Boulders (=stdev(wtA, wtB… wtJ))"	1
+120	fcvBrush	"Std dev. of littoral fish cover from Brush (=stdev(wtA, wtB… wtJ))"	1
+121	fcvLedges	"Std dev. of littoral fish cover from Ledges (=stdev(wtA, wtB… wtJ))"	1
+122	fcvLivetrees	"Std dev. of littoral fish cover from Live Trees (=stdev(wtA, wtB… wtJ))"	1
+123	fcvOverhang	"Std dev. of littoral fish cover from Overhangs (=stdev(wtA, wtB… wtJ))"	1
+124	fcvSnag	"Std dev. of littoral fish cover from Snags (=stdev(wtA, wtB… wtJ))"	1
+125	fcvStructures	"Std dev. of littoral fish cover from Artificial Structures (=stdev(wtA, wtB… wtJ))"	1
+126	fcnAquatic	"Number of stations with littoral fish cover Aquatic Vegetation data (=count(atA, atB… atJ))"	1
+127	fcnBoulders	"Number of stations with littoral fish cover Boulders data (=count(atA, atB… atJ))"	1
+128	fcnBrush	"Number of stations with littoral fish cover Brush data (=count(atA, atB… atJ))"	1
+129	fcnLedges	"Number of stations with littoral fish cover Ledges data (=count(atA, atB… atJ))"	1
+130	fcnLiveTrees	"Number of stations with littoral fish cover Live Trees data (=count(atA, atB… atJ))"	1
+131	fcnOverhang	"Number of stations with littoral fish cover Overhang data (=count(atA, atB… atJ))"	1
+132	fcnSnag	"Number of stations with littoral fish cover Snags data (=count(atA, atB… atJ))"	1
+133	fcnStructures	"Number of stations with littoral fish cover Artificial Structures data (=count(atA, atB… atJ))"	1
+134	fcnAll	Number of stations with littoral fish cover data (=sum(fcn*))	1
+135	rvfpCanBroadleaf	"Fraction of riparian plots having canopy woody vegetation type=Broadleaf Evergreen (=mean(atA, atB… atJ))"	1
+136	rvfpCanConiferous	"Fraction of riparian plots having canopy woody vegetation type=Coniferous (=mean(atA, atB… atJ))"	1
+137	rvfpCanDeciduous	"Fraction of riparian plots having canopy woody vegetation type=Deciduous (=mean(atA, atB… atJ))"	1
+138	rvfpCanMixed	"Fraction of riparian plots having canopy woody vegetation type=Mixed (=mean(atA, atB… atJ))"	1
+139	rvfpCanNone	"Fraction of riparian plots having canopy woody vegetation type=None (=mean(atA, atB… atJ))"	1
+140	rvfpUndBroadleaf	"Fraction of riparian plots having understory woody vegetation type=Broadleaf Evergreen (=mean(atA, atB… atJ))"	1
+141	rvfpUndConiferous	"Fraction of riparian plots having understory woody vegetation type=Coniferous (=mean(atA, atB… atJ))"	1
+142	rvfpUndDeciduous	"Fraction of riparian plots having understory woody vegetation type=Deciduous (=mean(atA, atB… atJ))"	1
+143	rvfpUndMixed	"Fraction of riparian plots having understory vegetation type=Mixed (=mean(atA, atB… atJ))"	1
+144	rvfpUndNone	"Fraction of riparian plots having understory woody vegetation type=None (=mean(atA, atB… atJ))"	1
+145	rvnCanopy	"Number of stations with riparian canopy woody vegetation type data (=count(atA, atB… atJ))"	1
+146	rvnUnderstory	"Number of stations with understory woody vegetation type data (=count(atA, atB… atJ))"	1
+147	rvfpCanBig	"Fraction of riparian plots with large trees (> 30 cm dbh) present in the canopy layer (=mean(atA, atB… atJ))"	1
+148	rvfpCanSmall	"Fraction of riparian plots with small trees (< 30 cm dbh) present in the canopy layer (=mean(atA, atB… atJ))"	1
+149	rvfpUndNonw	"Fraction of riparian plots with non-woody vegetation (Tall Herbs/Grasses/Forbs) present in the understory layer (=mean(atA, atB… atJ))"	1
+150	rvfpUndWoody	"Fraction of riparian plots with woody vegetation (Shrubs/Saplings) present in the understory layer (=mean(atA, atB… atJ))"	1
+151	rvfpGndBare	"Fraction of riparian plots with bare ground (Barren/Bare Dirt/Buildings) present in the ground layer (=mean(atA, atB… atJ))"	1
+152	rvfpGndInundated	"Fraction of riparian plots with Standing Water/Innudated Vegetation present in the ground layer (=mean(atA, atB… atJ))"	1
+153	rvfpGndNonw	"Fraction of riparian plots with non-woody vegetation (Herbs/Grasses/Forbs) present in the ground layer (=mean(atA, atB… atJ))"	1
+154	rvfpGndWoody	"Fraction of riparian plots with woody vegetation (Shrubs/Saplings) present in the ground layer (=mean(atA, atB… atJ))"	1
+155	rvfcCanBig	"Fraction of riparian canopy areal cover from large trees (>30 cm dbh) (=mean(wtA, wtB… wtJ))"	1
+156	rvfcCanSmall	"Fraction of riparian canopy areal cover from small trees (<30 cm dbh) (=mean(wtA, wtB… wtJ))"	1
+157	rvfcUndNonw	"Fraction of riparian understory areal cover from non-woody vegetation (Tall Herbs/Grasses/Forbs) (=mean(wtA, wtB… wtJ))"	1
+158	rvfcUndWoody	"Fraction of riparian understory areal cover from woody vegetation (Shrubs/Saplings) (=mean(wtA, wtB… wtJ))"	1
+159	rvfcGndBare	"Fraction of riparian ground areal cover from bare ground (Barren/Bare Dirt/Buildings) (=mean(wtA, wtB… wtJ))"	1
+160	rvfcGndInundated	"Fraction of riparian ground areal cover from Standing Water/Innudated Vegetation (=mean(wtA, wtB… wtJ))"	1
+161	rvfcGndNonw	"Fraction of riparian ground areal cover from non-woody vegetation (Herbs/Grasses/Forbs) (=mean(wtA, wtB… wtJ))"	1
+162	rvfcGndWoody	"Fraction of riparian ground areal cover from woody vegetation (Shrubs/Saplings) (=mean(wtA, wtB… wtJ))"	1
+163	rvvCanBig	"Std. dev. of riparian areal canopy cover from large trees (>30 cm dbh) (=stdev(wtA, wtB… wtJ))"	1
+164	rvvCanSmall	"Std. dev. of riparian areal canopy cover from small trees (<30 cm dbh) (=stdev(wtA, wtB… wtJ))"	1
+165	rvvUndNonw	"Std. dev. of riparian understory areal cover from non-woody vegetation (Tall Herbs/Grasses/Forbs) (=mean(wtA, wtB… wtJ))"	1
+166	rvvUndWoody	"Fraction of riparian understory areal cover from woody vegetation (Shrubs/Saplings) (=mean(wtA, wtB… wtJ))"	1
+167	rvvGndBare	"Std. dev. of riparian ground areal cover from bare ground (Barren/Bare Dirt/Buildings) (=stdev(wtA, wtB… wtJ))"	1
+168	rvvGndInundated	"Std. dev. of riparian ground areal cover from Standing Water/Innudated Vegetation (=stdev(wtA, wtB… wtJ))"	1
+169	rvvGndNonw	"Std. dev. of riparian ground areal cover from non-woody vegetation (Herbs/Grasses/Forbs) (=mean(wtA, wtB… wtJ))"	1
+170	rvvGndWoody	"Std. dev. of riparian ground areal cover from woody vegetation (Shrubs/Saplings) (=mean(wtA, wtB… wtJ))"	1
+171	rvnCanBig	"Count of values of riparian canopy areal cover from large trees (> 30cm dbh) (=count(atA, atB… atJ))"	1
+172	rvnCanSmall	"Count of values of riparian canopy areal cover from small trees (< 30cm dbh) (=count(atA, atB… atJ))"	1
+173	rvnUndNonw	"Count of values of riparian understory areal cover from non-woody vegetation (Herbs/Grasses/Forbs) (=count(atA, atB… atJ))"	1
+174	rvnUndWoody	"Count of values of riparian understory areal cover from woody vegetation (Shrubs/Saplings) (=count(atA, atB… atJ))"	1
+175	rvnGndBare	"Count of values of riparian ground areal cover from bare ground (Barren/Bare Dirt/Buildings) (=count(atA, atB… atJ))"	1
+176	rvnGndInundated	"Count of values of riparian ground areal cover from Standing Water/Innudated Vegetation (=count(atA, atB… atJ))"	1
+177	rvnGndNonw	"Count of values of riparian ground areal cover from non-woody vegetation (Herbs/Grasses/Forbs) (=count(atA, atB… atJ))"	1
+178	rvnGndWoody	"Count of values of riparian ground areal cover from woody vegetation (Shrubs/Saplings) (=count(atA, atB… atJ))"	1
+179	rviCanopy	"Index of total riparian canopy areal cover (=mean(bigA+smallA, bigB+smallB… bigJ+smallJ))"	1
+180	rviUnderstory	"Index of total riparian canopy and understory areal cover (=mean(canBigA+canSmallA+UndWoodyA+undHerbsA, canBigB+canSmallB+UndWoodyB+undHerbsB...canBigJ+canSmalJA+UndWoodyJ+undHerbsJ))"	1
+181	rviGround	"Index of total riparian ground areal cover (=mean(woodyA+herbA+inundatedA, woodyB+herbB+inundatedB… woodyJ+herbJ+inundatedJ))"	1
+182	rviWoody	"Index of total riparian areal cover from woody vegatation (=mean(bigA+smallA+UndWoodA+GndWoodyA, bigB+smallB+UndWoodB+GndWoodyB… bigJ+smallJ+UndWoodJ+GndWoodyJ))"	1
+183	rviTallWood	"Index of riparian areal cover (canopy and understory layers) from woody vegetation (=mean(bigA+smallA+UndWoodA, bigB+smallB+UndWoodB… bigJ+smallJ+UndWoodJ))"	1
+184	rviHerbs	"Index of total riparian areal cover from herbaceous vegetation (=mean(undHerbsA+GndHerbsA, undHerbsB+GndHerbsB... undHerbsJ+GndHerbsJ))"	1
+185	rviCanUnd	"Index of total riparian areal cover in the canopy and understory layers (=mean(canBigA+canSmallA+UndWoodyA+undHerbsA, canBigB+canSmallB+UndWoodyB+undHerbsB...canBigJ+canSmalJA+UndWoodyJ+undHerbsJ))"	1
+186	rviTotalVeg	"Index of total riparian areal cover from all vegetation types (=mean(sum(all veg)A, sum(all veg)B… sum(all veg)J) (excluding bare or inundated ground))"	1
+187	ssfpBedrock	"Fractional presence of shoreline substrate= Bedrock (mean(atA, atB, … atJ))"	1
+188	ssfpBoulders	"Fractional presence of shoreline substrate= Boulder (=mean(atA, atB, … atJ))"	1
+189	ssfpCobble	"Fractional presence of shoreline substrate= Cobble (=mean(atA, atB, … atJ)"	1
+190	ssfpGravel	"Fractional presence of shoreline substrate= Gravel (=mean(atA, atB, … atJ)"	1
+191	ssfpSand	"Fractional presence of shoreline substrate= Sand (=mean(atA, atB, … atJ)"	1
+192	ssfpSilt	"Fractional presence of shoreline substrate= Silt (=mean(atA, atB, … atJ)"	1
+193	ssfpOrganic	"Fractional presence of shoreline substrate= Organic (=mean(atA, atB, … atJ)"	1
+194	ssfpWood	"Fractional presence of shoreline substrate= Wood (=mean(atA, atB, … atJ)"	1
+195	ssfpOther	"Fractional presence of shoreline substrate= Other (=mean(atA, atB, … atJ)"	1
+196	ssfcBedrock	"Fractional areal cover of shoreline substrate from Bedrock (=mean(wtA, wtB, … wtJ))"	1
+197	ssfcBoulders	"Fractional areal cover of shoreline substrate from Boulders (=mean(wtA, wtB, … wtJ))"	1
+198	ssfcCobble	"Fractional areal cover of shoreline substrate from Cobble (=mean(wtA, wtB, … wtJ))"	1
+199	ssfcGravel	"Fractional areal cover of shoreline substrate from Gravel (=mean(wtA, wtB, … wtJ))"	1
+200	ssfcSand	"Fractional areal cover of shoreline substrate from Sand (=mean(wtA, wtB, … wtJ))"	1
+201	ssfcSilt	"Fractional areal cover of shoreline substrate from Silt (=mean(wtA, wtB, … wtJ))"	1
+202	ssfcOrganic	"Fractional areal cover of shoreline substrate from Organic types (=mean(wtA, wtB, … wtJ))"	1
+203	ssfcWood	"Fractional areal cover of shoreline substrate from Wood (=mean(wtA, wtB, … wtJ))"	1
+204	ssfcOther	"Fractional areal cover of shoreline substrate from Other types (=mean(wtA, wtB, … wtJ))"	1
+205	ssiStaVariety	Mean number of shoreline substrate classes present at each station (=mean(count of substrate classes at each station))	1
+206	ssiSiteVariety	Number of shoreline substrate classes present at a site (=count of substrate classes noted across all stations at a site)	1
+207	ssiStStaVariety	Index of Large-scale Shoreline Substrate Variety (= ssiSiteVariety/ssiStaVariety)	1
+208	ssvBedrock	"Std. dev. of areal cover of shoreline substrate from Bedrock (=stdev(wtA, wtB, wtC… wtJ))"	1
+209	ssvBoulders	"Std. dev. of areal cover of shoreline substrate from Boulders (=stdev(wtA, wtB, wtC… wtJ))"	1
+210	ssvCobble	"Std. dev. of areal cover of shoreline substrate from Cobble (=stdev(wtA, wtB, wtC… wtJ))"	1
+211	ssvGravel	"Std. dev. of areal cover of shoreline substrate from Gravel (=stdev(wtA, wtB, wtC… wtJ))"	1
+212	ssvSand	"Std. dev. of areal cover of shoreline substrate from Sand (=stdev(wtA, wtB, wtC… wtJ))"	1
+213	ssvSilt	"Std. dev. of areal cover of shoreline substrate from Silt (=stdev(wtA, wtB, wtC… wtJ))"	1
+214	ssvOrganic	"Std. dev. of areal cover of shoreline substrate from Organic types (=stdev(wtA, wtB, wtC… wtJ))"	1
+215	ssvWood	"Std. dev. of areal cover of shoreline substrate from Wood (=stdev(wtA, wtB, wtC… wtJ))"	1
+216	ssvOther	"Std. dev. of areal cover of shoreline substrate from Other types (=stdev(wtA, wtB, wtC… wtJ))"	1
+217	ssnBedrock	"Number of stations with Bedrock present as a shoreline substrate (=count(atA, atB… atJ)"	1
+218	ssnBoulders	"Number of stations with Boulders present as a shoreline substrate (=count(atA, atB… atJ)"	1
+219	ssnCobble	"Number of stations with Cobble present as a shoreline substrate (=count(atA, atB… atJ)"	1
+220	ssnGravel	"Number of stations with Gravel present as a shoreline substrate (=count(atA, atB… atJ)"	1
+221	ssnSand	"Number of stations with Sand present as a shoreline substrate (=count(atA, atB… atJ)"	1
+222	ssnSilt	"Number of stations with Silt present as a shoreline substrate (=count(atA, atB… atJ)"	1
+223	ssnOrganic	"Number of stations with Organic types present as a shoreline substrate (=count(atA, atB… atJ)"	1
+224	ssnWood	"Number of stations with Wood present as a shoreline substrate (=count(atA, atB… atJ)"	1	
+225	ssnOther	"Number of stations with Other types present as a shoreline substrate (=count(atA, atB… atJ)"	1	
+226	ssxLdia	"Mean log10-transformed shoreline substrate diameter (mineral) (=mean(Dm*Csm), where Dm=log10(characteristic diam), Csm=fractional cover of class at a station)"	1	
+227	ssvLdia	"Std dev. of Log10-transformed bottom substrate diameter (mineral) (=stdev(Dm*Csm), where Dm=log10(characteristic diam), Csm=fractional cover of class at a station)"	1	
+228	ss16Ldia	16th percentile of shoreline substrate diameter	1	
+229	ss25Ldia	25th percentile of shoreline substrate diameter	1	
+230	ss50Ldia	50th percentile of shoreline substrate diameter	1	
+231	ss75Ldia	75th percentile of shoreline substrate diameter	1	
+232	ss84Ldia	84th percentile of shoreline substrate diameter	1	
+233	ssopClass	Mode of shoreline substrate by presence (=space-delimited list of 1+ classes with presence = max(ssfp*))	2	51
+234	ssofClass	Mode of shoreline substrate by cover (=space-delimited list of 1+ classes with sum(ssfcClass) = max(sum(ssfcClass)))	2	19
+235	hipwBuildings	"Weighted presence of human influence=Buildings (=mean(wtA, wtB… wtJ))"	1	
+236	hipwCommercial	"Weighted presence of human influence=Commercial (=mean(wtA, wtB… wtJ))"	1	
+237	hipwRoads	"Weighted presence of human influence=Roads/Railroad (=mean(wtA, wtB… wtJ))"	1	
+238	hipwWalls	"Weighted presence of human influence=Walls/Dikes/Revertments (=mean(wtA, wtB… wtJ))"	1	
+239	hipwDocks	"Weighted presence of human influence=Docks (=mean(wtA, wtB… wtJ))"	1	
+240	hipwPowerlines	"Weighted presence of human influence=Power Lines (=mean(wtA, wtB… wtJ))"	1
+241	hipwLandfill	"Weighted presence of human influence=Landfill/Trash (=mean(wtA, wtB… wtJ))"	1
+242	hipwLawn	"Weighted presence of human influence=Lawn (=mean(wtA, wtB… wtJ))"	1
+243	hipwPark	"Weighted presence of human influence=Park Facilities/Man-made Beach (=mean(wtA, wtB… wtJ))"	1
+244	hipwCrops	"Weighted presence of human influence=Crops (=mean(wtA, wtB… wtJ))"	1
+245	hipwOrchard	"Weighted presence of human influence=Orchard (=mean(wtA, wtB… wtJ))"	1
+246	hipwPasture	"Weighted presence of human influence=Pasture/Range/Hay Field (=mean(wtA, wtB… wtJ))"	1
+247	hiiAll	"Weighted presence of all human influences (=mean(wtA, wtB… wtJ) of all types)"	1
+248	hiiNonAg	Index of nonagricultural human influences (=sum of individual weighted means of nonagricultural influences)	1
+249	hiiAg	Index of agricultural human influences (=sum of individual weighted means of agricultural influences)	1
+250	hiiAllCirca	Index of all human influences occurring close to shore (sum of all individual weighted means (note nonstandard weights)	1
+251	hiiNonAgCirca	Index of nonagricultural human influences occurring close to shore (=sum of all individual weighted means of nonagricultural influences (note nonstandard weights))	1
+252	hiiAgCirca	Index of agricultural human influences occuring close to shore (=sum of all individual weighted means of agricultural influences (note nonstandard weights))	1
+253	hifpAny	"Fractional presence of any human influence (=mean(anyAtA, anyAtB, … anyAtJ))"	1
+254	hifpAnyCirca	"Fractional presence of any human influence occurring in station plots (=mean(anyAtA=C, anyAtB=C, … anyAtJ=C))"	1
+255	hinBuildings	"Number of stations where human influence (Buildings) is present (P or C) (=count(atA, atB… atJ))"	1
+256	hinCommercial	"Number of stations where human influence (Commercial) is present (P or C) (=count(atA, atB… atJ))"	1
+257	hinRoads	"Number of stations where human influence (Roads/Railroad) is present (P or C) (=count(atA, atB… atJ))"	1
+258	hinWalls	"Number of stations where human influence (Dikes/Walls/Revetments) is present (P or C) (=count(atA, atB… atJ))"	1
+259	hinDocks	"Number of stations where human influence (Docks) is present (P or C) (=count(atA, atB… atJ))"	1
+260	hinPowerlines	"Number of stations where human influence (Power Lines) is present (P or C) (=count(atA, atB… atJ))"	1
+261	hinLandfill	"Number of stations where human influence (Landfill/Trash) is present (P or C) (=count(atA, atB… atJ))"	1
+262	hinLawn	"Number of stations where human influence (Lawn) is present (P or C) (=count(atA, atB… atJ))"	1
+263	hinPark	"Number of stations where human influence (Park Facilities/Man-made Beach)) is present (P or C) (=count(atA, atB… atJ))"	1
+264	hinCrops	"Number of stations where human influence (Crops) is present (P or C) (=count(atA, atB… atJ))"	1
+265	hinOrchard	"Number of stations where human influence (Orchard) is present (P or C) (=count(atA, atB… atJ))"	1
+266	hinPasture	"Number of stations where human influence (Pasture/Range/Hay Field) is present (P or C) (=count(atA, atB… atJ))"	1
+267	hipwAg	"Weighted presence of all agricultural human influences (=mean(wtA, wtB… wtJ)  of all ag types)"	1
+268	hipwNonag	"Weighted presence of all non-agricultural human influences (=mean(wtA, wtB… wtJ)  of all non-ag types)"	1
+269	hipwAll	"Weighted presence of all human influences (=mean(wtA, wtB… wtJ)  of all types)"	1
+270	hinAg	"Number of stations where any agricultural human influence is present (P or C) (=count(atA, atB… atJ) of all ag types)"	1
+271	hinNonag	"Number of stations where any non-agricultural human influence is present (P or C) (=count(atA, atB… atJ) of all non-ag types)"	1
+272	hinAll	"Number of stations where any type of human influence is present (P or C) (=count(atA, atB… atJ) of all types)"	1	
+273	lmfpBedrock	"Fraction of littoral fish macrohabitat stations with dominant substrate= Bedrock (=count(BedrockA, BedrockB, … BedrockJ))"	1	
+274	lmfpCobble	"Fraction of littoral fish macrohabitat stations with dominant substrate= Cobble (count(CobbleA, CobbleB, … CobbleJ))"	1	
+275	lmfpSand	"Fraction of littoral fish macrohabitat stations with dominant substrate= Sand (=count(SandA, SandB, … SandJ))"	1	
+276	lmfpMud	"Fraction of littoral fish macrohabitat stations with dominant substrate= Mud (=count(MudA, MudB, … MudJ))"	1	
+277	lmoSubstrate	Mode of littoral fish macrohabitat dominant substrate class (=mode(dom_substrate))	2	11
+278	lmnSubstrate	"Number of stations with littoral fish macrohabitat dominant substrate class data (=count(atA, atB… atJ))"	1	
+279	lmpwHuman	"Weighted presence of littoral fish macrohabitat human disturbance (=mean(wtA,wtB, … wtJ))"	1	
+280	lmnHuman	"Number of stations with littoral fish macrohabitat human disturbance data (count(atA,atB, … atJ))"	1	
+281	lmnCover	"Number of stations with littoral fish macrohabitat cover class data (count(atA, atB… atJ))"	1	
+282	lmfpLittle	"Fractional presence of littoral fish macrohabitat cover class= No/Little Cover (=mean(noCoverA, noCoverB… noCoverJ))"	1	
+283	lmfpPatchy	"Fractional presence of littoral fish macrohabitat cover class= Patchy Cover (=mean(PatchyA, PatchyB, … PatchyJ))"	1	
+284	lmfpContinuous	"Fractional presence of littoral fish macrohabitat cover class= Continuous (mean(ContinuousA, ContinuousB, … ContinuousJ))"	1	
+285	lmoCover	Mode of littoral fish macrohabitat cover types (=mode(COVER_CLASS))	2	39
+286	lmnCoverTypes	"Number of stations with littoral fish macrohabitat cover type data (=count(atA, atB… atJ))"	1	
+287	lmfpWoody	"Fractional presence of littoral fish macrohabitat cover type= Woody (=mean(atA, atB… atJ))"	1	
+288	lmfpVeg	"Fractional presence of littoral fish macrohabitat cover type= Vegetation (=mean(atA, atB… atJ))"	1	
+289	lmfpBoulders	"Fractional presence of littoral fish macrohabitat cover type= Boulders (=mean(atA, atB… atJ))"	1	
+290	lmfpFill	"Fractional presence of littoral fish macrohabitat cover type= Fill (=mean(atA, atB… atJ))"	1	
+291	lmfpArtificial	"Fractional presence of littoral fish macrohabitat cover type= Artificial (=mean(atA, atB… atJ))"	1	
+292	lmfpNone	"Fractional presence of littoral fish macrohabitat cover type= None (=mean(atA, atB… atJ))"	1	
+293	bffFlat	"Fraction of stations with Flat banks(< 5 deg.)  (=mean(flatA, flatB… flatJ))"	1	
+294	bffGradual	"Fraction of stations with Gradual banks (5-30 deg.) (=mean(flatA, flatB… flatJ))"	1	
+295	bffSteep	"Fraction of stations with Steep banks (30-75 deg.) (=mean(flatA, flatB… flatJ))"	1	
+296	bffVertical	"Fraction of stations with Near Vertical/Undercut banks (> 75 deg.) (=mean(flatA, flatB… flatJ))"	1	
+297	bfoAngle	"Mode of bank angle class (=mode(classA, classB… classJ))"	2	39
+298	bfnAngle	"Number of stations with bank angle data (count(atA, atB… atJ))"	1	
+299	bfxHorizDist	Mean horizontal distance to highwater mark (m)	1	
+300	bfxVertHeight	Mean vertical height to highwater mark (m)	1	
+301	bfnHorizDist	Number of stations with horizontal distance to highwater mark measurements (=count(horiz_dist))	1	
+302	bfnVertHeight	Number of stations with vertical height to highwater mark measurements (=count(vert_height)	1	
+303	L_HorizDist	"Log10(1+ Horizontal Lake Level Fluctuation [m]) (""bathtub ring"")"	1	
+304	L_VertHeight	"Log10(1+ Vertical Lake Level Fluctuation [m]) (""bathtub ring"")"	1
+305	L_RtHzVrt	Lake Level Fluctuation Ratio (L_HorizDist/L_VertHeight)	1
+306	RDisIn	Riparian Disturbance Intensity Index (=RDisIn=1-(1/(1+hiiAll)))	1
+307	RDisInAg	Riparian Agricultural Disturbance Intensity Index (=RDisInAg=1-(1/(1+hiiAg)))	1
+308	RDisInNonAG	Riparian Non-Agricultural Disturbance Intensity Index (=1-(1/(1+hiiNonAg)))	1
+309	RDisInEx1	Riparian Disturbance Intensity and Extent Index 1 (=(RDisIn+hifpAny)/2)	1
+310	RDisInEx1a	Riparian Disturbance Intensity and Extent Index 1a (=(RDisIn+hifpAnyCirca)/2)	1
+311	RDisInEx2	Riparian Disturbance Intensity and Extent Index 2 ((RDisIn*hifpAny)**0.5)	1
+312	RDisInEx2a	Riparian Disturbance Intensity and Extent Index 2a (=(RDisIn*hifpAnyCirca)**0.5)	1
+313	RDisLev_x1	Riparian Disturbance Level Index X1 (=Class 20 and 80 percentile of RDisInEx1)	1
+314	RDisLev_x1a	Riparian Disturbance Level Index X1A (=Class 30 and 70 percentile of RDisInEx1a)	1
+315	RDisLev_x2	Riparian Disturbance Level Index X2 (=Class 20 and 80 percentile of RDisInEx2)	1
+316	RDisLev_x2a	Riparian Disturbance Level Index X2A (=Class 20 and 80 percentile of RDisInEx2a)	1
+317	RVegQ_1	Riparian Cover Index 1 (=((rviwoody/2.5)+rvfpCanBig+rvfcGndInundated)/3)	1
+318	RVegQ_2	Riparian Cover Index 2 (=((rviwoody/2.5)+rvfcGndInundated)/2)	1
+319	RVegQ_3	Riparian Cover Index 3 (=((rvitotalveg/2.75)+rvfcGndInundated)/2)	1
+320	RVegQ_4	Riparian Cover Index 4 (=((rviHerbs/1.75)+rvfcGndInundated)/2)	1
+321	RVegQ_5	Riparian Cover Index 5 (=((rviwoody/2.5)+rvfpCanBig+rvfcGndInundated+(amitotal/2.36))/4)	1
+322	RVegQ_5a	Riparian Cover Index 5a (=((rviwoody/2.5)+rvfpCanBig+rvfcGndInundated+(amfcFltEmg/1.515))/4)	1
+323	RVegQ_6	Riparian Cover Index 6 (=((rvitotal/2.75)+rvfcGndInundated+(amitotal/2.36))/4)	1
+324	RVegQ_6a	Riparian Cover Index 6a (=((rvitotalveg/2.75)+rvfcGndInundated + (amfcFltEmg/1.515))/3)	1
+325	LITCVR_A	Littoral Cover Index A (=fciNatural)	1
+326	LITCVR_B	Littoral Cover Index B (=(fciNatural+(fcfcSnag/0.2875))/2)	1
+327	LITCVR_C	Littoral Cover Index C (=(fciNatural+(fcfcSnag/0.2875)+(amfcFltEmg/1.515))/3)	1
+328	LITCVR_D	Littoral Cover Index D (=(((SomeNatCvr/1.5))+(fcfcSnag/0.2875)+(amfcFltEmg/1.515))/3)	1
+329	LRCVQ_1A	Littoral-Riparian Cover Index 1A (=(RVegQ_1+LITCVR_A)/2)	1
+330	LRCVQ_1B	Littoral-Riparian Cover Index 1B (=(RVegQ_1+LITCVR_B)/2)	1
+331	LRCVQ_1C	Littoral-Riparian Cover Index 1C (=(RVegQ_1+LITCVR_C)/2)	1
+332	LRCVQ_1D	Littoral-Riparian Cover Index 1D (=(RVegQ_1+LITCVR_D)/2)	1
+333	LRCVQ_2A	Littoral-Riparian Cover Index 2A (=(RVegQ_2+LITCVR_B)/2)	1
+334	LRCVQ_2B	Littoral-Riparian Cover Index 2B (=(RVegQ_2+LITCVR_B)/2)	1
+335	LRCVQ_2C	Littoral-Riparian Cover Index 2C (=(RVegQ_2+LITCVR_C)/2)	1
+336	LRCVQ_2D	Littoral-Riparian Cover Index 2D (=(RVegQ_2+LITCVR_D)/2)	1
+337	LRCVQ_3A	Littoral-Riparian Cover Index 3A (=(RVegQ_3+LITCVR_A)/2)	1
+338	LRCVQ_3B	Littoral-Riparian Cover Index 3B (=(RVegQ_3+LITCVR_B)/2)	1
+339	LRCVQ_3C	Littoral-Riparian Cover Index 3C (=(RVegQ_3+LITCVR_C)/2)	1
+340	LRCVQ_3D	Littoral-Riparian Cover Index 3D (=(RVegQ_3+LITCVR_D)/2)	1
+341	LRCVQ_4A	Littoral-Riparian Cover Index 4A (=(RVegQ_4+LITCVR_A)/2)	1
+342	LRCVQ_4B	Littoral-Riparian Cover Index 4B (=(RVegQ_4+LITCVR_B)/2)	1
+343	LRCVQ_4C	Littoral-Riparian Cover Index 4C (=(RVegQ_4+LITCVR_C)/2)	1
+344	LRCVQ_4D	Littoral-Riparian Cover Index 4D (=(RVegQ_4+LITCVR_D)/2)	1
+345	LRCVQ_5A	Littoral-Riparian Cover Index 5A (=(RVegQ_5+LITCVR_A)/2)	1
+346	LRCVQ_5Aa	Littoral-Riparian Cover Index 5Aa (=(RVegQ_5a+LITCVR_A)/2)	1
+347	LRCVQ_5B	Littoral-Riparian Cover Index 5B (=(RVegQ_5+LITCVR_B)/2)	1
+348	LRCVQ_5Ba	Littoral-Riparian Cover Index 5Bb (=(RVegQ_5a+LITCVR_B)/2)	1
+349	LRCVQ_5C	Littoral-Riparian Cover Index 5C (=(RVegQ_5+LITCVR_C)/2)	1
+350	LRCVQ_5Ca	Littoral-Riparian Cover Index 5Ca (=(RVegQ_5a+LITCVR_C)/2)	1
+351	LRCVQ_5D	Littoral-Riparian Cover Index 5D (=(RVegQ_5+LITCVR_D)/2)	1
+352	LRCVQ_5Da	Littoral-Riparian Cover Index 5Da (= (RVegQ_5a+LITCVR_D)/2)	1	
+353	LRCVQ_6A	Littoral-Riparian Cover Index (=(RVegQ_6+LITCVR_A)/2)	1	
+354	LRCVQ_6Aa	Littoral-Riparian Cover Index 6Aa (=(RVegQ_6a+LITCVR_A)/2)	1	
+355	LRCVQ_6B	Littoral-Riparian Cover Index 6B (=(RVegQ_6+LITCVR_B)/2)	1	
+356	LRCVQ_6Ba	Littoral-Riparian Cover Index 6Ba (=RVegQ_6a+LITCVR_B)/2)	1	
+357	LRCVQ_6C	Littoral-Riparian Cover Index 6C (=(RVegQ_6+LITCVR_C)/2)	1	
+358	LRCVQ_6Ca	Littoral-Riparian Cover Index 6Ca (=(RVegQ_6a+LITCVR_C)/2)	1	
+359	LRCVQ_6D	Littoral-Riparian Cover Index 6D (=(RVegQ_6+LITCVR_D)/2)	1	
+360	LRCVQ_6Da	Littoral-Riparian Cover Index 6Da (=(RVegQ_6a+LITCVR_D)/2)	1	
+361	FLAG_PHABMET	Flag for habitat metrics	2	12
+362	COMMENT_PHABMET	Comment and flag explanation for habitat metrics	2	150

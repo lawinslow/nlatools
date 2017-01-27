@@ -1,0 +1,19 @@
+SAMPLE_TYPE	DATA_COLUMN	DESCRIPTION	LABEL	LEGAL_VALUES	RANGE_HIGH	RANGE_LOW	UNITS
+INVERTEBRATES	CLASS		Class of taxon				
+INVERTEBRATES	FAMILY		Family of taxon				
+INVERTEBRATES	FFG	"Functional feeding group for macroinvertebrates, codes separated by commas if more than one"		CF|CG|PI|PR|SC|SH			None
+INVERTEBRATES	GENUS		Genus of taxon				
+INVERTEBRATES	HABIT	Habit designation for macroinvertebrates		BU|CB|CN|DV|PK|SK|SP|SW			None
+INVERTEBRATES	NON_TARGET	Macroinvertebrate designation for non-target taxon		N|Y			None
+INVERTEBRATES	ORDER		Order of taxon				
+INVERTEBRATES	PHYLUM		Phylum of taxon				
+INVERTEBRATES	PTV	Pollution tolerance value for macroinvertebrate taxon			10	0	None
+INVERTEBRATES	SPECIES		Species of taxon				
+INVERTEBRATES	SUBCLASS		Subclass of taxon				
+INVERTEBRATES	SUBFAMILY		Subfamily of taxon				
+INVERTEBRATES	SUBORDER		Suborder of taxon				
+INVERTEBRATES	TARGET_TAXON		Name of taxon at target taxon level				
+INVERTEBRATES	TRIBE		Tribe of taxon				
+	PUBLICATION_DATE	Publication Date					
+	TAXA_ID	Taxa identification number					
+	ASSEMBLAGE_NAME	Assemblage of taxon					

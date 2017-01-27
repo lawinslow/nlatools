@@ -1,0 +1,35 @@
+SAMPLE_TYPE	DATA_COLUMN	LABEL	LEGAL_VALUES	RANGE_HIGH	RANGE_LOW	UNITS
+CHLL	CHLL_DATE_ANALYZED	Date of sample analysis for Littoral chlorophyll a				
+CHLL	CHLL_DATE_FILTERED	Date sample filtered for Littoral chlorophyll a				
+CHLL	CHLL_SAMPLEVOL	Volume of sample from field for Littoral chlorophyll a				mL
+CHLL	CHLL_VOLUME_ADJUST	Sample volume adjustment (for calculation) for Littoral chlorophyll a				mL
+CHLL	CHLL_LAB_COMMENT	Laboratory comment for Littoral chlorophyll a				
+CHLL	CHLL_DILUTION_FACTOR	Dilution factor used in chlorophyll calculation for Littoral chlorophyll a				NONE
+CHLL	CHLL_EXTRACT	Chlorophyll a in laboratory extract (raw) for Littoral chlorophyll a				ug/L
+CHLL	CHLL_HOLDING_TIME	Sample holding time for Littoral chlorophyll a				days
+CHLL	CHLL_LAB_FLAG	Flag from laboratory for Littoral chlorophyll a				
+CHLL	CHLL_LAB_SAMPLE_ID	Laboratory Sample ID for Littoral chlorophyll a				
+CHLL	CHLL_MDL	Minimum detection limit of analyte for Littoral chlorophyll a				ug/L
+CHLL	CHLL_QA_FLAG	QA flag associated with sample for Littoral chlorophyll a				
+CHLL	CHLL_RESULT	Analyte value for Littoral chlorophyll a				ug/L
+CHLL	CHLL_RL	Reporting limit for Littoral chlorophyll a				ug/L
+CHLL	CHLL_UNITS	Units for Littoral chlorophyll a				
+CHLL	CHLL_BATCH_ID	Batch ID from lab for Littoral chlorophyll a				
+CHLX	CHLX_DATE_ANALYZED	Date of sample analysis for X-site chlorophyll a				
+CHLX	CHLX_DATE_FILTERED	Date sample filtered for X-site chlorophyll a				
+CHLX	CHLX_DILUTION_FACTOR	Dilution factor used in chlorophyll calculation for X-site chlorophyll a				NONE
+CHLX	CHLX_EXTRACT	Chlorophyll a in laboratory extract (raw) for X-site chlorophyll a				ug/L
+CHLX	CHLX_HOLDING_TIME	Sample holding time for X-site chlorophyll a				days
+CHLX	CHLX_LAB_FLAG	Flag from laboratory for X-site chlorophyll a				
+CHLX	CHLX_LAB_SAMPLE_ID	Laboratory Sample ID for X-site chlorophyll a				
+CHLX	CHLX_MDL	Minimum detection limit of analyte for X-site chlorophyll a				ug/L
+CHLX	CHLX_QA_FLAG	QA flag associated with sample for X-site chlorophyll a				
+CHLX	CHLX_RESULT	Analyte value for X-site chlorophyll a				ug/L
+CHLX	CHLX_RL	Reporting limit for X-site chlorophyll a				ug/L
+CHLX	CHLX_SAMPLEVOL	Volume of sample from field for X-site chlorophyll a				mL
+CHLX	CHLX_VOLUME_ADJUST	Sample volume adjustment (for calculation) for X-site chlorophyll a				mL
+CHLX	CHLX_UNITS	Units for X-site chlorophyll a				
+CHLX	CHLX_BATCH_ID	Batch ID from lab for X-site chlorophyll a				
+CHLX	CHLX_LAB_COMMENT	Laboratory comment for X-site chlorophyll a				
+	UID	Unique site visit ID				
+	LAB	Lab name				

@@ -1,0 +1,234 @@
+SAMPLE_TYPE	DATA_COLUMN	LABEL	LEGAL_VALUES	RANGE_HIGH	RANGE_LOW	UNITS
+CHEM	ANC_DATE_ANALYZED	Date of sample analysis for Acid Neutralizing Capacity				
+CHEM	ANC_HOLDING_TIME	Sample holding time for Acid Neutralizing Capacity				
+CHEM	ANC_QA_FLAG	QA flag associated with sample for Acid Neutralizing Capacity				
+CHEM	ANC_RESULT	Analyte value for Acid Neutralizing Capacity				
+CHEM	ANC_BATCH_ID	Batch ID from lab for Acid Neutralizing Capacity				
+CHEM	ANC_FLAG	Flag for Acid Neutralizing Capacity				
+CHEM	ANC_UNITS	Units for Acid Neutralizing Capacity				
+CHEM	ANC_LAB_SAMPLE_ID	Laboratory Sample ID for Acid Neutralizing Capacity				
+CHEM	ANC_LAB_FLAG	Flag from laboratory for Acid Neutralizing Capacity				
+CHEM	COND_DATE_ANALYZED	Date of sample analysis for Conductivity				
+CHEM	COND_HOLDING_TIME	Sample holding time for Conductivity				
+CHEM	COND_MDL	Minimum detection limit of analyte for Conductivity				
+CHEM	COND_QA_FLAG	QA flag associated with sample for Conductivity				
+CHEM	COND_RESULT	Analyte value for Conductivity				
+CHEM	COND_RL	Reporting limit for Conductivity				
+CHEM	COND_BATCH_ID	Batch ID from lab for Conductivity				
+CHEM	COND_FLAG	Flag for Conductivity				
+CHEM	COND_UNITS	Units for Conductivity				
+CHEM	COND_LAB_SAMPLE_ID	Laboratory Sample ID for Conductivity				
+CHEM	COND_LAB_FLAG	Flag from laboratory for Conductivity				
+CHEM	PH_DATE_ANALYZED	Date of sample analysis for pH				
+CHEM	PH_HOLDING_TIME	Sample holding time for pH				
+CHEM	PH_QA_FLAG	QA flag associated with sample for pH				
+CHEM	PH_RESULT	Analyte value for pH				
+CHEM	PH_BATCH_ID	Batch ID from lab for pH				
+CHEM	PH_FLAG	Flag for pH				
+CHEM	PH_UNITS	Units for pH				
+CHEM	PH_LAB_SAMPLE_ID	Laboratory Sample ID for pH				
+CHEM	PH_LAB_FLAG	Flag from laboratory for pH				
+CHEM	TURB_DATE_ANALYZED	Date of sample analysis for Turbidity				
+CHEM	TURB_HOLDING_TIME	Sample holding time for Turbidity				
+CHEM	TURB_MDL	Minimum detection limit of analyte for Turbidity				
+CHEM	TURB_QA_FLAG	QA flag associated with sample for Turbidity				
+CHEM	TURB_RESULT	Analyte value for Turbidity				
+CHEM	TURB_RL	Reporting limit for Turbidity				
+CHEM	TURB_BATCH_ID	Batch ID from lab for Turbidity				
+CHEM	TURB_FLAG	Flag for Turbidity				
+CHEM	TURB_UNITS	Units for Turbidity				
+CHEM	TURB_LAB_SAMPLE_ID	Laboratory Sample ID for Turbidity				
+CHEM	TURB_LAB_FLAG	Flag from laboratory for Turbidity				
+CHEM	COLOR_DATE_ANALYZED	Date of sample analysis for Color				
+CHEM	COLOR_HOLDING_TIME	Sample holding time for Color				
+CHEM	COLOR_MDL	Minimum detection limit of analyte for Color				
+CHEM	COLOR_QA_FLAG	QA flag associated with sample for Color				
+CHEM	COLOR_RESULT	Analyte value for Color				
+CHEM	COLOR_RL	Reporting limit for Color				
+CHEM	COLOR_BATCH_ID	Batch ID from lab for Color				
+CHEM	COLOR_FLAG	Flag for Color				
+CHEM	COLOR_UNITS	Units for Color				
+CHEM	COLOR_LAB_SAMPLE_ID	Laboratory Sample ID for Color				
+CHEM	COLOR_LAB_FLAG	Flag from laboratory for Color				
+CHEM	CHLORIDE_DATE_ANALYZED	Date of sample analysis for Chloride ion				
+CHEM	CHLORIDE_HOLDING_TIME	Sample holding time for Chloride ion				
+CHEM	CHLORIDE_MDL	Minimum detection limit of analyte for Chloride ion				
+CHEM	CHLORIDE_QA_FLAG	QA flag associated with sample for Chloride ion				
+CHEM	CHLORIDE_RESULT	Analyte value for Chloride ion				
+CHEM	CHLORIDE_RL	Reporting limit for Chloride ion				
+CHEM	CHLORIDE_BATCH_ID	Batch ID from lab for Chloride ion				
+CHEM	CHLORIDE_FLAG	Flag for Chloride ion				
+CHEM	CHLORIDE_UNITS	Units for Chloride ion				
+CHEM	CHLORIDE_LAB_SAMPLE_ID	Laboratory Sample ID for Chloride ion				
+CHEM	CHLORIDE_LAB_FLAG	Flag from laboratory for Chloride ion				
+CHEM	NITRATE_N_DATE_ANALYZED	Date of sample analysis for Nitrate as N				
+CHEM	NITRATE_N_HOLDING_TIME	Sample holding time for Nitrate as N				
+CHEM	NITRATE_N_MDL	Minimum detection limit of analyte for Nitrate as N				
+CHEM	NITRATE_N_QA_FLAG	QA flag associated with sample for Nitrate as N				
+CHEM	NITRATE_N_RESULT	Analyte value for Nitrate as N				
+CHEM	NITRATE_N_RL	Reporting limit for Nitrate as N				
+CHEM	NITRATE_N_BATCH_ID	Batch ID from lab for Nitrate as N				
+CHEM	NITRATE_N_FLAG	Flag for Nitrate as N				
+CHEM	NITRATE_N_UNITS	Units for Nitrate as N				
+CHEM	NITRATE_N_LAB_SAMPLE_ID	Laboratory Sample ID for Nitrate as N				
+CHEM	NITRATE_N_LAB_FLAG	Flag from laboratory for Nitrate as N				
+CHEM	NITRATE_NITRITE_N_DATE_ANALYZED	Date of sample analysis for Nitrate + Nitrite as N				
+CHEM	NITRATE_NITRITE_N_HOLDING_TIME	Sample holding time for Nitrate + Nitrite as N				
+CHEM	NITRATE_NITRITE_N_MDL	Minimum detection limit of analyte for Nitrate + Nitrite as N				
+CHEM	NITRATE_NITRITE_N_QA_FLAG	QA flag associated with sample for Nitrate + Nitrite as N				
+CHEM	NITRATE_NITRITE_N_RESULT	Analyte value for Nitrate + Nitrite as N				
+CHEM	NITRATE_NITRITE_N_RL	Reporting limit for Nitrate + Nitrite as N				
+CHEM	NITRATE_NITRITE_N_BATCH_ID	Batch ID from lab for Nitrate + Nitrite as N				
+CHEM	NITRATE_NITRITE_N_FLAG	Flag for Nitrate + Nitrite as N				
+CHEM	NITRATE_NITRITE_N_UNITS	Units for Nitrate + Nitrite as N				
+CHEM	NITRATE_NITRITE_N_LAB_SAMPLE_ID	Laboratory Sample ID for Nitrate + Nitrite as N				
+CHEM	NITRATE_NITRITE_N_LAB_FLAG	Flag from laboratory for Nitrate + Nitrite as N				
+CHEM	NITRITE_N_DATE_ANALYZED	Date of sample analysis for Nitrite as N				
+CHEM	NITRITE_N_HOLDING_TIME	Sample holding time for Nitrite as N				
+CHEM	NITRITE_N_MDL	Minimum detection limit of analyte for Nitrite as N				
+CHEM	NITRITE_N_QA_FLAG	QA flag associated with sample for Nitrite as N				
+CHEM	NITRITE_N_RESULT	Analyte value for Nitrite as N				
+CHEM	NITRITE_N_RL	Reporting limit for Nitrite as N				
+CHEM	NITRITE_N_BATCH_ID	Batch ID from lab for Nitrite as N				
+CHEM	NITRITE_N_UNITS	Units for Nitrite as N				
+CHEM	NITRITE_N_LAB_SAMPLE_ID	Laboratory Sample ID for Nitrite as N				
+CHEM	NITRITE_N_LAB_FLAG	Flag from laboratory for Nitrite as N				
+CHEM	SILICA_DATE_ANALYZED	Date of sample analysis for Silica				
+CHEM	SILICA_HOLDING_TIME	Sample holding time for Silica				
+CHEM	SILICA_MDL	Minimum detection limit of analyte for Silica				
+CHEM	SILICA_QA_FLAG	QA flag associated with sample for Silica				
+CHEM	SILICA_RESULT	Analyte value for Silica				
+CHEM	SILICA_RL	Reporting limit for Silica				
+CHEM	SILICA_BATCH_ID	Batch ID from lab for Silica				
+CHEM	SILICA_FLAG	Flag for Silica				
+CHEM	SILICA_UNITS	Units for Silica				
+CHEM	SILICA_LAB_SAMPLE_ID	Laboratory Sample ID for Silica				
+CHEM	SILICA_LAB_FLAG	Flag from laboratory for Silica				
+CHEM	SULFATE_DATE_ANALYZED	Date of sample analysis for Sulfate				
+CHEM	SULFATE_HOLDING_TIME	Sample holding time for Sulfate				
+CHEM	SULFATE_MDL	Minimum detection limit of analyte for Sulfate				
+CHEM	SULFATE_QA_FLAG	QA flag associated with sample for Sulfate				
+CHEM	SULFATE_RESULT	Analyte value for Sulfate				
+CHEM	SULFATE_RL	Reporting limit for Sulfate				
+CHEM	SULFATE_BATCH_ID	Batch ID from lab for Sulfate				
+CHEM	SULFATE_FLAG	Flag for Sulfate				
+CHEM	SULFATE_UNITS	Units for Sulfate				
+CHEM	SULFATE_LAB_SAMPLE_ID	Laboratory Sample ID for Sulfate				
+CHEM	SULFATE_LAB_FLAG	Flag from laboratory for Sulfate				
+CHEM	ALUMINUM_DATE_ANALYZED	Date of sample analysis for Aluminum				
+CHEM	ALUMINUM_HOLDING_TIME	Sample holding time for Aluminum				
+CHEM	ALUMINUM_MDL	Minimum detection limit of analyte for Aluminum				
+CHEM	ALUMINUM_QA_FLAG	QA flag associated with sample for Aluminum				
+CHEM	ALUMINUM_RESULT	Analyte value for Aluminum				
+CHEM	ALUMINUM_RL	Reporting limit for Aluminum				
+CHEM	ALUMINUM_BATCH_ID	Batch ID from lab for Aluminum				
+CHEM	ALUMINUM_UNITS	Units for Aluminum				
+CHEM	ALUMINUM_LAB_SAMPLE_ID	Laboratory Sample ID for Aluminum				
+CHEM	ALUMINUM_LAB_FLAG	Flag from laboratory for Aluminum				
+CHEM	CALCIUM_DATE_ANALYZED	Date of sample analysis for Calcium				
+CHEM	CALCIUM_HOLDING_TIME	Sample holding time for Calcium				
+CHEM	CALCIUM_MDL	Minimum detection limit of analyte for Calcium				
+CHEM	CALCIUM_QA_FLAG	QA flag associated with sample for Calcium				
+CHEM	CALCIUM_RESULT	Analyte value for Calcium				
+CHEM	CALCIUM_RL	Reporting limit for Calcium				
+CHEM	CALCIUM_BATCH_ID	Batch ID from lab for Calcium				
+CHEM	CALCIUM_FLAG	Flag for Calcium				
+CHEM	CALCIUM_UNITS	Units for Calcium				
+CHEM	CALCIUM_LAB_SAMPLE_ID	Laboratory Sample ID for Calcium				
+CHEM	CALCIUM_LAB_FLAG	Flag from laboratory for Calcium				
+CHEM	AMMONIA_N_DATE_ANALYZED	Date of sample analysis for Ammonia as N				
+CHEM	AMMONIA_N_HOLDING_TIME	Sample holding time for Ammonia as N				
+CHEM	AMMONIA_N_MDL	Minimum detection limit of analyte for Ammonia as N				
+CHEM	AMMONIA_N_QA_FLAG	QA flag associated with sample for Ammonia as N				
+CHEM	AMMONIA_N_RESULT	Analyte value for Ammonia as N				
+CHEM	AMMONIA_N_RL	Reporting limit for Ammonia as N				
+CHEM	AMMONIA_N_BATCH_ID	Batch ID from lab for Ammonia as N				
+CHEM	AMMONIA_N_UNITS	Units for Ammonia as N				
+CHEM	AMMONIA_N_LAB_SAMPLE_ID	Laboratory Sample ID for Ammonia as N				
+CHEM	AMMONIA_N_LAB_FLAG	Flag from laboratory for Ammonia as N				
+CHEM	DOC_DATE_ANALYZED	Date of sample analysis for Dissolved Organic Carbon				
+CHEM	DOC_HOLDING_TIME	Sample holding time for Dissolved Organic Carbon				
+CHEM	DOC_MDL	Minimum detection limit of analyte for Dissolved Organic Carbon				
+CHEM	DOC_QA_FLAG	QA flag associated with sample for Dissolved Organic Carbon				
+CHEM	DOC_RESULT	Analyte value for Dissolved Organic Carbon				
+CHEM	DOC_RL	Reporting limit for Dissolved Organic Carbon				
+CHEM	DOC_BATCH_ID	Batch ID from lab for Dissolved Organic Carbon				
+CHEM	DOC_FLAG	Flag for Dissolved Organic Carbon				
+CHEM	DOC_UNITS	Units for Dissolved Organic Carbon				
+CHEM	DOC_LAB_SAMPLE_ID	Laboratory Sample ID for Dissolved Organic Carbon				
+CHEM	DOC_LAB_FLAG	Flag from laboratory for Dissolved Organic Carbon				
+CHEM	SODIUM_DATE_ANALYZED	Date of sample analysis for Sodium				
+CHEM	SODIUM_HOLDING_TIME	Sample holding time for Sodium				
+CHEM	SODIUM_MDL	Minimum detection limit of analyte for Sodium				
+CHEM	SODIUM_QA_FLAG	QA flag associated with sample for Sodium				
+CHEM	SODIUM_RESULT	Analyte value for Sodium				
+CHEM	SODIUM_RL	Reporting limit for Sodium				
+CHEM	SODIUM_BATCH_ID	Batch ID from lab for Sodium				
+CHEM	SODIUM_FLAG	Flag for Sodium				
+CHEM	SODIUM_UNITS	Units for Sodium				
+CHEM	SODIUM_LAB_SAMPLE_ID	Laboratory Sample ID for Sodium				
+CHEM	TSS_DATE_ANALYZED	Date of sample analysis for Total Suspended Solids				
+CHEM	TSS_HOLDING_TIME	Sample holding time for Total Suspended Solids				
+CHEM	TSS_MDL	Minimum detection limit of analyte for Total Suspended Solids				
+CHEM	TSS_QA_FLAG	QA flag associated with sample for Total Suspended Solids				
+CHEM	TSS_RESULT	Analyte value for Total Suspended Solids				
+CHEM	TSS_RL	Reporting limit for Total Suspended Solids				
+CHEM	TSS_BATCH_ID	Batch ID from lab for Total Suspended Solids				
+CHEM	TSS_FLAG	Flag for Total Suspended Solids				
+CHEM	TSS_UNITS	Units for Total Suspended Solids				
+CHEM	TSS_LAB_SAMPLE_ID	Laboratory Sample ID for Total Suspended Solids				
+CHEM	MAGNESIUM_DATE_ANALYZED	Date of sample analysis for Magnesium				
+CHEM	MAGNESIUM_HOLDING_TIME	Sample holding time for Magnesium				
+CHEM	MAGNESIUM_MDL	Minimum detection limit of analyte for Magnesium				
+CHEM	MAGNESIUM_QA_FLAG	QA flag associated with sample for Magnesium				
+CHEM	MAGNESIUM_RESULT	Analyte value for Magnesium				
+CHEM	MAGNESIUM_RL	Reporting limit for Magnesium				
+CHEM	MAGNESIUM_BATCH_ID	Batch ID from lab for Magnesium				
+CHEM	MAGNESIUM_FLAG	Flag for Magnesium				
+CHEM	MAGNESIUM_UNITS	Units for Magnesium				
+CHEM	MAGNESIUM_LAB_SAMPLE_ID	Laboratory Sample ID for Magnesium				
+CHEM	MAGNESIUM_LAB_FLAG	Flag from laboratory for Magnesium				
+CHEM	POTASSIUM_DATE_ANALYZED	Date of sample analysis for Potassium				
+CHEM	POTASSIUM_HOLDING_TIME	Sample holding time for Potassium				
+CHEM	POTASSIUM_MDL	Minimum detection limit of analyte for Potassium				
+CHEM	POTASSIUM_QA_FLAG	QA flag associated with sample for Potassium				
+CHEM	POTASSIUM_RESULT	Analyte value for Potassium				
+CHEM	POTASSIUM_RL	Reporting limit for Potassium				
+CHEM	POTASSIUM_BATCH_ID	Batch ID from lab for Potassium				
+CHEM	POTASSIUM_FLAG	Flag for Potassium				
+CHEM	POTASSIUM_UNITS	Units for Potassium				
+CHEM	POTASSIUM_LAB_SAMPLE_ID	Laboratory Sample ID for Potassium				
+CHEM	POTASSIUM_LAB_FLAG	Flag from laboratory for Potassium				
+CHEM	TOC_HOLDING_TIME	Sample holding time for Total Organic Carbon				
+CHEM	TOC_RESULT	Analyte value for Total Organic Carbon				
+CHEM	TOC_BATCH_ID	Batch ID from lab for Total Organic Carbon				
+CHEM	TOC_UNITS	Units for Total Organic Carbon				
+NUTS	NTL_QA_FLAG	QA flag associated with sample for Total Nitrogen				
+NUTS	NTL_MDL	Minimum detection limit of analyte for Total Nitrogen				
+NUTS	NTL_LAB_SAMPLE_ID	Laboratory Sample ID for Total Nitrogen				
+NUTS	NTL_DATE_ANALYZED	Date of sample analysis for Total Nitrogen				
+NUTS	NTL_HOLDING_TIME	Sample holding time for Total Nitrogen				
+NUTS	NTL_LAB_FLAG	Flag from laboratory for Total Nitrogen				
+NUTS	NTL_UNITS	Units for Total Nitrogen				
+NUTS	NTL_BATCH_ID	Batch ID from lab for Total Nitrogen				
+NUTS	NTL_FLAG	Flag for Total Nitrogen				
+NUTS	NTL_RESULT	Analyte value for Total Nitrogen				
+NUTS	NTL_RL	Reporting limit for Total Nitrogen				
+NUTS	PTL_QA_FLAG	QA flag associated with sample for Total Phosphorus				
+NUTS	PTL_MDL	Minimum detection limit of analyte for Total Phosphorus				
+NUTS	PTL_LAB_SAMPLE_ID	Laboratory Sample ID for Total Phosphorus				
+NUTS	PTL_DATE_ANALYZED	Date of sample analysis for Total Phosphorus				
+NUTS	PTL_HOLDING_TIME	Sample holding time for Total Phosphorus				
+NUTS	PTL_LAB_FLAG	Flag from laboratory for Total Phosphorus				
+NUTS	PTL_UNITS	Units for Total Phosphorus				
+NUTS	PTL_BATCH_ID	Batch ID from lab for Total Phosphorus				
+NUTS	PTL_FLAG	Flag for Total Phosphorus				
+NUTS	PTL_RESULT	Analyte value for Total Phosphorus				
+NUTS	PTL_RL	Reporting limit for Total Phosphorus				
+	CHEM_SAMPLE_ID	Chemistry Sample ID				
+	CHEM_SHIP_FLAG	Chemistry Shipping Flag				
+	LAB	Lab name				
+	NUTS_SAMPLE_ID	Nutrients Sample ID				
+	NUTS_SHIP_FLAG	Nutrients Shipping Flag				
+	SAM_CODE					
+	UID	Unique site visit ID				

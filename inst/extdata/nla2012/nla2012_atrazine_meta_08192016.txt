@@ -1,0 +1,22 @@
+SAMPLE_TYPE	DATA_COLUMN	LABEL	LEGAL_VALUES	RANGE_HIGH	RANGE_LOW	UNITS
+DESIGN	AGGR_ECO3_2015	"NARS 3-level reporting region (2015), based on aggregating AGGR_ECO9_2015 reporting regions"	EHIGH|PLNLOW|WMTNS			
+DESIGN	AGGR_ECO9_2015	"NARS 9-level reporting region (2015), based on aggregated Omernik Level III ecoregions"	CPL|NAP|NPL|SAP|SPL|TPL|UMW|WMT|XER			
+DESIGN	STATE	State lake is assigned to for sampling in NLA 2012				
+VERIF	DATE_COL	Date of sample collection				None
+VERIF	SITE_ID	Identification code for site				
+VERIF	VISIT_NO	Sequential number of visit to site	|1|2			
+TRIA	ATRAZINE_RESULT	Analyte value for Atrazine				ppb
+TRIA	ATRAZINE_FLAG	Flag for Atrazine				
+TRIA	ATRAZINE_DATE_ANALYZED	Date sample was processed by lab for Atrazine				datetime
+TRIA	ATRAZINE_DATE_RECEIVED	Date sample was received by lab for Atrazine				datetime
+TRIA	ATRAZINE_BATCH_ID	Batch ID from lab for Atrazine				
+TRIA	ATRAZINE_MDL	Quality information: Method Detection Limit (MDL) associated with sample for Atrazine				ppb
+TRIA	ATRAZINE_QA_FLAG	QA flag for Atrazine				
+TRIA	ATRAZINE_HOLDING_TIME	Time between sampling and lab analysis (days) for Atrazine				days
+TRIA	ATRAZINE_LOQ	Quality information: Limit of Quantitation (LOQ) associated with sample for Atrazine				ppb
+TRIA	ATRAZINE_UNITS	Units for Atrazine				
+	UID	Unique site visit ID				
+	ECO_BIO	Bioregions				
+	PUBLICATION_DATE	Publication Date				
+	LAB	Lab name				
+	TRIA_SAMPLE_ID	Triazine sample ID				

@@ -1,0 +1,9 @@
+VARNUM	NAME	LABEL	TYPE	LENGTH
+1	SITE_ID	Unique site identification number	2	25
+2	SAMPLE_ID	Sample ID number	1	
+3	VISIT_NO	Lake visit number. 1-1st field sampling visit; 2-2nd field sampling visit	1	
+4	INDXSAMP_LDC	Index sample for LDC index (YES/NO)	2	3
+5	SAMPLE_TYPE	Type of core sample type (SEDT=top of core SEDB=bottom of core)	2	4
+6	SAMPLE_CATEGORY	"Sample category (P=Primary, D=Field duplicate)"	2	1
+7	PRIMESEDT	"PRIMARY TOP SAMPLE FOR SITE (1=Visit 1, 2=Visit 2)"	2	1
+8	LDC_ADJ	Lake Diatom Condition Index (Adjusted for nat. var. at ref. sites)	1	

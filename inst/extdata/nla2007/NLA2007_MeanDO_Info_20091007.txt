@@ -1,0 +1,4 @@
+VARNUM	NAME	LABEL	TYPE	LENGTH
+1	SITE_ID	ID Assigned to Each Site	2	25
+2	VISIT_NO	Sequential Visit Number Within Year	1	
+3	DO2_2M	MEAN DO2 CONC (mg/L) IN UPPER 2m (or UPPER 50% IF DEPTH < 4m)	1	

@@ -1,0 +1,25 @@
+TABLE_NAME	SAMPLE_TYPE	DATA_COLUMN	LABEL	LEGAL_VALUES	RANGE_HIGH	RANGE_LOW	UNITS
+tblBENTCNT	BENT	IS_DISTINCT_300	Distinct taxon in 300-organism subsample	1|0			
+tblBENTCNT	BENT	TOTAL_300	"Total number of individuals in 300-organism subsample, based on NLA standardized taxonomy sample"		300	0	None
+tblSITEDATA	DESIGN	AGGR_ECO3_2015	"NARS 3-level reporting region (2015), based on aggregating AGGR_ECO9_2015 reporting regions"	EHIGH|PLNLOW|WMTNS			
+tblSITEDATA	DESIGN	AGGR_ECO9_2015	"NARS 9-level reporting region (2015), based on aggregated Omernik Level III ecoregions"	CPL|NAP|NPL|SAP|SPL|TPL|UMW|WMT|XER			
+tblSITEDATA	DESIGN	STATE	State lake is assigned to for sampling in NLA 2012				
+tblTAXA	INVERTEBRATES	CLASS	Class of taxon				
+tblTAXA	INVERTEBRATES	FAMILY	Family of taxon				
+tblTAXA	INVERTEBRATES	FFG	"Functional feeding group for macroinvertebrates, codes separated by commas if more than one"	CF|CG|PI|PR|SC|SH			None
+tblTAXA	INVERTEBRATES	GENUS	Genus of taxon				
+tblTAXA	INVERTEBRATES	HABIT	Habit designation for macroinvertebrates	BU|CB|CN|DV|PK|SK|SP|SW			None
+tblTAXA	INVERTEBRATES	ORDER	Order of taxon				
+tblTAXA	INVERTEBRATES	PHYLUM	Phylum of taxon				
+tblTAXA	INVERTEBRATES	PTV	Pollution tolerance value for macroinvertebrate taxon		10	0	None
+tblTAXA	INVERTEBRATES	SUBFAMILY	Subfamily of taxon				
+tblTAXA	INVERTEBRATES	TARGET_TAXON	Name of taxon at target taxon level				
+tblTAXA	INVERTEBRATES	TRIBE	Tribe of taxon				
+tblVERIFICATION	VERIF	DATE_COL	Date of sample collection				None
+tblVERIFICATION	VERIF	SITE_ID	Identification code for site				
+tblVERIFICATION	VERIF	VISIT_NO	Sequential number of visit to site	|1|2			
+		UID	Unique site visit ID				
+		ECO_BIO	Bioregions				
+		PUBLICATION_DATE	Publication Date				
+		TAXA_ID	Taxa identification number				
+		YEAR	Year				

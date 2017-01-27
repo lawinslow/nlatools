@@ -1,0 +1,89 @@
+VARNUM	NAME	LABEL	TYPE	LENGTH
+1	SITE_ID	ID Assigned to Each Site	2	50
+2	VISIT_NO	Sequential Visit Number Within Year	1	
+3	SITE_TYPE	PROB_Samp: Lake is from probability sample and can be used for population estimation.  REF_Lake: Lake is not from probability sample and was selected as a candidate reference lake	2	10
+4	LAKE_SAMP	"Eval. status. _Denied (access denied). _Inaccess (physically inaccessible). _Other. _LT_4ha (< 4ha). _Shallow (< 1m deep). _Vegetated (< 1000 m2 open H2O). _Saline (tidal). Special_Purpose (aquacult., disposal, WWT, or evap.). Not_Lake (other)"	2	20
+5	AREA_HA	Lake polygon area (hectares) from NHD	1	
+6	SAMPLED_ASSESS	Site Sample Status - Assessment Form	2	15
+7	DATE_ASSESS	Date of visual assessment	1	
+8	RES_RESIDENCES	Residential residences disturbances observed (Blank=none/Low/Moderate/Heavy)	2	4
+9	RES_LAWNS	Residential maintained lawns disturbances observed (Blank=none/Low/Moderate/Heavy)	2	4
+10	RES_CONSTRUCTION	Recreational construction disturbances observed (Blank=none/Low/Moderate/Heavy)	2	4
+11	RES_PIPES	"Residential pipes, drains disturbances observed (Blank=none/Low/Moderate/Heavy)"	2	4
+12	RES_DUMPING	Residential dumping disturbances observed (Blank=none/Low/Moderate/Heavy)	2	4
+13	RES_ROADS	Residential roads disturbances observed (Blank=none/Low/Moderate/Heavy)	2	4
+14	RES_BRIDGES	Recreational bridges/causeways disturbances observed (Blank=none/Low/Moderate/Heavy)	2	4
+15	RES_SEWAGE	Residential sewage treatment disturbances observed (Blank=none/Low/Moderate/Heavy)	2	4
+16	RES_STRING	Concatenated Residential Stressors	2	32
+17	REC_TRAILS	Recreational hiking trails disturbances observed (Blank=none/Low/Moderate/Heavy)	2	4
+18	REC_PARKS	Recreational parks disturbances observed (Blank=none/Low/Moderate/Heavy)	2	4
+19	REC_PRIMITIVE	"Recreational primitive parks, camping disturbances observed (Blank=none/Low/Moderate/Heavy)"	2	4
+20	REC_RESORTS	Recreational resorts disturbances observed (Blank=none/Low/Moderate/Heavy)	2	4
+21	REC_MARINAS	Recreational marinas disturbances observed (Blank=none/Low/Moderate/Heavy)	2	4
+22	REC_TRASH	Recreational trash/litter disturbances observed (Blank=none/Low/Moderate/Heavy)	2	4
+23	REC_FILMS	"Recreational surface films, scums, slicks disturbances observed (Blank=none/Low/Moderate/Heavy)"	2	4
+24	REC_STRING	Concatenated Recreation Stressors	2	28
+25	AGR_CROPLAND	Agricultural cropland disturbances observed (Blank=none/Low/Moderate/Heavy)	2	4
+26	AGR_PASTURE	Agricultural pasture disturbances observed (Blank=none/Low/Moderate/Heavy)	2	4
+27	AGR_LIVESTOCK	Agricultural livestock disturbances observed (Blank=none/Low/Moderate/Heavy)	2	4
+28	AGR_ORCHARDS	Agricultural orchards disturbances observed (Blank=none/Low/Moderate/Heavy)	2	4
+29	AGR_POULTRY	Agricultural poultry disturbances observed (Blank=none/Low/Moderate/Heavy)	2	4
+30	AGR_FEEDLOT	Agricultural feedlot disturbances observed (Blank=none/Low/Moderate/Heavy)	2	4
+31	AGR_WITHDRAWL	Agricultural water withdrawl	2	4
+32	AGR_STRING	Concatenated Agricultural Stressors	2	28
+33	IND_INDUSTRIAL	Industrial industrial plants disturbances observed (Blank=none/Low/Moderate/Heavy)	2	4
+34	IND_MINES	Industrial mines/quarries disturbances observed (Blank=none/Low/Moderate/Heavy)	2	4
+35	IND_OIL	Industrial oil/gas wells disturbances observed (Blank=none/Low/Moderate/Heavy)	2	4
+36	IND_POWER	Industrial power plant disturbances observed (Blank=none/Low/Moderate/Heavy)	2	4
+37	IND_LOGGING	Industrial logging disturbances observed (Blank=none/Low/Moderate/Heavy)	2	4
+38	IND_FIRE	Industrial evidence of fire disturbances observed (Blank=none/Low/Moderate/Heavy)	2	4
+39	IND_ODORS	Industrial odors disturbances observed (Blank=none/Low/Moderate/Heavy)	2	4
+40	IND_COMMERCIAL	Industrial commercial disturbances observed (Blank=none/Low/Moderate/Heavy)	2	4
+41	IND_STRING	Concatenated Industrial Stressors	2	32
+42	MAN_LIMING	Management liming disturbances observed (Blank=none/Low/Moderate/Heavy)	2	4
+43	MAN_TREATMENT	Management drinking water treatment disturbances observed (Blank=none/Low/Moderate/Heavy)	2	4
+44	MAN_ANGLING	Management angling pressure disturbances observed (Blank=none/Low/Moderate/Heavy)	2	4
+45	MAN_DRINKING_WATER	Management drinking water treatment disturbances observed (Blank=none/Low/Moderate/Heavy)	2	4
+46	MAN_MACROPHYTE	Management macrophyte control disturbances observed (Blank=none/Low/Moderate/Heavy)	2	4
+47	MAN_LEVEL_FLUCTUATIONS	Management water level fluctuations disturbances observed (Blank=none/Low/Moderate/Heavy)	2	4
+48	MAN_FISH_STOCKING	Management fish stocking disturbances observed (Blank=none/Low/Moderate/Heavy)	2	4
+49	MAN_STRING	Concatenated Management Stressors	2	28
+50	RES_SCORE	"Summed Residential Stressor Score (L=1, M=3, H=5 scoring)"	1	
+51	REC_SCORE	"Summed Recreational Stressor Score (L=1, M=3, H=5 scoring)"	1	
+52	AGR_SCORE	"Summed Agricultural Stressor Score (L=1, M=3, H=5 scoring)"	1	
+53	IND_SCORE	"Summed Industrial Stressor Score (L=1, M=3, H=5 scoring)"	1	
+54	MAN_SCORE	"Summed Lake Management Stressor Score (L=1, M=3, H=5 scoring)"	1	
+55	HYDRO_TYPE	Lake type (Reservoir/Drainage/Seepage)	2	30
+56	OUTLET_DAMS	Outlet dams (None/Artificial/Natural)	2	30
+57	FLIGHT_HAZARDS	Low elevation flight hazards (Yes/No)	2	4
+58	MBOAT_DENSITY	Motor boat density (High/Low/Restricted/Banned)	2	30
+59	SWIMMABILITY	Swimmability (Good/Fair/Not Swimmable)	2	30
+60	LAKE_LEVEL	Lake level changes (Yes/No)	2	4
+61	LEVEL_CHANGES	Elevation change (m)	1	
+62	RCH_FOREST	% of shoreline forest	2	8
+63	RCH_GRASS	% of shoreline grass	2	8
+64	RCH_SHRUB	% of shoreline shurb	2	8
+65	RCH_WETLAND	% of shoreline wetland	2	8
+66	RCH_BARE_GROUND	% of shoreline bare ground	2	8
+67	RCH_AGRICULTURE	% of shoreline agriculture	2	8
+68	RCH_SHOREMODS	"% of shoreline modified (docks, riprap)"	2	8
+69	RCH_DEVELOPMENT	% of shoreline development (Res & Urban)	2	8
+70	MACRY_FLOAT	Emergent/Floating Coverage (% lake area)	2	8
+71	MACRY_SUBMERGED	Submergent/Floating Coverage (% lake area)	2	8
+72	MACRY_DENSITY	Macrophyte density (Absent/Sparse/Moderate/High)	2	30
+73	PRISTINE	Waterbody character (5=Pristine....1=Highly distrubed)	2	4
+74	APPEALING	Appeal of waterbody character (5=Appealing - 1=Unappealing)	2	4
+75	BIOTIC_INTEGRITY	Ecological integrity (Excellent - - Poor)	2	30
+76	TROPHIC_STATE	Trophic state (Oligo/meso/eu/hypereu)	2	50
+77	RECREATIONAL_VALUE	Recreational value (Excellent/Good/Fair/Poor)	2	30
+78	GENERAL_ASSESSMENT	General assessment of site	2	1000
+79	WILDLIFE	Wildlife observed	2	1000
+80	VISUAL_ASSESSMENT	Visual assessment	2	510
+81	ALGAL_ABUNDANCE	Algal abundance and type	2	510
+82	NUTRIENT_SOURCES	Nutrient sources	2	510
+83	TROPHIC_OTHER	Other trophic state	2	510
+84	CONDITIONS	Notes regarding conditions during site visit	2	510
+85	OBSERVATIONS	Observations	2	1000
+86	FLAG_ASSESS	Data qualifier flag for visual assessment data	2	12
+87	COMMENT_ASSESS	Lake assessment form comments	2	3000
+88	PHOTOGRAPHS	Photographs taken (Yes/No)	2	4

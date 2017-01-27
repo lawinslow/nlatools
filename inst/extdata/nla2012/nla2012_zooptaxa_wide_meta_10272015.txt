@@ -1,0 +1,19 @@
+SAMPLE_TYPE	DATA_COLUMN	DESCRIPTION	LABEL	LEGAL_VALUES	RANGE_HIGH	RANGE_LOW	UNITS
+ZOOPLANKTON	CLADOCERA_SIZE	Size group for cladocerans by taxon 		LARGE|SMALL			None
+ZOOPLANKTON	CLASS		Class of taxon				
+ZOOPLANKTON	FAMILY		Family of taxon				
+ZOOPLANKTON	FFG	"Functional feeding group codes for zooplankton, "		FILT|HERB|OMNI|PARA|PRED|UNK			None
+ZOOPLANKTON	GENUS		Genus of taxon				
+ZOOPLANKTON	NET_SIZECLS_NEW	"Net mesh size assigned to taxon: FINE=captured only by fine-mesh net, COARSE=captured by coarse and fine nets. Based on NLA 2012 methods."		COARSE|FINE			None
+ZOOPLANKTON	NET_SIZECLS_RES	"Net mesh size assigned to taxon: FINE=captured only by fine-mesh net, COARSE=captured by coarse and fine nets. Based on NLA 2007 methods, and only taxa occurring in NLA 2012 resample sites or NLA 2007 sites."		COARSE|FINE			None
+ZOOPLANKTON	ORDER		Order of taxon				
+ZOOPLANKTON	PHYLUM		Phylum of taxon				
+ZOOPLANKTON	SPECIES		Species of taxon				
+ZOOPLANKTON	SUBCLASS		Subclass of taxon				
+ZOOPLANKTON	SUBFAMILY		Subfamily of taxon				
+ZOOPLANKTON	SUBORDER		Suborder of taxon				
+ZOOPLANKTON	SUBSPECIES	Subspecies name					None
+ZOOPLANKTON	TARGET_TAXON		Name of taxon at target taxon level				
+	PUBLICATION_DATE	Publication Date					
+	ASSEMBLAGE_NAME	Assemblage of taxon					
+	TAXA_ID	Taxa identification number					

@@ -1,0 +1,28 @@
+VARNUM	NAME	LABEL	TYPE	LENGTH
+1	SITE_ID	Unique site identification number	2	25
+2	VISIT_NO	Lake visit number. 1-1st field sampling visit; 2-2nd field sampling visit	1	
+3	SITE_TYPE	PROB_Samp: Lake is from probability sample and can be used for population estimation.  REF_Lake: Lake is not from probability sample and was selected as a candidate reference lake	2	9
+4	LAKE_SAMP	Evaluation status	2	20
+5	SAMPLED_CORE	Sediment core sample collected?	2	20
+6	DATECORE	Date sediment core sample collected	1	
+7	INDXSAMP_CORE	Index sediment core sample for site (YES/NO)-typically the Visit 1 Primary sample	2	3
+8	SAMPLE_ID	Sample ID number	1	
+9	SAMPLE_TYPE	4 character code for type of sample taken	2	4
+10	SAMPLE_CLASS	Sediment sample from SED/TOP/BOTTOM	2	3
+11	CORE_LENGTH	Length of sediment core (cm)	1	
+12	INTERVAL_FROM	Depth of the bottom of the sediment core slice	1	
+13	INTERVAL_TO	End of sediment core	1	
+14	FLAG_FLD_CORE	Field data qualifier flags for sediment core samples	2	8
+15	COMMENT_FLD_CORE	Comments and field flag explanations for sediment core samples	2	1000
+16	SAMPLE_CATEGORY	(P)rimary or Field (D)uplicate	2	4
+17	SAMP_ID	Field sample ID (character format)	2	6
+18	NLA_TAXANAME	Taxon as assigned by laboratory for use in NLA	2	130
+19	TAXON_FREQ	Frequency of taxon record in sample (should be 1)	1	
+20	ABUND	Number of valves counted	1	
+21	REL_ABUND	Percent of total counted (ABUND/COUNT_TOTAL)	1	
+22	COUNT_TOTAL	Total number of valves counted in subsample	1	
+23	OTU_LUMP_1	OTU Name assigned for lumping alternative 1	2	150
+24	OTU_LUMP_2	OTU Name assigned for lumping alternative 2	2	150
+25	OTU_LUMP_3	OTU Name assigned for lumping alternative 3	2	150
+26	FLAG_LAB_CORE	Laboratory data qualifier flag for sediment core samples	2	12
+27	COMMENT_LAB_CORE	Laboratory comments and flag explanations for sediment core samples	2	1000

@@ -1,0 +1,10 @@
+VARNUM	NAME	LABEL	TYPE	LENGTH
+1	SITE_ID	ID assigned to each site	2	25
+2	YEAR	Sample Year	1	
+3	VISIT_NO	Sequential visit number within year	1	
+4	SAMPLED_SECCHI	Secchi transparency determined?	2	24
+5	DATE_SECCHI	Date of Secchi transparency determination	1	
+6	SECMEAN	Secchi transparency (m)(=avg. of disk disappearance and reappearance depths)	1	
+7	CLEAR_TO_BOTTOM	Clear all the way to the bottom (Y/blank)	2	4
+8	FLAG_SECCHI	Data Qualifier flag for Secchi determination	2	12
+9	COMMENT_SECCHI	Comments and flag explanations for Secchi determination	2	140

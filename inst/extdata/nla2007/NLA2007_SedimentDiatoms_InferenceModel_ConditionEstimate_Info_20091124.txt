@@ -1,0 +1,51 @@
+VARNUM	NAME	LABEL	TYPE	LENGTH
+1	SITE_ID	ID Assigned to Each Site	2	50
+2	VISIT_NO	Sequential Visit Number Within Year	1	
+3	SAMPLED_INF	"Sediment core samples (Top, Bottom) used for diatom-inferred chemistry?"	2	20
+4	INDXSAMP_INF	Index sample for site (YES/NO); typically visit 1)	2	3
+5	PTL_INF_TOP	Diatom-inferred Total Phosphorus in top core sample based on jackknifed values (ug/L)	1	
+6	PTL_INF_BOT	Diatom-inferred Total Phosphorus in bottom core sample based on jackknifed values (ug/L)	1	
+7	PTL_INF_DIF	Difference (Top - Bottom) in Diatom-inferred Total Phosphorus (ug/L)	1	
+8	PTL_SIGTEST	Is PTL_INF_DIF significantly different from 0? (Yes/No)	2	3
+9	NTL_INF_TOP	Diatom-inferred Total Nitrogen in top core sample based on jackknifed values (ug/L)	1	
+10	NTL_INF_BOT	Diatom-inferred Total Nitrogen in bottom core sample based on jackknifed values (ug/L)	1	
+11	NTL_INF_DIF	Difference (Top - Bottom) in Diatom-inferred Total Nitrogen (ug/L)	1	
+12	NTL_SIGTEST	Is NTL_INF_DIF significantly different from 0? (Yes/No)	2	3
+13	CORE_CONFIDENCE	Does bottom slice represent pre-disturbance conditions? (YES/NO/UNCERTAIN)	2	9
+14	SAMPLED	Site Sampled Code	2	30
+15	SITE_TYPE	PROB_Samp: Lake is from probability sample and can be used for population estimation.  REF_Lake: Lake is not from probability sample and was selected as a candidate reference lake	2	10
+16	LAKE_SAMP	"Eval. status. _Denied (access denied). _Inaccess (physically inaccessible). _Other. _LT_4ha (< 4ha). _Shallow (< 1m deep). _Vegetated (< 1000 m2 open H2O). _Saline (tidal). Special_Purpose (aquacult., disposal, WWT, or evap.). Not_Lake (other)"	2	20
+17	TNT	Target:Non-target evaluation status derived from LAKE_SAMP	2	10
+18	LON_DD	Longitude (decimal degrees) obtained from NHD (NAD83)	1	
+19	LAT_DD	Latitude (decimal degrees) obtained from NHD (NAD83)	1	
+20	ST	State two letter code	2	2
+21	EPA_REG	EPA Region	2	9
+22	AREA_CAT7	Lake area unequal probability category (7 categories)	2	10
+23	NESLAKE	NESLake-Lake was included in 1970s National Eutrophication Survey	2	7
+24	STRATUM	Probability survey design stratum. NLALake is single stratum	2	8
+25	PANEL	Panel_1-lake was included in base design. OverSamp-Lake was part of over sample of lakes used for replacing lakes in base design if they could not be sampled	2	8
+26	DSGN_CAT	Probability survey design categories used to assign unequal probability of selection	2	15
+27	MDCATY	Unequal selection probability for lake	1	
+28	WGT	Initial site weight based on base design. DO NOT USE for population estimation	1	
+29	WGT_NLA	Adjusted site weight. USE for population estimation	1	
+30	ADJWGT_CAT	Categories used to adjust initial design weight (WGT) to account for use of over sample lakes.	2	5
+31	URBAN	URBAN LAKE? (YES/NO)	2	3
+32	WSA_ECO3	Wadeable Stream Assessment three aggregrated Omernik level 3 ecoregions	2	6
+33	WSA_ECO9	Wadeable Stream Assessment nine aggregrated Omernik level 3 ecoregions	2	3
+34	ECO_LEV_3	Omernik level 3 ecoregion number	2	2
+35	NUT_REG	"Nutrient ecoregion, based on EPA nutrient criteria documents for lakes & reservoirs)"	2	4
+36	NUTREG_NAME	Nutrient ecoregion name	2	60
+37	ECO_NUTA	NLA Aggregate Nutrient Ecoregion	2	5
+38	LAKE_ORIGIN	"Lake origin (MAN-MADE, NATURAL [which includes natural lakes augmented by dams])"	2	9
+39	ECO3_X_ORIGIN	WSA_ECO3 x LAKE_ORIGIN CLASS	2	20
+40	REF_CLUSTER	NLA Reference Site Cluster (A-G)	2	1
+41	RT_NLA	"NLA Reference Class Assignment (REF=reference, SO-SO=intermediate, TRASH=impacted)"	2	8
+42	HUC_2	Hydrologic region (2-digit)	2	2
+43	HUC_8	Hydrologic region (8-digit)	2	8
+44	FLAG_INFO	Data qualifier flag for lake info data	2	12
+45	COMMENT_INFO	Comments and flag explanations for lake info data	2	160
+46	SAMPLED_CORE	Sediment core sample collected?	2	20
+47	PTL_INF_COND	T-B difference class for PTL	2	20
+48	PTL_INF_COND3	T-B difference class for PTL (3 level)	2	20
+49	NTL_INF_COND	T-B difference class for NTL	2	20
+50	NTL_INF_COND3	T-B difference class for NTL (3-level)	2	20

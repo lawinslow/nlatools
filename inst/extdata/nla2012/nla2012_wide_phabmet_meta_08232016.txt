@@ -1,0 +1,692 @@
+SAMPLE_TYPE	DATA_COLUMN	LABEL	LEGAL_VALUES	RANGE_HIGH	RANGE_LOW	UNITS
+PHAB	AMFCALL	Aquatic macrophytes: fractional cover of all macrophytes				
+PHAB	AMFCEMERGENT	Aquatic macrophytes: fractional cover of emergent macrophytes				
+PHAB	AMFCFLOATING	Aquatic macrophytes: fractional cover of floating macrophytes				
+PHAB	AMFCSUBMERGENT	Aquatic macrophytes: fractional cover of submergent macrophytes				
+PHAB	AMFPALL	Aquatic macrophytes: fractional presence of all macrophytes				
+PHAB	AMFPEMERGENT	Aquatic macrophytes: fractional presence of emergent macrophytes				
+PHAB	AMFPFLOATING	Aquatic macrophytes: fractional presence of floating macrophytes				
+PHAB	AMFPSUBMERGENT	Aquatic macrophytes: fractional presence of submergent macrophytes				
+PHAB	AMIDALL	Aquatic macrophytes: interdecimile cover of all macrophytes				
+PHAB	AMIQALL	Aquatic macrophytes: interquartile cover of all macrophytes				
+PHAB	AMITOTAL	Aquatic macrophytes: index of total cover of aquatic macrophytes				
+PHAB	AMNALL	Aquatic macrophytes: number of stations with Total cover data				
+PHAB	AMNEMERGENT	Aquatic macrophytes: number of stations with Emergent data				
+PHAB	AMNFLOATING	Aquatic macrophytes: number of stations with Floating data				
+PHAB	AMNSUBMERGENT	Aquatic macrophytes: number of stations with Submergent data				
+PHAB	AMVALL	Aquatic macrophytes: std dev. Cover of all macrophytes				
+PHAB	AMVEMERGENT	Aquatic macrophytes: std dev. Cover of Emergent macrophytes				
+PHAB	AMVFLOATING	Aquatic macrophytes: std dev. Cover of Floating macrophytes				
+PHAB	AMVSUBMERGENT	Aquatic macrophytes: std dev. Cover of Submergent macrophytes				
+PHAB	BFFFLAT	Bank features: fraction with flat banks				
+PHAB	BFFGRADUAL	Bank features: fraction with gradual banks				
+PHAB	BFFSTEEP	Bank features: fraction with steep banks				
+PHAB	BFFVERTICAL	Bank features: fraction with vertical banks				
+PHAB	BFNANGLE	Bank features: number of stations with bank angle data				
+PHAB	BFNHORIZDIST	Bank features: count of horizontal distance to highwater mark				
+PHAB	BFNHORIZDIST_DD	Bank features: count of horizontal distance to drawdown zone				
+PHAB	BFNVERTHEIGHT	Bank features: count of vertical height to highwater mark				
+PHAB	BFNVERTHEIGHT_DD	Bank features: count of vertical height to drawdown zone				
+PHAB	BFOANGLE	Bank features: bank angle mode				
+PHAB	BFXHORIZDIST	Bank features: horizontal distance to highwater mark				
+PHAB	BFXHORIZDIST_DD	Bank features: horizontal distance to drawdown zone				
+PHAB	BFXVERTHEIGHT	Bank features: vertical height to highwater mark				
+PHAB	BFXVERTHEIGHT_DD	Bank features: vertical height to drawdown zone				
+PHAB	BS16LDIA	Bottom substrate: 16th percentile of bottom substrate diameter				
+PHAB	BS25LDIA	Bottom substrate: 25th percentile of bottom substrate diameter				
+PHAB	BS50LDIA	Bottom substrate: 50th percentile of bottom substrate diameter				
+PHAB	BS75LDIA	Bottom substrate: 75th percentile of bottom substrate diameter				
+PHAB	BS84LDIA	Bottom substrate: 84th percentile of bottom substrate diameter				
+PHAB	BSFANOXIC	Bottom substrate: fraction with anoxic odor				
+PHAB	BSFBLACK	Bottom substrate: fraction of Black substrate				
+PHAB	BSFBROWN	Bottom substrate: fraction of Brown substrate				
+PHAB	BSFCBEDROCK	Bottom substrate: fractional cover of bedrock				
+PHAB	BSFCBOULDERS	Bottom substrate: fractional cover of Boulder				
+PHAB	BSFCCOBBLE	Bottom substrate: fractional cover of Cobble				
+PHAB	BSFCGRAVEL	Bottom substrate: fractional cover of gravel				
+PHAB	BSFCHEMICAL	Bottom substrate: fraction with chemical odor				
+PHAB	BSFCORGANIC	Bottom substrate: fractional cover of organic				
+PHAB	BSFCSAND	Bottom substrate: fractional cover of sand				
+PHAB	BSFCSILT	Bottom substrate: fractional cover of silt				
+PHAB	BSFCWOOD	Bottom substrate: fractional cover of wood				
+PHAB	BSFGRAY	Bottom substrate: fraction of Gray substrate				
+PHAB	BSFH2S	Bottom substrate: fraction with H2S odor				
+PHAB	BSFNONEODOR	Bottom substrate: fraction with no odor				
+PHAB	BSFOIL	Bottom substrate: fraction with oil odor				
+PHAB	BSFOTHERCOLOR	Bottom substrate: fraction of other color substrate				
+PHAB	BSFOTHERODOR	Bottom substrate: fraction with other odor				
+PHAB	BSFPBEDROCK	Bottom substrate: fractional presence of bedrock				
+PHAB	BSFPBOULDERS	Bottom substrate: fractional presence of Boulder				
+PHAB	BSFPCOBBLE	Bottom substrate: fractional presence of Cobble				
+PHAB	BSFPGRAVEL	Bottom substrate: fractional presence of gravel				
+PHAB	BSFPORGANIC	Bottom substrate: fractional presence of organic				
+PHAB	BSFPSAND	Bottom substrate: fractional presence of sand				
+PHAB	BSFPSILT	Bottom substrate: fractional presence of silt				
+PHAB	BSFPWOOD	Bottom substrate: fractional presence of wood				
+PHAB	BSFRED	Bottom substrate: fraction of Red substrate				
+PHAB	BSISITEVARIETY	Bottom substrate: Number of substrate classes present at a site				
+PHAB	BSISTAVARIETY	Bottom substrate: Mean number of substrate classes present in each station				
+PHAB	BSNBEDROCK	Bottom substrate: number of stations with bedrock data				
+PHAB	BSNBOULDERS	Bottom substrate: number of stations with boulder data				
+PHAB	BSNCOBBLE	Bottom substrate: number of stations with cobble data				
+PHAB	BSNCOLOR	Bottom substrate: number of bottom substrate color data				
+PHAB	BSNGRAVEL	Bottom substrate: number of stations with gravel data				
+PHAB	BSNODOR	Bottom substrate: number of stations with odor data				
+PHAB	BSNORGANIC	Bottom substrate: number of stations with organic data				
+PHAB	BSNSAND	Bottom substrate: number of stations with sand data				
+PHAB	BSNSILT	Bottom substrate: number of stations with silt data				
+PHAB	BSNWOOD	Bottom substrate: number of stations with wood data				
+PHAB	BSOCOLOR	Bottom substrate: mode of color				
+PHAB	BSOFCLASS	Bottom substrate: Mode of bottom substrate by cover				
+PHAB	BSOODOR	Bottom substrate: Mode of bottom substrate odor class				
+PHAB	BSOPCLASS	Bottom substrate: Mode of bottom substrate by presence				
+PHAB	BSVBEDROCK	Bottom substrate: std dev. cover of bedrock				
+PHAB	BSVBOULDERS	Bottom substrate: std dev. cover of boulders				
+PHAB	BSVCOBBLE	Bottom substrate: std dev. cover of cobble				
+PHAB	BSVGRAVEL	Bottom substrate: std dev. cover of gravel				
+PHAB	BSVLDIA	Bottom substrate: std dev. logged bottom substrate diameter (mineral)				
+PHAB	BSVORGANIC	Bottom substrate: std dev. cover of organic				
+PHAB	BSVSAND	Bottom substrate: std dev. cover of sand				
+PHAB	BSVSILT	Bottom substrate: std dev. cover of silt				
+PHAB	BSVWOOD	Bottom substrate: std dev. cover of wood class				
+PHAB	BSXLDIA	Bottom substrate: mean logged bottom substrate diameter (mineral)				
+PHAB	FCFCAQUATIC	Fish cover: fractional cover of aquatic vegetation				
+PHAB	FCFCAQUATIC_DD	Fish cover: fractional cover of aquatic vegetation in the drawdown zone				
+PHAB	FCFCAQUATIC_LIT	Fish cover: fractional cover of aquatic vegetation in the littoral zone				
+PHAB	FCFCAQUATIC_SIM	Fish cover: fractional cover of aquatic vegetation simulating 2007 protocol				
+PHAB	FCFCBOULDERS	Fish cover: fractional cover of boulders 				
+PHAB	FCFCBOULDERS_DD	Fish cover: fractional cover of boulders in the drawdown zone				
+PHAB	FCFCBOULDERS_LIT	Fish cover: fractional cover of boulders in the littoral zone				
+PHAB	FCFCBOULDERS_SIM	Fish cover: fractional cover of boulders simulating 2007 protocol				
+PHAB	FCFCBRUSH	Fish cover: fractional cover of brush 				
+PHAB	FCFCBRUSH_DD	Fish cover: fractional cover of brush in the drawdown zone				
+PHAB	FCFCBRUSH_LIT	Fish cover: fractional cover of brush in the littoral zone				
+PHAB	FCFCBRUSH_SIM	Fish cover: fractional cover of brush simulating 2007 protocol				
+PHAB	FCFCLEDGES	Fish cover: fractional cover of ledges 				
+PHAB	FCFCLEDGES_DD	Fish cover: fractional cover of ledges in the drawdown zone				
+PHAB	FCFCLEDGES_LIT	Fish cover: fractional cover of ledges in the littoral zone				
+PHAB	FCFCLEDGES_SIM	Fish cover: fractional cover of ledges simulating 2007 protocol				
+PHAB	FCFCLIVETREES	Fish cover: fractional cover of live trees 				
+PHAB	FCFCLIVETREES_DD	Fish cover: fractional cover of live trees in the drawdown zone				
+PHAB	FCFCLIVETREES_LIT	Fish cover: fractional cover of live trees in the littoral zone				
+PHAB	FCFCLIVETREES_SIM	Fish cover: fractional cover of live trees simulating 2007 protocol				
+PHAB	FCFCOVERHANG	Fish cover: fractional cover of overhangs 				
+PHAB	FCFCOVERHANG_DD	Fish cover: fractional cover of overhangs in the drawdown zone				
+PHAB	FCFCOVERHANG_LIT	Fish cover: fractional cover of overhangs in the littoral zone				
+PHAB	FCFCOVERHANG_SIM	Fish cover: fractional cover of overhangs simulating 2007 protocol				
+PHAB	FCFCSNAG	Fish cover: fractional cover of snags 				
+PHAB	FCFCSNAGS_DD	Fish cover: fractional cover of snags in the drawdown zone				
+PHAB	FCFCSNAGS_LIT	Fish cover: fractional cover of snags in the littoral zone				
+PHAB	FCFCSNAGS_SIM	Fish cover: fractional cover of snags simulating 2007 protocol				
+PHAB	FCFCSTRUCTURES	Fish cover: fractional cover of artificial structures 				
+PHAB	FCFCSTRUCTURES_DD	Fish cover: fractional cover of artificial structures in the drawdown zone				
+PHAB	FCFCSTRUCTURES_LIT	Fish cover: fractional cover of artificial structures in the littoral zone				
+PHAB	FCFCSTRUCTURES_SIM	Fish cover: fractional cover of artificial structures simulating 2007 protocol				
+PHAB	FCFPALL	Fish cover: fractional presence of any fish cover				
+PHAB	FCFPALL_DD	Fish cover: fractional cover of any fish cover in the drawdown zone				
+PHAB	FCFPALL_LIT	Fish cover: fractional cover of any fish cover in the littoral zone				
+PHAB	FCFPALL_SIM	Fish cover: fractional cover of any fish cover simulating 2007 protocol				
+PHAB	FCFPAQUATIC	Fish cover: fractional presence of aquatic vegetation				
+PHAB	FCFPAQUATIC_DD	Fish cover: fractional presence of aquatic vegetation in the drawdown zone				
+PHAB	FCFPAQUATIC_LIT	Fish cover: fractional presence of aquatic vegetation in the littoral zone				
+PHAB	FCFPAQUATIC_SIM	Fish cover: fractional presence of aquatic vegetation simulating 2007 protocol				
+PHAB	FCFPBOULDERS	Fish cover: fractional presence of boulders 				
+PHAB	FCFPBOULDERS_DD	Fish cover: fractional presence of boulders in the drawdown zone				
+PHAB	FCFPBOULDERS_LIT	Fish cover: fractional presence of boulders in the littoral zone				
+PHAB	FCFPBOULDERS_SIM	Fish cover: fractional presence of boulders simulating 2007 protocol				
+PHAB	FCFPBRUSH	Fish cover: fractional presence of brush 				
+PHAB	FCFPBRUSH_DD	Fish cover: fractional presence of brush in the drawdown zone				
+PHAB	FCFPBRUSH_LIT	Fish cover: fractional presence of brush in the littoral zone				
+PHAB	FCFPBRUSH_SIM	Fish cover: fractional presence of brush simulating 2007 protocol				
+PHAB	FCFPLEDGES	Fish cover: fractional presence of ledges 				
+PHAB	FCFPLEDGES_DD	Fish cover: fractional presence of ledges in the drawdown zone				
+PHAB	FCFPLEDGES_LIT	Fish cover: fractional presence of ledges in the littoral zone				
+PHAB	FCFPLEDGES_SIM	Fish cover: fractional presence of ledges simulating 2007 protocol				
+PHAB	FCFPLIVETREES	Fish cover: fractional presence of live trees 				
+PHAB	FCFPLIVETREES_DD	Fish cover: fractional presence of live trees in the drawdown zone				
+PHAB	FCFPLIVETREES_LIT	Fish cover: fractional presence of live trees in the littoral zone				
+PHAB	FCFPLIVETREES_SIM	Fish cover: fractional presence of live trees simulating 2007 protocol				
+PHAB	FCFPOVERHANG	Fish cover: fractional presence of overhangs 				
+PHAB	FCFPOVERHANG_DD	Fish cover: fractional presence of overhangs in the drawdown zone				
+PHAB	FCFPOVERHANG_LIT	Fish cover: fractional presence of overhangs in the littoral zone				
+PHAB	FCFPOVERHANG_SIM	Fish cover: fractional presence of overhangs simulating 2007 protocol				
+PHAB	FCFPSNAG	Fish cover: fractional presence of snags 				
+PHAB	FCFPSNAGS_DD	Fish cover: fractional presence of snags in the drawdown zone				
+PHAB	FCFPSNAGS_LIT	Fish cover: fractional presence of snags in the littoral zone				
+PHAB	FCFPSNAGS_SIM	Fish cover: fractional presence of snags simulating 2007 protocol				
+PHAB	FCFPSTRUCTURES	Fish cover: fractional presence of artificial structures 				
+PHAB	FCFPSTRUCTURES_DD	Fish cover: fractional presence of artificial structures in the drawdown zone				
+PHAB	FCFPSTRUCTURES_LIT	Fish cover: fractional presence of artificial structures in the littoral zone				
+PHAB	FCFPSTRUCTURES_SIM	Fish cover: fractional presence of artificial structures simulating 2007 protocol				
+PHAB	FCIALL	Fish cover: index of total fish cover				
+PHAB	FCIALL_DD	Fish cover: index of total fish cover in the drawdown zone				
+PHAB	FCIALL_LIT	Fish cover: index of total fish cover in the littoral zone				
+PHAB	FCIALL_SIM	Fish cover: index of total fish cover simulating 2007 protocol				
+PHAB	FCIBIG	Fish cover: index of fish cover due to large structures				
+PHAB	FCIBIG_DD	Fish cover: index of fish cover due to large structures in the drawdown zone				
+PHAB	FCIBIG_LIT	Fish cover: index of fish cover due to large structures in the littoral zone				
+PHAB	FCIBIG_SIM	Fish cover: index of fish cover due to large structures simulating 2007 protocol				
+PHAB	FCINATURAL	Fish cover: index of fish cover due to natural structures				
+PHAB	FCINATURAL_DD	Fish cover: index of fish cover due to natural structures in the drawdown zone				
+PHAB	FCINATURAL_LIT	Fish cover: index of fish cover due to natural structures in the littoral zone				
+PHAB	FCINATURAL_SIM	Fish cover: index of fish cover due to natural structures simulating 2007 protocol				
+PHAB	FCIRIPVEG	Fish cover: index of fish cover due to riparian vegetation				
+PHAB	FCIRIPVEG_DD	Fish cover: index of fish cover due to riparian vegetation in the drawdown zone				
+PHAB	FCIRIPVEG_LIT	Fish cover: index of fish cover due to riparian vegetation in the littoral zone				
+PHAB	FCIRIPVEG_SIM	Fish cover: index of fish cover due to riparian vegetation simulating 2007 protocol				
+PHAB	FCNALL	Fish cover: number of fish cover data				
+PHAB	FCNALL_DD	Fish cover: number of fish cover values in the drawdown				
+PHAB	FCNALL_LIT	Fish cover: number of fish cover values in the littoral zone				
+PHAB	FCNALL_SIM	Fish cover: number of fish cover data simulating the 2007 protocol				
+PHAB	FCNAQUATIC	Fish cover: number of aquatic vegetation				
+PHAB	FCNAQUATIC_DD	Fish cover: number of aquatic vegetation values in the drawdown				
+PHAB	FCNAQUATIC_LIT	Fish cover: number of aquatic vegetation values in the littoral zone				
+PHAB	FCNAQUATIC_SIM	Fish cover: number of aquatic vegetation data simulating the 2007 protocol				
+PHAB	FCNBOULDERS	Fish cover: number of boulders 				
+PHAB	FCNBOULDERS_DD	Fish cover: number of boulders values in the drawdown				
+PHAB	FCNBOULDERS_LIT	Fish cover: number of boulders values in the littoral zone				
+PHAB	FCNBOULDERS_SIM	Fish cover: number of boulders data simulating the 2007 protocol				
+PHAB	FCNBRUSH	Fish cover: number of brush 				
+PHAB	FCNBRUSH_DD	Fish cover: number of brush values in the drawdown				
+PHAB	FCNBRUSH_LIT	Fish cover: number of brush values in the littoral zone				
+PHAB	FCNBRUSH_SIM	Fish cover: number of brush data simulating the 2007 protocol				
+PHAB	FCNLEDGES	Fish cover: number of ledges 				
+PHAB	FCNLEDGES_DD	Fish cover: number of ledges values in the drawdown				
+PHAB	FCNLEDGES_LIT	Fish cover: number of ledges values in the littoral zone				
+PHAB	FCNLEDGES_SIM	Fish cover: number of ledges data simulating the 2007 protocol				
+PHAB	FCNLIVETREES	Fish cover: number of live trees 				
+PHAB	FCNLIVETREES_DD	Fish cover: number of live trees values in the drawdown				
+PHAB	FCNLIVETREES_LIT	Fish cover: number of live trees values in the littoral zone				
+PHAB	FCNLIVETREES_SIM	Fish cover: number of live trees data simulating the 2007 protocol				
+PHAB	FCNOVERHANG	Fish cover: number of overhangs 				
+PHAB	FCNOVERHANG_DD	Fish cover: number of overhangs values in the drawdown				
+PHAB	FCNOVERHANG_LIT	Fish cover: number of overhangs values in the littoral zone				
+PHAB	FCNOVERHANG_SIM	Fish cover: number of overhangs data simulating the 2007 protocol				
+PHAB	FCNSNAG	Fish cover: number of snags 				
+PHAB	FCNSNAGS_DD	Fish cover: number of snags values in the drawdown				
+PHAB	FCNSNAGS_LIT	Fish cover: number of snags values in the littoral zone				
+PHAB	FCNSNAGS_SIM	Fish cover: number of snags data simulating the 2007 protocol				
+PHAB	FCNSTRUCTURES	Fish cover: number of artificial structures 				
+PHAB	FCNSTRUCTURES_DD	Fish cover: number of artificial structures values in the drawdown				
+PHAB	FCNSTRUCTURES_LIT	Fish cover: number of artificial structures values in the littoral zone				
+PHAB	FCNSTRUCTURES_SIM	Fish cover: number of artificial structures data simulating the 2007 protocol				
+PHAB	FCVAQUATIC	Fish cover: std dev. of aquatic vegetation				
+PHAB	FCVAQUATIC_DD	Fish cover: std dev. of aquatic vegetation in the drawdown zone				
+PHAB	FCVAQUATIC_LIT	Fish cover: std dev. of aquatic vegetation in the littoral zone				
+PHAB	FCVAQUATIC_SIM	Fish cover: std dev. of aquatic vegetation simulating the 2007 protocol				
+PHAB	FCVBOULDERS	Fish cover: std dev. of boulders 				
+PHAB	FCVBOULDERS_DD	Fish cover: std dev. of boulders in the drawdown zone				
+PHAB	FCVBOULDERS_LIT	Fish cover: std dev. of boulders in the littoral zone				
+PHAB	FCVBOULDERS_SIM	Fish cover: std dev. of boulders simulating the 2007 protocol				
+PHAB	FCVBRUSH	Fish cover: std dev. of brush 				
+PHAB	FCVBRUSH_DD	Fish cover: std dev. of brush in the drawdown zone				
+PHAB	FCVBRUSH_LIT	Fish cover: std dev. of aquatic vegetation in the littoral zone				
+PHAB	FCVBRUSH_SIM	Fish cover: std dev. of aquatic vegetation simulating the 2007 protocol				
+PHAB	FCVLEDGES	Fish cover: std dev. of ledges 				
+PHAB	FCVLEDGES_DD	Fish cover: std dev. of ledges in the drawdown zone				
+PHAB	FCVLEDGES_LIT	Fish cover: std dev. of ledges in the littoral zone				
+PHAB	FCVLEDGES_SIM	Fish cover: std dev. of ledges simulating the 2007 protocol				
+PHAB	FCVLIVETREES	Fish cover: std dev. of live trees 				
+PHAB	FCVLIVETREES_DD	Fish cover: std dev. of live trees in the drawdown zone				
+PHAB	FCVLIVETREES_LIT	Fish cover: std dev. of live trees in the littoral zone				
+PHAB	FCVLIVETREES_SIM	Fish cover: std dev. of live trees simulating the 2007 protocol				
+PHAB	FCVOVERHANG	Fish cover: std dev. of overhangs 				
+PHAB	FCVOVERHANG_DD	Fish cover: std dev. of overhangs in the drawdown zone				
+PHAB	FCVOVERHANG_LIT	Fish cover: std dev. of overhangs in the littoral zone				
+PHAB	FCVOVERHANG_SIM	Fish cover: std dev. of overhangs simulating the 2007 protocol				
+PHAB	FCVSNAG	Fish cover: std dev. of snags 				
+PHAB	FCVSNAGS_DD	Fish cover: std dev. of snags in the drawdown zone				
+PHAB	FCVSNAGS_LIT	Fish cover: std dev. of snags in the littoral zone				
+PHAB	FCVSNAGS_SIM	Fish cover: std dev. of snags simulating the 2007 protocol				
+PHAB	FCVSTRUCTURES	Fish cover: std dev. of artificial structures 				
+PHAB	FCVSTRUCTURES_DD	Fish cover: std dev. of artificial structures in the drawdown zone				
+PHAB	FCVSTRUCTURES_LIT	Fish cover: std dev. of artificial structures in the littoral zone				
+PHAB	FCVSTRUCTURES_SIM	Fish cover: std dev. of artificial structures simulating the 2007 protocol				
+PHAB	HIFPANY	Human influence: fractional presence of any influence				
+PHAB	HIFPANY_DD	Human influence: fractional presence of any influence in the drawdown zone				
+PHAB	HIFPANY_RIP	Human influence: fractional presence of any influence in the riparian zone				
+PHAB	HIFPANY_SYN	Human influence: fractional presence of any influence synthesizing the 2007 protocol				
+PHAB	HIFPANYCIRCA	Human influence: fractional presence of any influence occuring in station plots				
+PHAB	HIFPANYCIRCA_DD	Human influence: fractional presence of any influence occuring in station plots in the drawdown zone				
+PHAB	HIFPANYCIRCA_RIP	Human influence: fractional presence of any influence occuring in station plots in the riparian zone				
+PHAB	HIFPANYCIRCA_SYN	Human influence: fractional presence of any influence occuring in station plots synthesizing the 2007 protocol				
+PHAB	HIIAG	Human influence: index of agricultural influences				
+PHAB	HIIAG_DD	Human influence: index of agricultural influences in the drawdown zone				
+PHAB	HIIAG_RIP	Human influence: index of agricultural influences in the riparian zone				
+PHAB	HIIAG_SYN	Human influence: index of agricultural influences synthesizing the 2007 protocol				
+PHAB	HIIAGCIRCA	Human influence: index of agricultural influences occuring close to shore				
+PHAB	HIIAGCIRCA_DD	Human influence: index of agricultural influences occuring close to shore in the drawdown zone				
+PHAB	HIIAGCIRCA_RIP	Human influence: index of agricultural influences occuring close to shore in the riparian zone				
+PHAB	HIIAGCIRCA_SYN	Human influence: index of agricultural influences occuring close to shore synthesizing the 2007 protocol				
+PHAB	HIIALL	Human influence: index of all human influences				
+PHAB	HIIALL_DD	Human influence: index of all human influences in the drawdown zone				
+PHAB	HIIALL_RIP	Human influence: index of all human influences in the riparian zone				
+PHAB	HIIALL_SYN	Human influence: index of all human influences synthesizing the 2007 protocol				
+PHAB	HIIALLCIRCA	Human influence: index of all influences occuring close to shore				
+PHAB	HIIALLCIRCA_DD	Human influence: index of all influences occuring close to shore in the drawdown zone				
+PHAB	HIIALLCIRCA_RIP	Human influence: index of all influences occuring close to shore in the riparian zone				
+PHAB	HIIALLCIRCA_SYN	Human influence: index of all influences occuring close to shore synthesizing the 2007 protocol				
+PHAB	HIINONAG	Human influence: index of nonagricultural influences				
+PHAB	HIINONAG_DD	Human influence: index of nonagricultural influences in the drawdown zone				
+PHAB	HIINONAG_RIP	Human influence: index of nonagricultural influences in the riparian zone				
+PHAB	HIINONAG_SYN	Human influence: index of nonagricultural influences synthesizing the 2007 protocol				
+PHAB	HIINONAGCIRCA	Human influence: index of nonagricultural influences occuring close to shore				
+PHAB	HIINONAGCIRCA_DD	Human influence: index of nonagricultural influences occuring close to shore in the drawdown zone				
+PHAB	HIINONAGCIRCA_RIP	Human influence: index of nonagricultural influences occuring close to shore in the riparian zone				
+PHAB	HIINONAGCIRCA_SYN	Human influence: index of nonagricultural influences occuring close to shore synthesizing the 2007 protocol				
+PHAB	HINAG	Human influence: count of all values used				
+PHAB	HINAG_DD	Human influence: count of all values used in the drawdown zone				
+PHAB	HINAG_RIP	Human influence: count of all values used in the riparian zone				
+PHAB	HINAG_SYN	Human influence: count of all values used synthesizing the 2007 protocol				
+PHAB	HINALL	Human influence: count of all values used				
+PHAB	HINALL_DD	Human influence: count of all values used in the drawdown zone				
+PHAB	HINALL_RIP	Human influence: count of all values used in the riparian zone				
+PHAB	HINALL_SYN	Human influence: count of all values used synthesizing the 2007 protocol				
+PHAB	HINBUILDINGS	Human influence: count of values				
+PHAB	HINBUILDINGS_DD	Human influence: count of values in the drawdown zone				
+PHAB	HINBUILDINGS_RIP	Human influence: count of values in the riparian zone				
+PHAB	HINBUILDINGS_SYN	Human influence: count of values synthesizing the 2007 protocol				
+PHAB	HINCOMMERCIAL	Human influence: count of values				
+PHAB	HINCOMMERCIAL_DD	Human influence: count of values in the drawdown zone				
+PHAB	HINCOMMERCIAL_RIP	Human influence: count of values in the riparian zone				
+PHAB	HINCOMMERCIAL_SYN	Human influence: count of values synthesizing the 2007 protocol				
+PHAB	HINCROPS	Human influence: count of values				
+PHAB	HINCROPS_DD	Human influence: count of values in the drawdown zone				
+PHAB	HINCROPS_RIP	Human influence: count of values in the riparian zone				
+PHAB	HINCROPS_SYN	Human influence: count of values synthesizing the 2007 protocol				
+PHAB	HINDOCKS	Human influence: count of values				
+PHAB	HINDOCKS_DD	Human influence: count of values in the drawdown zone				
+PHAB	HINDOCKS_RIP	Human influence: count of values in the riparian zone				
+PHAB	HINDOCKS_SYN	Human influence: count of values synthesizing the 2007 protocol				
+PHAB	HINLANDFILL	Human influence: count of values				
+PHAB	HINLANDFILL_DD	Human influence: count of values in the drawdown zone				
+PHAB	HINLANDFILL_RIP	Human influence: count of values in the riparian zone				
+PHAB	HINLANDFILL_SYN	Human influence: count of values synthesizing the 2007 protocol				
+PHAB	HINLAWN	Human influence: count of values				
+PHAB	HINLAWN_DD	Human influence: count of values in the drawdown zone				
+PHAB	HINLAWN_RIP	Human influence: count of values in the riparian zone				
+PHAB	HINLAWN_SYN	Human influence: count of values synthesizing the 2007 protocol				
+PHAB	HINNONAG	Human influence: count of all values used				
+PHAB	HINNONAG_DD	Human influence: count of all values used in the drawdown zone				
+PHAB	HINNONAG_RIP	Human influence: count of all values used in the riparian zone				
+PHAB	HINNONAG_SYN	Human influence: count of all values used synthesizing the 2007 protocol				
+PHAB	HINORCHARD	Human influence: count of values				
+PHAB	HINORCHARD_DD	Human influence: count of values in the drawdown zone				
+PHAB	HINORCHARD_RIP	Human influence: count of values in the riparian zone				
+PHAB	HINORCHARD_SYN	Human influence: count of values synthesizing the 2007 protocol				
+PHAB	HINOTHER_DD	Human influence: count of values in the drawdown zone				
+PHAB	HINOTHER_RIP	Human influence: count of values in the riparian zone				
+PHAB	HINOTHER_SYN	Human influence: count of values synthesizing the 2007 protocol				
+PHAB	HINPARK	Human influence: count of values				
+PHAB	HINPARK_DD	Human influence: count of values in the drawdown zone				
+PHAB	HINPARK_RIP	Human influence: count of values in the riparian zone				
+PHAB	HINPARK_SYN	Human influence: count of values synthesizing the 2007 protocol				
+PHAB	HINPASTURE	Human influence: count of values				
+PHAB	HINPASTURE_DD	Human influence: count of values in the drawdown zone				
+PHAB	HINPASTURE_RIP	Human influence: count of values in the riparian zone				
+PHAB	HINPASTURE_SYN	Human influence: count of values synthesizing the 2007 protocol				
+PHAB	HINPOWERLINES	Human influence: count of values				
+PHAB	HINPOWERLINES_DD	Human influence: count of values in the drawdown zone				
+PHAB	HINPOWERLINES_RIP	Human influence: count of values in the riparian zone				
+PHAB	HINPOWERLINES_SYN	Human influence: count of values synthesizing the 2007 protocol				
+PHAB	HINROADS	Human influence: count of values				
+PHAB	HINROADS_DD	Human influence: count of values in the drawdown zone				
+PHAB	HINROADS_RIP	Human influence: count of values in the riparian zone				
+PHAB	HINROADS_SYN	Human influence: count of values synthesizing the 2007 protocol				
+PHAB	HINWALLS	Human influence: count of values				
+PHAB	HINWALLS_DD	Human influence: count of values in the drawdown zone				
+PHAB	HINWALLS_RIP	Human influence: count of values in the riparian zone				
+PHAB	HINWALLS_SYN	Human influence: count of values synthesizing the 2007 protocol				
+PHAB	HIPWAG	Human influence: weighted presence of agricultural influences				
+PHAB	HIPWAG_DD	Human influence: weighted presence of agricultural influences in the drawdown zone				
+PHAB	HIPWAG_RIP	Human influence: weighted presence of agricultural influences in the riparian zone				
+PHAB	HIPWAG_SYN	Human influence: weighted presence of agricultural influences synthesizing the 2007 protocol				
+PHAB	HIPWALL	Human influence: w1_hall				
+PHAB	HIPWALL_DD	Human influence: w1_hall in the drawdown zone				
+PHAB	HIPWALL_RIP	Human influence: w1_hall in the riparian zone				
+PHAB	HIPWALL_SYN	Human influence: w1_hall synthesizing the 2007 protocol				
+PHAB	HIPWBUILDINGS	Human influence: weighted presence of Buildings				
+PHAB	HIPWBUILDINGS_DD	Human influence: weighted presence of Buildings in the drawdown zone				
+PHAB	HIPWBUILDINGS_RIP	Human influence: weighted presence of Buildings in the riparian zone				
+PHAB	HIPWBUILDINGS_SYN	Human influence: weighted presence of Buildings synthesizing the 2007 protocol				
+PHAB	HIPWCOMMERCIAL	Human influence: weighted presence of Commercial				
+PHAB	HIPWCOMMERCIAL_DD	Human influence: weighted presence of Commercial in the drawdown zone				
+PHAB	HIPWCOMMERCIAL_RIP	Human influence: weighted presence of Commercial in the riparian zone				
+PHAB	HIPWCOMMERCIAL_SYN	Human influence: weighted presence of Commercial synthesizing the 2007 protocol				
+PHAB	HIPWCROPS	Human influence: weighted presence of Crops				
+PHAB	HIPWCROPS_DD	Human influence: weighted presence of Crops in the drawdown zone				
+PHAB	HIPWCROPS_RIP	Human influence: weighted presence of Crops in the riparian zone				
+PHAB	HIPWCROPS_SYN	Human influence: weighted presence of Crops synthesizing the 2007 protocol				
+PHAB	HIPWDOCKS	Human influence: weighted presence of Docks				
+PHAB	HIPWDOCKS_DD	Human influence: weighted presence of Docks in the drawdown zone				
+PHAB	HIPWDOCKS_RIP	Human influence: weighted presence of Docks in the riparian zone				
+PHAB	HIPWDOCKS_SYN	Human influence: weighted presence of Docks synthesizing the 2007 protocol				
+PHAB	HIPWLANDFILL	Human influence: weighted presence of Landfill				
+PHAB	HIPWLANDFILL_DD	Human influence: weighted presence of Landfill in the drawdown zone				
+PHAB	HIPWLANDFILL_RIP	Human influence: weighted presence of Landfill in the riparian zone				
+PHAB	HIPWLANDFILL_SYN	Human influence: weighted presence of Landfill synthesizing the 2007 protocol				
+PHAB	HIPWLAWN	Human influence: weighted presence of Lawn				
+PHAB	HIPWLAWN_DD	Human influence: weighted presence of Lawn in the drawdown zone				
+PHAB	HIPWLAWN_RIP	Human influence: weighted presence of Lawn in the riparian zone				
+PHAB	HIPWLAWN_SYN	Human influence: weighted presence of Lawn synthesizing the 2007 protocol				
+PHAB	HIPWNONAG	Human influence: weighted presence of non-agricultural influences				
+PHAB	HIPWNONAG_DD	Human influence: weighted presence of non-agricultural influences in the drawdown zone				
+PHAB	HIPWNONAG_RIP	Human influence: weighted presence of non-agricultural influences in the riparian zone				
+PHAB	HIPWNONAG_SYN	Human influence: weighted presence of non-agricultural influences synthesizing the 2007 protocol				
+PHAB	HIPWORCHARD	Human influence: weighted presence of Orchard				
+PHAB	HIPWORCHARD_DD	Human influence: weighted presence of Orchard in the drawdown zone				
+PHAB	HIPWORCHARD_RIP	Human influence: weighted presence of Orchard in the riparian zone				
+PHAB	HIPWORCHARD_SYN	Human influence: weighted presence of Orchard synthesizing the 2007 protocol				
+PHAB	HIPWOTHER_DD	Human influence: weighted presence of Other in the drawdown zone				
+PHAB	HIPWOTHER_RIP	Human influence: weighted presence of Other in the riparian zone				
+PHAB	HIPWOTHER_SYN	Human influence: weighted presence of Other synthesizing the 2007 protocol				
+PHAB	HIPWPARK	Human influence: weighted presence of Park				
+PHAB	HIPWPARK_DD	Human influence: weighted presence of Park in the drawdown zone				
+PHAB	HIPWPARK_RIP	Human influence: weighted presence of Park in the riparian zone				
+PHAB	HIPWPARK_SYN	Human influence: weighted presence of Park synthesizing the 2007 protocol				
+PHAB	HIPWPASTURE	Human influence: weighted presence of Pasture				
+PHAB	HIPWPASTURE_DD	Human influence: weighted presence of Pasture in the drawdown zone				
+PHAB	HIPWPASTURE_RIP	Human influence: weighted presence of Pasture in the riparian zone				
+PHAB	HIPWPASTURE_SYN	Human influence: weighted presence of Pasture synthesizing the 2007 protocol				
+PHAB	HIPWPOWERLINES	Human influence: weighted presence of Powerlines				
+PHAB	HIPWPOWERLINES_DD	Human influence: weighted presence of Powerlines in the drawdown zone				
+PHAB	HIPWPOWERLINES_RIP	Human influence: weighted presence of Powerlines in the riparian zone				
+PHAB	HIPWPOWERLINES_SYN	Human influence: weighted presence of Powerlines synthesizing the 2007 protocol				
+PHAB	HIPWROADS	Human influence: weighted presence of Roads				
+PHAB	HIPWROADS_DD	Human influence: weighted presence of Roads in the drawdown zone				
+PHAB	HIPWROADS_RIP	Human influence: weighted presence of Roads in the riparian zone				
+PHAB	HIPWROADS_SYN	Human influence: weighted presence of Roads synthesizing the 2007 protocol				
+PHAB	HIPWWALLS	Human influence: weighted presence of Walls				
+PHAB	HIPWWALLS_DD	Human influence: weighted presence of Walls in the drawdown zone				
+PHAB	HIPWWALLS_RIP	Human influence: weighted presence of Walls in the riparian zone				
+PHAB	HIPWWALLS_SYN	Human influence: weighted presence of Walls synthesizing the 2007 protocol				
+PHAB	HORIZDD	Horizontal drawdown distance				m
+PHAB	LitCvrQc3OE	NLA 2012 Shallow water habitat condition indicator				None
+PHAB	LitRipCvrQc3OE	NLA 2012 Lake habitat complexity condition indicator				None
+PHAB	LMFPARTIFICIAL	littoral fish macrohabitat: fractional presence of artificial fish cover				
+PHAB	LMFPBEDROCK	littoral fish macrohabitat: fraction of dominant substrate that is Bedrock				
+PHAB	LMFPBOULDERS	littoral fish macrohabitat: fractional presence of boulder fish cover				
+PHAB	LMFPCOBBLE	littoral fish macrohabitat: fraction of dominant substrate that is Cobble				
+PHAB	LMFPCONTINUOUS	littoral fish macrohabitat: fractional presence of continuous littoral fish cover				
+PHAB	LMFPFILL	littoral fish macrohabitat: fractional presence of fill fish cover				
+PHAB	LMFPLITTLE	littoral fish macrohabitat: fractional presence of little or no littoral fish cover				
+PHAB	LMFPMUD	littoral fish macrohabitat: fraction of dominant substrate that is Mud				
+PHAB	LMFPNONE	littoral fish macrohabitat: fractional presence of no fish cover				
+PHAB	LMFPPATCHY	littoral fish macrohabitat: fractional presence of patchy littoral fish cover				
+PHAB	LMFPSAND	littoral fish macrohabitat: fraction of dominant substrate that is Sand				
+PHAB	LMFPVEG	Fractional presence of vegetation fish cover - NLA 2007 only 				
+PHAB	LMFPWOODY	littoral fish macrohabitat: fractional presence of woody fish cover				
+PHAB	LMNCOVER	littoral fish macrohabitat: number of macrohabitat data				
+PHAB	LMNCOVERTYPES	littoral fish macrohabitat: Count of stations at which we have cover type data				
+PHAB	LMNHUMAN	littoral fish macrohabitat: count of human disturbance values				
+PHAB	LMNSUBSTRATE	littoral fish macrohabitat: count of dominant substrate class data				
+PHAB	LMOCOVER	littoral fish macrohabitat: Mode of littoral fish cover type				
+PHAB	LMOSUBSTRATE	littoral fish macrohabitat: mode of dominant substrate class				
+PHAB	LMPWHUMAN	littoral fish macrohabitat: weighted presence of human disturbance				
+PHAB	LZFPALGAE	Littoral zone: fractional presence of littoral algal film				
+PHAB	LZFPFILM	Littoral zone: fractional presence of any type of film other than 'None'				
+PHAB	LZFPNONE	Littoral zone: fractional presence of no littoral film				
+PHAB	LZFPOILY	Littoral zone: fractional presence of littoral oily film				
+PHAB	LZFPOTHER	Littoral zone: fractional presence of littoral other film				
+PHAB	LZFPSCUM	Littoral zone: fractional presence of littoral scum film				
+PHAB	LZIFILMVARIETY	Littoral zone: mean(count of film types other than 'None' at each station)				
+PHAB	LZOFILM	Littoral zone: mode of surface film type				
+PHAB	RDis_IX	NLA 2012 Lakeshore disturbance condition indicator				None
+PHAB	RVegQc3OE	NLA 2012 Riparian vegetation condition indicator				None
+PHAB	RVFCCANBIG	riparian zone and vegetation: fraction of canopy cover by trees &gt;30 cm dbh				
+PHAB	RVFCCANBIG_DD	riparian zone and vegetation: fraction of canopy cover by trees &gt;30 cm dbh in the drawdown zone				
+PHAB	RVFCCANBIG_RIP	riparian zone and vegetation: fraction of canopy cover by trees &gt;30 cm dbh in the riparian zone				
+PHAB	RVFCCANBIG_SYN	riparian zone and vegetation: fraction of canopy cover by trees &gt;30 cm dbh synthesizing the 2007 protocol				
+PHAB	RVFCCANSMALL	riparian zone and vegetation: fraction of canopy cover by trees &lt;30 cm dbh				
+PHAB	RVFCCANSMALL_DD	riparian zone and vegetation: fraction of canopy cover by trees &lt;30 cm dbh in the drawdown zone				
+PHAB	RVFCCANSMALL_RIP	riparian zone and vegetation: fraction of canopy cover by trees &lt;30 cm dbh in the riparian zone				
+PHAB	RVFCCANSMALL_SYN	riparian zone and vegetation: fraction of canopy cover by trees &lt;30 cm dbh synthesizing the 2007 protocol				
+PHAB	RVFCGNDBARE	riparian zone and vegetation: fraction of ground lacking cover				
+PHAB	RVFCGNDBARE_DD	riparian zone and vegetation: fraction of ground lacking cover in the drawdown zone				
+PHAB	RVFCGNDBARE_RIP	riparian zone and vegetation: fraction of ground lacking cover in the riparian zone				
+PHAB	RVFCGNDBARE_SYN	riparian zone and vegetation: fraction of ground lacking cover synthesizing the 2007 protocol				
+PHAB	RVFCGNDINUNDATED	riparian zone and vegetation: fraction of ground cover by inundation				
+PHAB	RVFCGNDINUNDATED_DD	riparian zone and vegetation: fraction of ground cover by inundation in the drawdown zone				
+PHAB	RVFCGNDINUNDATED_RIP	riparian zone and vegetation: fraction of ground cover by inundation in the riparian zone				
+PHAB	RVFCGNDINUNDATED_SYN	riparian zone and vegetation: fraction of ground cover by inundation synthesizing the 2007 protocol				
+PHAB	RVFCGNDNONW	riparian zone and vegetation: fraction of ground cover by herbaceous vegetation				
+PHAB	RVFCGNDNONW_DD	riparian zone and vegetation: fraction of ground cover by herbaceous vegetation in the drawdown zone				
+PHAB	RVFCGNDNONW_RIP	riparian zone and vegetation: fraction of ground cover by herbaceous vegetation in the riparian zone				
+PHAB	RVFCGNDNONW_SYN	riparian zone and vegetation: fraction of ground cover by herbaceous vegetation synthesizing the 2007 protocol				
+PHAB	RVFCGNDWOODY	riparian zone and vegetation: fraction of ground cover by woody vegetation				
+PHAB	RVFCGNDWOODY_DD	riparian zone and vegetation: fraction of ground cover by woody vegetation in the drawdown zone				
+PHAB	RVFCGNDWOODY_RIP	riparian zone and vegetation: fraction of ground cover by woody vegetation in the riparian zone				
+PHAB	RVFCGNDWOODY_SYN	riparian zone and vegetation: fraction of ground cover by woody vegetation synthesizing the 2007 protocol				
+PHAB	RVFCUNDNONW	riparian zone and vegetation: fraction of understory cover by nonwoody vegetation				
+PHAB	RVFCUNDNONW_DD	riparian zone and vegetation: fraction of understory cover by nonwoody vegetation in the drawdown zone				
+PHAB	RVFCUNDNONW_RIP	riparian zone and vegetation: fraction of understory cover by nonwoody vegetation in the riparian zone				
+PHAB	RVFCUNDNONW_SYN	riparian zone and vegetation: fraction of understory cover by nonwoody vegetation synthesizing the 2007 protocol				
+PHAB	RVFCUNDWOODY	riparian zone and vegetation: fraction of understory cover by woody vegetation				
+PHAB	RVFCUNDWOODY_DD	riparian zone and vegetation: fraction of understory cover by woody vegetation in the drawdown zone				
+PHAB	RVFCUNDWOODY_RIP	riparian zone and vegetation: fraction of understory cover by woody vegetation in the riparian zone				
+PHAB	RVFCUNDWOODY_SYN	riparian zone and vegetation: fraction of understory cover by woody vegetation synthesizing the 2007 protocol				
+PHAB	RVFPCANBIG	riparian zone and vegetation: Fraction of canopy with large trees present				
+PHAB	RVFPCANBIG_DD	riparian zone and vegetation: Fraction of canopy with large trees present in the drawdown zone				
+PHAB	RVFPCANBIG_RIP	riparian zone and vegetation: Fraction of canopy with large trees present in the riparian zone				
+PHAB	RVFPCANBIG_SYN	riparian zone and vegetation: Fraction of canopy with large trees present synthesizing the 2007 protocol				
+PHAB	RVFPCANBROADLEAF	riparian zone and vegetation: fraction of broadleaf evergreen canopy presence				
+PHAB	RVFPCANBROADLEAF_DD	riparian zone and vegetation: fraction of broadleaf evergreen canopy presence in the drawdown zone				
+PHAB	RVFPCANBROADLEAF_RIP	riparian zone and vegetation: fraction of broadleaf evergreen canopy presence in the riparian zone				
+PHAB	RVFPCANCONIFEROUS	riparian zone and vegetation: fraction of coniferous canopy presence				
+PHAB	RVFPCANCONIFEROUS_DD	riparian zone and vegetation: fraction of coniferous canopy presence in the drawdown zone				
+PHAB	RVFPCANCONIFEROUS_RIP	riparian zone and vegetation: fraction of coniferous canopy presence in the riparian zone				
+PHAB	RVFPCANDECIDUOUS	riparian zone and vegetation: fraction of deciduous canopy presence				
+PHAB	RVFPCANDECIDUOUS_DD	riparian zone and vegetation: fraction of deciduous canopy presence in the drawdown zone				
+PHAB	RVFPCANDECIDUOUS_RIP	riparian zone and vegetation: fraction of deciduous canopy presence in the riparian zone				
+PHAB	RVFPCANMIXED	riparian zone and vegetation: fraction of mixed canopy presence				
+PHAB	RVFPCANMIXED_DD	riparian zone and vegetation: fraction of mixed canopy presence in the drawdown zone				
+PHAB	RVFPCANMIXED_RIP	riparian zone and vegetation: fraction of mixed canopy presence in the riparian zone				
+PHAB	RVFPCANNONE	riparian zone and vegetation: fraction of no canopy present				
+PHAB	RVFPCANNONE_DD	riparian zone and vegetation: fraction of no canopy present in the drawdown zone				
+PHAB	RVFPCANNONE_RIP	riparian zone and vegetation: fraction of no canopy present in the riparian zone				
+PHAB	RVFPCANSMALL	riparian zone and vegetation: fraction of canopy with small trees present				
+PHAB	RVFPCANSMALL_DD	riparian zone and vegetation: fraction of canopy with small trees present in the drawdown zone				
+PHAB	RVFPCANSMALL_RIP	riparian zone and vegetation: fraction of canopy with small trees present in the riparian zone				
+PHAB	RVFPCANSMALL_SYN	riparian zone and vegetation: fraction of canopy with small trees present synthesizing the 2007 protocol				
+PHAB	RVFPGNDBARE	riparian zone and vegetation: fraction of bare ground presence				
+PHAB	RVFPGNDBARE_DD	riparian zone and vegetation: fraction of bare ground presence in the drawdown zone				
+PHAB	RVFPGNDBARE_RIP	riparian zone and vegetation: fraction of bare ground presence in the riparian zone				
+PHAB	RVFPGNDBARE_SYN	riparian zone and vegetation: fraction of bare ground presence synthesizing the 2007 protocol				
+PHAB	RVFPGNDINUNDATED	riparian zone and vegetation: fraction of inundated ground presence				
+PHAB	RVFPGNDINUNDATED_DD	riparian zone and vegetation: fraction of inundated ground presence in the drawdown zone				
+PHAB	RVFPGNDINUNDATED_RIP	riparian zone and vegetation: fraction of inundated ground presence in the riparian zone				
+PHAB	RVFPGNDINUNDATED_SYN	riparian zone and vegetation: fraction of inundated ground presence synthesizing the 2007 protocol				
+PHAB	RVFPGNDNONW	riparian zone and vegetation: fraction of nonwoody ground cover presence				
+PHAB	RVFPGNDNONW_DD	riparian zone and vegetation: fraction of nonwoody ground cover presence in the drawdown zone				
+PHAB	RVFPGNDNONW_RIP	riparian zone and vegetation: fraction of nonwoody ground cover presence in the riparian zone				
+PHAB	RVFPGNDNONW_SYN	riparian zone and vegetation: fraction of nonwoody ground cover presence synthesizing the 2007 protocol				
+PHAB	RVFPGNDWOODY	riparian zone and vegetation: fraction of woody ground cover presence				
+PHAB	RVFPGNDWOODY_DD	riparian zone and vegetation: fraction of woody ground cover presence in the drawdown zone				
+PHAB	RVFPGNDWOODY_RIP	riparian zone and vegetation: fraction of woody ground cover presence in the riparian zone				
+PHAB	RVFPGNDWOODY_SYN	riparian zone and vegetation: fraction of woody ground cover presence synthesizing the 2007 protocol				
+PHAB	RVFPUNDBROADLEAF	riparian zone and vegetation: fraction of broadleaf evergreen understory presence				
+PHAB	RVFPUNDBROADLEAF_DD	riparian zone and vegetation: fraction of broadleaf evergreen understory presence in the drawdown zone				
+PHAB	RVFPUNDBROADLEAF_RIP	riparian zone and vegetation: fraction of broadleaf evergreen understory presence in the riparian zone				
+PHAB	RVFPUNDCONIFEROUS	riparian zone and vegetation: fraction of coniferous understory presence				
+PHAB	RVFPUNDCONIFEROUS_DD	riparian zone and vegetation: fraction of coniferous understory presence in the drawdown zone				
+PHAB	RVFPUNDCONIFEROUS_RIP	riparian zone and vegetation: fraction of coniferous understory presence in the riparian zone				
+PHAB	RVFPUNDDECIDUOUS	riparian zone and vegetation: fraction of deciduous understory presence				
+PHAB	RVFPUNDDECIDUOUS_DD	riparian zone and vegetation: fraction of deciduous understory presence in the drawdown zone				
+PHAB	RVFPUNDDECIDUOUS_RIP	riparian zone and vegetation: fraction of deciduous understory presence in the riparian zone				
+PHAB	RVFPUNDMIXED	riparian zone and vegetation: fraction of mixed understory presence				
+PHAB	RVFPUNDMIXED_DD	riparian zone and vegetation: fraction of mixed understory presence in the drawdown zone				
+PHAB	RVFPUNDMIXED_RIP	riparian zone and vegetation: fraction of mixed understory presence in the riparian zone				
+PHAB	RVFPUNDNONE	riparian zone and vegetation: fraction of no understory present				
+PHAB	RVFPUNDNONE_DD	riparian zone and vegetation: fraction of no understory present in the drawdown zone				
+PHAB	RVFPUNDNONE_RIP	riparian zone and vegetation: fraction of no understory present in the riparian zone				
+PHAB	RVFPUNDNONW	riparian zone and vegetation: fraction of understory with nonwoody cover present				
+PHAB	RVFPUNDNONW_DD	riparian zone and vegetation: fraction of understory with nonwoody cover present in the drawdown zone				
+PHAB	RVFPUNDNONW_RIP	riparian zone and vegetation: fraction of understory with nonwoody cover present in the riparian zone				
+PHAB	RVFPUNDNONW_SYN	riparian zone and vegetation: fraction of understory with nonwoody cover present synthesizing the 2007 protocol				
+PHAB	RVFPUNDWOODY	riparian zone and vegetation: fraction of understory with nonwoody cover present				
+PHAB	RVFPUNDWOODY_DD	riparian zone and vegetation: fraction of understory with nonwoody cover present in the drawdown zone				
+PHAB	RVFPUNDWOODY_RIP	riparian zone and vegetation: fraction of understory with nonwoody cover present in the riparian zone				
+PHAB	RVFPUNDWOODY_SYN	riparian zone and vegetation: fraction of understory with nonwoody cover present synthesizing the 2007 protocol				
+PHAB	RVICANOPY	riparian zone and vegetation: index of total canopy cover 				
+PHAB	RVICANOPY_DD	riparian zone and vegetation: index of total canopy cover  in the drawdown zone				
+PHAB	RVICANOPY_RIP	riparian zone and vegetation: index of total canopy cover  in the riparian zone				
+PHAB	RVICANOPY_SYN	riparian zone and vegetation: index of total canopy cover  synthesizing the 2007 protocol				
+PHAB	RVICANUND	riparian zone and vegetation: index of total canopy and understory cover				
+PHAB	RVICANUND_DD	riparian zone and vegetation: index of total canopy and understory cover in the drawdown zone				
+PHAB	RVICANUND_RIP	riparian zone and vegetation: index of total canopy and understory cover in the riparian zone				
+PHAB	RVICANUND_SYN	riparian zone and vegetation: index of total canopy and understory cover synthesizing the 2007 protocol				
+PHAB	RVIGROUND	riparian zone and vegetation: index of total ground cover				
+PHAB	RVIGROUND_DD	riparian zone and vegetation: index of total ground cover in the drawdown zone				
+PHAB	RVIGROUND_RIP	riparian zone and vegetation: index of total ground cover in the riparian zone				
+PHAB	RVIGROUND_SYN	riparian zone and vegetation: index of total ground cover synthesizing the 2007 protocol				
+PHAB	RVIHERBS	riparian zone and vegetation: index of total herbaceous vegatation cover				
+PHAB	RVIHERBS_DD	riparian zone and vegetation: index of total herbaceous vegatation cover in the drawdown zone				
+PHAB	RVIHERBS_RIP	riparian zone and vegetation: index of total herbaceous vegatation cover in the riparian zone				
+PHAB	RVIHERBS_SYN	riparian zone and vegetation: index of total herbaceous vegatation cover synthesizing the 2007 protocol				
+PHAB	RVITALLWOOD	riparian zone and vegetation: index of canopy and understory woody vegetation cover				
+PHAB	RVITALLWOOD_DD	riparian zone and vegetation: index of canopy and understory woody vegetation cover in the drawdown zone				
+PHAB	RVITALLWOOD_RIP	riparian zone and vegetation: index of canopy and understory woody vegetation cover in the riparian zone				
+PHAB	RVITALLWOOD_SYN	riparian zone and vegetation: index of canopy and understory woody vegetation cover synthesizing the 2007 protocol				
+PHAB	RVITOTALVEG	riparian zone and vegetation: index of total vegetation cover				
+PHAB	RVITOTALVEG_DD	riparian zone and vegetation: index of total vegetation cover in the drawdown zone				
+PHAB	RVITOTALVEG_RIP	riparian zone and vegetation: index of total vegetation cover in the riparian zone				
+PHAB	RVITOTALVEG_SYN	riparian zone and vegetation: index of total vegetation cover synthesizing the 2007 protocol				
+PHAB	RVIUNDERSTORY	riparian zone and vegetation: index of total understory cover				
+PHAB	RVIUNDERSTORY_DD	riparian zone and vegetation: index of total understory cover in the drawdown zone				
+PHAB	RVIUNDERSTORY_RIP	riparian zone and vegetation: index of total understory cover in the riparian zone				
+PHAB	RVIUNDERSTORY_SYN	riparian zone and vegetation: index of total understory cover synthesizing the 2007 protocol				
+PHAB	RVIWOODY	riparian zone and vegetation: index of total woody vegatation cover				
+PHAB	RVIWOODY_DD	riparian zone and vegetation: index of total woody vegatation cover in the drawdown zone				
+PHAB	RVIWOODY_RIP	riparian zone and vegetation: index of total woody vegatation cover in the riparian zone				
+PHAB	RVIWOODY_SYN	riparian zone and vegetation: index of total woody vegatation cover synthesizing the 2007 protocol				
+PHAB	RVNCANBIG	riparian zone and vegetation: Count of values of canopy cover by trees &gt; 30cm				
+PHAB	RVNCANBIG_DD	riparian zone and vegetation: Count of values of canopy cover by trees &gt; 30cm in the drawdown zone				
+PHAB	RVNCANBIG_RIP	riparian zone and vegetation: Count of values of canopy cover by trees &gt; 30cm in the riparian zone				
+PHAB	RVNCANBIG_SYN	riparian zone and vegetation: Count of values of canopy cover by trees &gt; 30cm synthesizing the 2007 protocol				
+PHAB	RVNCANOPY	riparian zone and vegetation: number of canopy type data				
+PHAB	RVNCANOPY_DD	riparian zone and vegetation: number of canopy type data in the drawdown zone				
+PHAB	RVNCANOPY_RIP	riparian zone and vegetation: number of canopy type data in the riparian zone				
+PHAB	RVNCANSMALL	riparian zone and vegetation: Count of values of canopy cover by trees &lt; 30 cm				
+PHAB	RVNCANSMALL_DD	riparian zone and vegetation: Count of values of canopy cover by trees &lt; 30 cm in the drawdown zone				
+PHAB	RVNCANSMALL_RIP	riparian zone and vegetation: Count of values of canopy cover by trees &lt; 30 cm in the riparian zone				
+PHAB	RVNCANSMALL_SYN	riparian zone and vegetation: Count of values of canopy cover by trees &lt; 30 cm synthesizing the 2007 protocol				
+PHAB	RVNGNDBARE	riparian zone and vegetation: count of bare ground values				
+PHAB	RVNGNDBARE_DD	riparian zone and vegetation: count of bare ground values in the drawdown zone				
+PHAB	RVNGNDBARE_RIP	riparian zone and vegetation: count of bare ground values in the riparian zone				
+PHAB	RVNGNDBARE_SYN	riparian zone and vegetation: count of bare ground values synthesizing the 2007 protocol				
+PHAB	RVNGNDINUNDATED	riparian zone and vegetation: count of ground inundation values				
+PHAB	RVNGNDINUNDATED_DD	riparian zone and vegetation: count of ground inundation values in the drawdown zone				
+PHAB	RVNGNDINUNDATED_RIP	riparian zone and vegetation: count of ground inundation values in the riparian zone				
+PHAB	RVNGNDINUNDATED_SYN	riparian zone and vegetation: count of ground inundation values synthesizing the 2007 protocol				
+PHAB	RVNGNDNONW	riparian zone and vegetation: count of nonwoody ground cover values				
+PHAB	RVNGNDNONW_DD	riparian zone and vegetation: count of nonwoody ground cover values in the drawdown zone				
+PHAB	RVNGNDNONW_RIP	riparian zone and vegetation: count of nonwoody ground cover values in the riparian zone				
+PHAB	RVNGNDNONW_SYN	riparian zone and vegetation: count of nonwoody ground cover values synthesizing the 2007 protocol				
+PHAB	RVNGNDWOODY	riparian zone and vegetation: count of woody ground cover values				
+PHAB	RVNGNDWOODY_DD	riparian zone and vegetation: count of woody ground cover values in the drawdown zone				
+PHAB	RVNGNDWOODY_RIP	riparian zone and vegetation: count of woody ground cover values in the riparian zone				
+PHAB	RVNGNDWOODY_SYN	riparian zone and vegetation: count of woody ground cover values synthesizing the 2007 protocol				
+PHAB	RVNUNDERSTORY	riparian zone and vegetation: number of understory type data				
+PHAB	RVNUNDERSTORY_DD	riparian zone and vegetation: number of understory type data in the drawdown zone				
+PHAB	RVNUNDERSTORY_RIP	riparian zone and vegetation: number of understory type data in the riparian zone				
+PHAB	RVNUNDNONW	riparian zone and vegetation: count of values of understory nonwoody cover				
+PHAB	RVNUNDNONW_DD	riparian zone and vegetation: count of values of understory nonwoody cover in the drawdown zone				
+PHAB	RVNUNDNONW_RIP	riparian zone and vegetation: count of values of understory nonwoody cover in the riparian zone				
+PHAB	RVNUNDNONW_SYN	riparian zone and vegetation: count of values of understory nonwoody cover synthesizing the 2007 protocol				
+PHAB	RVNUNDWOODY	riparian zone and vegetation: count of values of understory nonwoody cover				
+PHAB	RVNUNDWOODY_DD	riparian zone and vegetation: count of values of understory nonwoody cover in the drawdown zone				
+PHAB	RVNUNDWOODY_RIP	riparian zone and vegetation: count of values of understory nonwoody cover in the riparian zone				
+PHAB	RVNUNDWOODY_SYN	riparian zone and vegetation: count of values of understory nonwoody cover synthesizing the 2007 protocol				
+PHAB	RVVCANBIG	riparian zone and vegetation: stdev of canopy cover by trees &gt; 30 cm dbh				
+PHAB	RVVCANBIG_DD	riparian zone and vegetation: stdev of canopy cover by trees &gt; 30 cm dbh in the drawdown zone				
+PHAB	RVVCANBIG_RIP	riparian zone and vegetation: stdev of canopy cover by trees &gt; 30 cm dbh in the riparian zone				
+PHAB	RVVCANBIG_SYN	riparian zone and vegetation: stdev of canopy cover by trees &gt; 30 cm dbh synthesizing the 2007 protocol				
+PHAB	RVVCANSMALL	riparian zone and vegetation: stdev of canopy cover by trees &lt; 30 cm dbh				
+PHAB	RVVCANSMALL_DD	riparian zone and vegetation: stdev of canopy cover by trees &lt; 30 cm dbh in the drawdown zone				
+PHAB	RVVCANSMALL_RIP	riparian zone and vegetation: stdev of canopy cover by trees &lt; 30 cm dbh in the riparian zone				
+PHAB	RVVCANSMALL_SYN	riparian zone and vegetation: stdev of canopy cover by trees &lt; 30 cm dbh synthesizing the 2007 protocol				
+PHAB	RVVGNDBARE	riparian zone and vegetation: stdev of ground lacking cover				
+PHAB	RVVGNDBARE_DD	riparian zone and vegetation: stdev of ground lacking cover in the drawdown zone				
+PHAB	RVVGNDBARE_RIP	riparian zone and vegetation: stdev of ground lacking cover in the riparian zone				
+PHAB	RVVGNDBARE_SYN	riparian zone and vegetation: stdev of ground lacking cover synthesizing the 2007 protocol				
+PHAB	RVVGNDINUNDATED	riparian zone and vegetation: stdev of inundated ground cover				
+PHAB	RVVGNDINUNDATED_DD	riparian zone and vegetation: stdev of inundated ground cover in the drawdown zone				
+PHAB	RVVGNDINUNDATED_RIP	riparian zone and vegetation: stdev of inundated ground cover in the riparian zone				
+PHAB	RVVGNDINUNDATED_SYN	riparian zone and vegetation: stdev of inundated ground cover synthesizing the 2007 protocol				
+PHAB	RVVGNDNONW	riparian zone and vegetation: stdev of nonwoody ground cover				
+PHAB	RVVGNDNONW_DD	riparian zone and vegetation: stdev of nonwoody ground cover in the drawdown zone				
+PHAB	RVVGNDNONW_RIP	riparian zone and vegetation: stdev of nonwoody ground cover in the riparian zone				
+PHAB	RVVGNDNONW_SYN	riparian zone and vegetation: stdev of nonwoody ground cover synthesizing the 2007 protocol				
+PHAB	RVVGNDWOODY	riparian zone and vegetation: stdev of woody ground cover				
+PHAB	RVVGNDWOODY_DD	riparian zone and vegetation: stdev of woody ground cover in the drawdown zone				
+PHAB	RVVGNDWOODY_RIP	riparian zone and vegetation: stdev of woody ground cover in the riparian zone				
+PHAB	RVVGNDWOODY_SYN	riparian zone and vegetation: stdev of woody ground cover synthesizing the 2007 protocol				
+PHAB	RVVUNDNONW	riparian zone and vegetation: stdev of understory cover by nonwoody vegetation				
+PHAB	RVVUNDNONW_DD	riparian zone and vegetation: stdev of understory cover by nonwoody vegetation in the drawdown zone				
+PHAB	RVVUNDNONW_RIP	riparian zone and vegetation: stdev of understory cover by nonwoody vegetation in the riparian zone				
+PHAB	RVVUNDNONW_SYN	riparian zone and vegetation: stdev of understory cover by nonwoody vegetation synthesizing the 2007 protocol				
+PHAB	RVVUNDWOODY	riparian zone and vegetation: stdev of understory cover by nonwoody vegetation				
+PHAB	RVVUNDWOODY_DD	riparian zone and vegetation: stdev of understory cover by nonwoody vegetation in the drawdown zone				
+PHAB	RVVUNDWOODY_RIP	riparian zone and vegetation: stdev of understory cover by nonwoody vegetation in the riparian zone				
+PHAB	RVVUNDWOODY_SYN	riparian zone and vegetation: stdev of understory cover by nonwoody vegetation synthesizing the 2007 protocol				
+PHAB	SIFPISLAND	station information: fractional presence of stations at an island				
+PHAB	SINDEPTH	station information: count of station depth				
+PHAB	SIVDEPTH	station information: std dev station depth				
+PHAB	SIXDEPTH	station information: mean station depth				
+PHAB	SS16LDIA	shoreline substrate: 16th percentile of bottom substrate diameter				
+PHAB	SS25LDIA	shoreline substrate: 25th percentile of bottom substrate diameter				
+PHAB	SS50LDIA	shoreline substrate: 50th percentile of bottom substrate diameter				
+PHAB	SS75LDIA	shoreline substrate: 75th percentile of bottom substrate diameter				
+PHAB	SS84LDIA	shoreline substrate: 84th percentile of bottom substrate diameter				
+PHAB	SSFCBEDROCK	shoreline substrate: fractional cover of bedrock				
+PHAB	SSFCBOULDERS	shoreline substrate: fractional cover of Boulder				
+PHAB	SSFCCOBBLE	shoreline substrate: fractional cover of Cobble				
+PHAB	SSFCGRAVEL	shoreline substrate: fractional cover of gravel				
+PHAB	SSFCORGANIC	shoreline substrate: fractional cover of organic				
+PHAB	SSFCOTHER	shoreline substrate: fractional cover of other substrate				
+PHAB	SSFCSAND	shoreline substrate: fractional cover of sand				
+PHAB	SSFCSILT	shoreline substrate: fractional cover of silt				
+PHAB	SSFCWOOD	shoreline substrate: fractional cover of wood				
+PHAB	SSFPBEDROCK	shoreline substrate: fractional presence of bedrock				
+PHAB	SSFPBOULDERS	shoreline substrate: fractional presence of Boulder				
+PHAB	SSFPCOBBLE	shoreline substrate: fractional presence of Cobble				
+PHAB	SSFPGRAVEL	shoreline substrate: fractional presence of gravel				
+PHAB	SSFPORGANIC	shoreline substrate: fractional presence of organic				
+PHAB	SSFPOTHER	shoreline substrate: fractional presence of other substrate				
+PHAB	SSFPSAND	shoreline substrate: fractional presence of sand				
+PHAB	SSFPSILT	shoreline substrate: fractional presence of silt				
+PHAB	SSFPWOOD	shoreline substrate: fractional presence of wood				
+PHAB	SSISITEVARIETY	shoreline substrate: Number of substrate classes present at a site				
+PHAB	SSISTAVARIETY	shoreline substrate: Mean number of substrate classes present in each station				
+PHAB	SSNBEDROCK	shoreline substrate: number of stations with bedrock data				
+PHAB	SSNBOULDERS	shoreline substrate: number of stations with boulder data				
+PHAB	SSNCOBBLE	shoreline substrate: number of stations with cobble data				
+PHAB	SSNGRAVEL	shoreline substrate: number of stations with gravel data				
+PHAB	SSNORGANIC	shoreline substrate: number of stations with organic data				
+PHAB	SSNOTHER	shoreline substrate: number of stations with other substrate data				
+PHAB	SSNSAND	shoreline substrate: number of stations with sand data				
+PHAB	SSNSILT	shoreline substrate: number of stations with silt data				
+PHAB	SSNWOOD	shoreline substrate: number of stations with wood data				
+PHAB	SSOFCLASS	shoreline substrate: Mode of bottom substrate by cover				
+PHAB	SSOPCLASS	shoreline substrate: Mode of bottom substrate by presence				
+PHAB	SSVBEDROCK	shoreline substrate: std dev. Cover of bedrock				
+PHAB	SSVBOULDERS	shoreline substrate: std dev. Cover of boulder				
+PHAB	SSVCOBBLE	shoreline substrate: std dev. Cover of cobble				
+PHAB	SSVGRAVEL	shoreline substrate: std dev. Cover of gravel				
+PHAB	SSVLDIA	shoreline substrate: std dev. logged bottom substrate diameter (mineral)				
+PHAB	SSVORGANIC	shoreline substrate: std dev. Cover of organic				
+PHAB	SSVOTHER	shoreline substrate: std dev. Cover of Other substrate				
+PHAB	SSVSAND	shoreline substrate: std dev. Cover of sand				
+PHAB	SSVSILT	shoreline substrate: std dev. Cover of silt				
+PHAB	SSVWOOD	shoreline substrate: std dev. Cover of wood				
+PHAB	SSXLDIA	shoreline substrate: mean logged bottom substrate diameter (mineral)				
+PHAB	VERTDD	Vertical drawdown distance				m 
+DESIGN	AGGR_ECO3_2015	"NARS 3-level reporting region (2015), based on aggregating AGGR_ECO9_2015 reporting regions"	EHIGH|PLNLOW|WMTNS			
+DESIGN	AGGR_ECO9_2015	"NARS 9-level reporting region (2015), based on aggregated Omernik Level III ecoregions"	CPL|NAP|NPL|SAP|SPL|TPL|UMW|WMT|XER			
+DESIGN	STATE	State lake is assigned to for sampling in NLA 2012				
+VERIF	DATE_COL	Date of sample collection				None
+VERIF	SITE_ID	Identification code for site				
+VERIF	VISIT_NO	Sequential number of visit to site	|1|2			
+	UID	Unique site visit ID				
+	ECO_BIO	Bioregions				
+	PUBLICATION_DATE	Publication Date				

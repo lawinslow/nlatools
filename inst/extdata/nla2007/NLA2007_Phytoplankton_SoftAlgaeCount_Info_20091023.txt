@@ -1,0 +1,51 @@
+VARNUM	NAME	LABEL	TYPE	LENGTH
+1	SITE_ID	Unique site identification number	2	24
+2	VISIT_NO	Lake visit number. 1-1st field sampling visit; 2-2nd field sampling visit	1	
+3	SITE_TYPE	PROB_Samp: Lake is from probability sample and can be used for population estimation.  REF_Lake: Lake is not from probability sample and was selected as a candidate reference lake	2	9
+4	LAKE_SAMP	Evaluation status	2	20
+5	DATE_COL	Date of site visit	1	
+6	DATEPHYT	Date phytosample collected	1	
+7	SAMPLED_PHYT	Phytoplankton sample collected?	2	16
+8	SAMPLE_CATEGORY	(P)rimary or Field (D)uplicate	2	4
+9	INDXSAMP_PHYT	Index phytoplankton sample for site (YES/NO)-typically the Visit 1 Primary sample	2	3
+10	SAMPLE_TYPE	Type of sample (soft ALGAE/DIATOM)	2	6
+11	SAMPLE_DEPTH	Depth of integrated sample (typically 2 m)	1	
+12	PHYT_VOLUME	Sample volume (mL)	1	
+13	PRESERVED_PHYT	Sample preserved (Y/blank)	2	8
+14	FLAG_FLD_PHYT	Field flag for phytoplankton	2	8
+15	COMMENT_FLD_PHYT	Comment and field flag explanations for phytoplankton	2	1000
+16	SAMPLE_ID	Sample ID number	1	
+17	INIT_VOL	Initial volume (mL) or weight of sample (typically 1/3 of 1000 mL)	1	
+18	VOL_COUNT	Volume counted (mL)	1	
+19	CONC_VOL	Volume of concentrated sample (mL) used for fixed count	1	
+20	TOT_AREA	Area of slide or counting chamber bottom (mm2)	1	
+21	CNT_AREA	Area counted (mm2)	1	
+22	OTU	Operational Taxonomic Unit	2	26
+23	TAXANAME	Unique taxon name	2	46
+24	ABUND	Abundance (cells/mL)	1	
+25	COUNT	Number of cells (if natural units)	1	
+26	UNITCELLS	Estimated number of cells (if natural units)	2	6
+27	BIOVOLUME	Total cell volume (L) (=Cell volume * abund)	1	
+28	CELL_VOLUME	Taxa specific biovolume (um^3 cell/mL water)	1	
+29	DIVISION_CNT	Division name (from count file)	2	31
+30	ORDER_CNT	Order name (from count file)	2	17
+31	FAMILY_CNT	Family name (from count file)	2	19
+32	GENUS_CNT	Genus name (from count file)	2	47
+33	SPECIES_CNT	Species name (from count file)	2	16
+34	VARIETY_CNT	Variety name (from count file)	2	12
+35	DISTINCT	Distinct taxon within sample (assigned at Lab)? (Y/N)	2	1
+36	OTU_TAXA	Operational Taxonomic Unit (from taxa list)	2	26
+37	DIVISION	Division name (from taxa list)	2	31
+38	ORDER	Order name (from taxa list)	2	17
+39	FAMILY	Family name (from taxa list)	2	19
+40	GENUS	Genus name (from taxa list)	2	47
+41	SPECIES	Species name (from taxa list)	2	16
+42	VARIETY	Variety name (from taxa list)	2	12
+43	TAXATYPE	Type of algae	2	17
+44	TAXONOMIST_CNT	Initials of taxonomist assigning the taxon name (from count file)	2	12
+45	COMMENT_LAB_PHYT	Laboratory personnel comments	2	255
+46	DATATYPE	Type of data	2	8
+47	SOURCELAB	Laboratory submitting data	2	2
+48	SOURCEDATE	Date results submitted (YYYYMMDD)	2	9
+49	LAB_ID	Sample ID assiged by laboratory	2	10
+50	VISIT_ID	ID of site visit	1	

@@ -1,0 +1,6 @@
+VARNUM	NAME	LABEL	TYPE	LENGTH
+1	SITE_ID	NLA Site Identifier	2	25
+2	VISIT_NO	Within-year Sample Visit Number	1	
+3	SAMPLE_CATEGORY	"Sample category (P=Primary sample, D=Field Duplicate sample)"	2	4
+4	OTU_OE5	Operational Taxonomic Unit assigned for O/E Indicator	2	40
+5	ABUND_OE5	Number of cells/mL (phytoplankton OTUs) or number of individuals/mL (zooplankton OTUs)	1	

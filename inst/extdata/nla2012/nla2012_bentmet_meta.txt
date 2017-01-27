@@ -1,0 +1,176 @@
+TABLE_NAME	SAMPLE_TYPE	DATA_COLUMN	LABEL	LEGAL_VALUES	RANGE_HIGH	RANGE_LOW	UNITS
+tblBENTMET	BENT	AMPHNIND	Number of Amphipoda individuals in sample				NONE
+tblBENTMET	BENT	AMPHNTAX	No. of Amphipoda taxa			0	NONE
+tblBENTMET	BENT	AMPHPIND	% Amphipoda individuals		100	0	NONE
+tblBENTMET	BENT	AMPHPTAX	% Amphipoda taxa		100	0	NONE
+tblBENTMET	BENT	BURRNIND	Number of burrower individuals in sample				NONE
+tblBENTMET	BENT	BURRNTAX	No. of Burrowers taxa			0	NONE
+tblBENTMET	BENT	BURRPIND	% Burrowers individuals		100	0	NONE
+tblBENTMET	BENT	BURRPTAX	% Burrowers taxa		100	0	NONE
+tblBENTMET	BENT	CHIRDOM1PIND	% individuals in most abundant distinct Chironomidae taxon		100	0	NONE
+tblBENTMET	BENT	CHIRDOM3PIND	% individuals in most abundant 3 distinct Chironomidae taxa		100	0	NONE
+tblBENTMET	BENT	CHIRDOM5PIND	% individuals in most abundant 5 distinct Chironomidae taxa		100	0	NONE
+tblBENTMET	BENT	CHIRNIND	Number of Chironomidae individuals in sample				NONE
+tblBENTMET	BENT	CHIRNTAX	No. of Chironomidae taxa			0	NONE
+tblBENTMET	BENT	CHIRPIND	% Chironomidae individuals		100	0	NONE
+tblBENTMET	BENT	CHIRPTAX	% Chironomidae taxa		100	0	NONE
+tblBENTMET	BENT	CLMBNIND	Number of climber individuals in sample				NONE
+tblBENTMET	BENT	CLMBNTAX	No. of Climbers taxa			0	NONE
+tblBENTMET	BENT	CLMBPIND	% Climbers individuals		100	0	NONE
+tblBENTMET	BENT	CLMBPTAX	% Climbers taxa		100	0	NONE
+tblBENTMET	BENT	CLNGNIND	Number of clinger individuals in sample				NONE
+tblBENTMET	BENT	CLNGNTAX	No. of Clingers taxa			0	NONE
+tblBENTMET	BENT	CLNGPIND	% Clingers individuals		100	0	NONE
+tblBENTMET	BENT	CLNGPTAX	% Clingers taxa		100	0	NONE
+tblBENTMET	BENT	COFININD	Number of collector-filterers individuals in sample				NONE
+tblBENTMET	BENT	COFINTAX	No. of Collecter-filterer taxa			0	NONE
+tblBENTMET	BENT	COFIPIND	% Collecter-filterer individuals		100	0	NONE
+tblBENTMET	BENT	COFIPTAX	% Collecter-filterer taxa		100	0	NONE
+tblBENTMET	BENT	COFITRICNIND	Number of collector-filterer Trichoptera individuals in sample				NONE
+tblBENTMET	BENT	COFITRICNTAX	No. of Collector-filterer Trichoptera taxa			0	NONE
+tblBENTMET	BENT	COFITRICPIND	% Collector-filterer Trichoptera individuals		100	0	NONE
+tblBENTMET	BENT	COFITRICPTAX	% Collector-filterer Trichoptera taxa		100	0	NONE
+tblBENTMET	BENT	COGANIND	Number of collector-gatherers individuals in sample				NONE
+tblBENTMET	BENT	COGANTAX	No. of Collecter-gatherer taxa			0	NONE
+tblBENTMET	BENT	COGAPIND	% Collecter-gatherer individuals		100	0	NONE
+tblBENTMET	BENT	COGAPTAX	% Collecter-gatherer taxa		100	0	NONE
+tblBENTMET	BENT	CRUSNIND	Number of Crustacea individuals in sample				NONE
+tblBENTMET	BENT	CRUSNTAX	No. of Crustaceans taxa			0	NONE
+tblBENTMET	BENT	CRUSPIND	% Crustaceans individuals		100	0	NONE
+tblBENTMET	BENT	CRUSPTAX	% Crustaceans taxa		100	0	NONE
+tblBENTMET	BENT	DIPTNIND	Number of Diptera individuals in sample				NONE
+tblBENTMET	BENT	DIPTNTAX	No. of Diptera taxa			0	NONE
+tblBENTMET	BENT	DIPTPIND	% Diptera individuals		100	0	NONE
+tblBENTMET	BENT	DIPTPTAX	% Diptera taxa		100	0	NONE
+tblBENTMET	BENT	DOM1PIND	% individuals in dominant distinct taxon		100	0	NONE
+tblBENTMET	BENT	DOM3PIND	% individuals in dominant 3 distinct taxa		100	0	NONE
+tblBENTMET	BENT	DOM5PIND	% individuals in dominant 5 distinct taxa		100	0	NONE
+tblBENTMET	BENT	EPHENIND	Number of Ephemeroptera individuals in sample				NONE
+tblBENTMET	BENT	EPHENTAX	No. of Ephemeroptera taxa			0	NONE
+tblBENTMET	BENT	EPHEPIND	% Ephemeroptera individuals		100	0	NONE
+tblBENTMET	BENT	EPHEPTAX	% Ephemeroptera taxa		100	0	NONE
+tblBENTMET	BENT	EPOTNIND	"Number of Ephemeroptera, Plecoptera, Odonata, and Trichoptera individuals in sample"				NONE
+tblBENTMET	BENT	EPOTNTAX	"No. of Ephemeroptera, Plecoptera, Odonata, & Trichoptera taxa"			0	NONE
+tblBENTMET	BENT	EPOTPIND	"% Ephemeroptera, Plecoptera, Odonata, & Trichoptera individuals"		100	0	NONE
+tblBENTMET	BENT	EPOTPTAX	"% Ephemeroptera, Plecoptera, Odonata, & Trichoptera taxa"		100	0	NONE
+tblBENTMET	BENT	EPT_NIND	"Number of Ephemeroptera, Plecoptera, and Trichoptera individuals in sample"				NONE
+tblBENTMET	BENT	EPT_NTAX	No. of EPT taxa			0	NONE
+tblBENTMET	BENT	EPT_PIND	% EPT individuals		100	0	NONE
+tblBENTMET	BENT	EPT_PTAX	% EPT taxa		100	0	NONE
+tblBENTMET	BENT	FACLNIND	Number of individuals in sample with tolerance value >3 and <7				NONE
+tblBENTMET	BENT	FACLNTAX	No. of Facultative (3< PTV <7) taxa			0	NONE
+tblBENTMET	BENT	FACLPIND	% Facultative (3< PTV <7) individuals		100	0	NONE
+tblBENTMET	BENT	FACLPTAX	% Facultative (3< PTV <7) taxa		100	0	NONE
+tblBENTMET	BENT	HEMININD	Number of Hemiptera individuals in sample				NONE
+tblBENTMET	BENT	HEMINTAX	No. of Hemiptera taxa			0	NONE
+tblBENTMET	BENT	HEMIPIND	% Hemiptera individuals		100	0	NONE
+tblBENTMET	BENT	HEMIPTAX	% Hemiptera taxa		100	0	NONE
+tblBENTMET	BENT	HPRIME	"Shannon diversity- sum of prop_i*ln(prop_i) based only on distinct taxa, where prop_i=proportion of species i in sample"			0	NONE
+tblBENTMET	BENT	INTLNIND	Number of individuals in sample with tolerance value <=3				NONE
+tblBENTMET	BENT	INTLNTAX	No. of Intolerant (PTV<=3) taxa			0	NONE
+tblBENTMET	BENT	INTLPIND	% Intolerant (PTV<=3) individuals		100	0	NONE
+tblBENTMET	BENT	INTLPTAX	% Intolerant (PTV<=3) taxa		100	0	NONE
+tblBENTMET	BENT	MITENIND	Number of mite individuals in sample				NONE
+tblBENTMET	BENT	MITENTAX	No. of Mite taxa			0	NONE
+tblBENTMET	BENT	MITEPIND	% Mite individuals		100	0	NONE
+tblBENTMET	BENT	MITEPTAX	% Mite taxa		100	0	NONE
+tblBENTMET	BENT	MOLLNIND	Number of Mollusca individuals in sample				NONE
+tblBENTMET	BENT	MOLLNTAX	No. of Mollusca taxa			0	NONE
+tblBENTMET	BENT	MOLLPIND	% Mollusca individuals		100	0	NONE
+tblBENTMET	BENT	MOLLPTAX	% Mollusca taxa		100	0	NONE
+tblBENTMET	BENT	NOINNIND	Number of non-insects individuals in sample				NONE
+tblBENTMET	BENT	NOINNTAX	No. of Non-insects taxa			0	NONE
+tblBENTMET	BENT	NOINPIND	% Non-insects individuals		100	0	NONE
+tblBENTMET	BENT	NOINPTAX	% Non-insects taxa		100	0	NONE
+tblBENTMET	BENT	NTOLNIND	Number of individuals in sample with tolerance value <6				NONE
+tblBENTMET	BENT	NTOLNTAX	No. of non-tolerants (PTV<6) taxa			0	NONE
+tblBENTMET	BENT	NTOLPIND	% non-tolerants (PTV<6) individuals		100	0	NONE
+tblBENTMET	BENT	NTOLPTAX	% non-tolerants (PTV<6) taxa		100	0	NONE
+tblBENTMET	BENT	ODONNIND	Number of Odonata individuals in sample				NONE
+tblBENTMET	BENT	ODONNTAX	No. of Odonata taxa			0	NONE
+tblBENTMET	BENT	ODONPIND	% Odonata individuals		100	0	NONE
+tblBENTMET	BENT	ODONPTAX	% Odonata taxa		100	0	NONE
+tblBENTMET	BENT	OLLENIND	Number of oligochaete and leech individuals in sample				NONE
+tblBENTMET	BENT	OLLENTAX	No. of Oligochaete and leech taxa			0	NONE
+tblBENTMET	BENT	OLLEPIND	% Oligochaete and leech individuals		100	0	NONE
+tblBENTMET	BENT	OLLEPTAX	% Oligochaete and leech taxa		100	0	NONE
+tblBENTMET	BENT	ORTHCHIRPIND	% Chironomidae individuals in Orthocladiinae		100	0	NONE
+tblBENTMET	BENT	ORTHNIND	Number of Orthocladiinae individuals in sample				NONE
+tblBENTMET	BENT	ORTHNTAX	No. of Orthocladiinae chironomid taxa			0	NONE
+tblBENTMET	BENT	ORTHPIND	% Orthocladiinae chironomid individuals		100	0	NONE
+tblBENTMET	BENT	ORTHPTAX	% Orthocladiinae chironomid taxa		100	0	NONE
+tblBENTMET	BENT	PLECNIND	Number of Plecoptera individuals in sample				NONE
+tblBENTMET	BENT	PLECNTAX	No. of Plecoptera taxa			0	NONE
+tblBENTMET	BENT	PLECPIND	% Plecoptera individuals		100	0	NONE
+tblBENTMET	BENT	PLECPTAX	% Plecoptera taxa		100	0	NONE
+tblBENTMET	BENT	PREDNIND	Number of predator individuals in sample				NONE
+tblBENTMET	BENT	PREDNTAX	No. of Predators taxa			0	NONE
+tblBENTMET	BENT	PREDPIND	% Predators individuals		100	0	NONE
+tblBENTMET	BENT	PREDPTAX	% Predators taxa		100	0	NONE
+tblBENTMET	BENT	SCRPNIND	Number of scraper individuals in sample				NONE
+tblBENTMET	BENT	SCRPNTAX	No. of Scrapers taxa			0	NONE
+tblBENTMET	BENT	SCRPPIND	% Scrapers individuals		100	0	NONE
+tblBENTMET	BENT	SCRPPTAX	% Scrapers taxa		100	0	NONE
+tblBENTMET	BENT	SHRDNIND	Number of shredder individuals in sample				NONE
+tblBENTMET	BENT	SHRDNTAX	No. of Shredders taxa			0	NONE
+tblBENTMET	BENT	SHRDPIND	% Shredders individuals		100	0	NONE
+tblBENTMET	BENT	SHRDPTAX	% Shredders taxa		100	0	NONE
+tblBENTMET	BENT	SPWLNIND	Number of sprawler individuals in sample				NONE
+tblBENTMET	BENT	SPWLNTAX	No. of Sprawlers taxa			0	NONE
+tblBENTMET	BENT	SPWLPIND	% Sprawlers individuals		100	0	NONE
+tblBENTMET	BENT	SPWLPTAX	% Sprawlers taxa		100	0	NONE
+tblBENTMET	BENT	STOLNIND	Number of individuals in sample with tolerance value >=8				NONE
+tblBENTMET	BENT	STOLNTAX	No. of taxa with PTV>=8			0	NONE
+tblBENTMET	BENT	STOLPIND	% Individuals with PTV>=8		100	0	NONE
+tblBENTMET	BENT	STOLPTAX	% taxa with PTV>=8		100	0	NONE
+tblBENTMET	BENT	SWIMNIND	Number of swimmer individuals in sample				NONE
+tblBENTMET	BENT	SWIMNTAX	No. of Swimmers taxa			0	NONE
+tblBENTMET	BENT	SWIMPIND	% Swimmers individuals		100	0	NONE
+tblBENTMET	BENT	SWIMPTAX	% Swimmers taxa		100	0	NONE
+tblBENTMET	BENT	TANYNIND	Number of Tanytarsini individuals in sample				NONE
+tblBENTMET	BENT	TANYNTAX	No. of Tanytarsini taxa			0	NONE
+tblBENTMET	BENT	TANYPIND	% Tanytarsini individuals		100	0	NONE
+tblBENTMET	BENT	TANYPTAX	% Tanytarsini taxa		100	0	NONE
+tblBENTMET	BENT	TL01NIND	Number of individuals in sample with tolerance value <2				NONE
+tblBENTMET	BENT	TL01NTAX	No. of taxa with PTV<2			0	NONE
+tblBENTMET	BENT	TL01PIND	% Individuals with PTV <2		100	0	NONE
+tblBENTMET	BENT	TL01PTAX	% taxa with PTV<2		100	0	NONE
+tblBENTMET	BENT	TL23NIND	Number of individuals in sample with tolerance value >=2 and <4				NONE
+tblBENTMET	BENT	TL23NTAX	No. taxa with PTV >=2 & <4			0	NONE
+tblBENTMET	BENT	TL23PIND	% individuals with PTV >=2 & <4		100	0	NONE
+tblBENTMET	BENT	TL23PTAX	% taxa with PTV>=2 & <4		100	0	NONE
+tblBENTMET	BENT	TL45NIND	Number of individuals in sample with tolerance value >=4 and <6				NONE
+tblBENTMET	BENT	TL45NTAX	No. taxa with PTV >=4 & <6			0	NONE
+tblBENTMET	BENT	TL45PIND	% individuals with PTV >=4 & <6		100	0	NONE
+tblBENTMET	BENT	TL45PTAX	% taxa with PTV>=4 & <6		100	0	NONE
+tblBENTMET	BENT	TL67NIND	Number of individuals in sample with tolerance value >=6 and <8				NONE
+tblBENTMET	BENT	TL67NTAX	No. taxa with PTV >=6 & <8			0	NONE
+tblBENTMET	BENT	TL67PIND	% individuals with PTV >=6 & <8		100	0	NONE
+tblBENTMET	BENT	TL67PTAX	% taxa with PTV>=6 & <8		100	0	NONE
+tblBENTMET	BENT	TL89NIND	Number of individuals in sample with tolerance value >=8 and <10				NONE
+tblBENTMET	BENT	TL89NTAX	Number of taxa in sample with tolerance value >=8 and <10				NONE
+tblBENTMET	BENT	TL89PIND	Percent of individuals in sample with tolerance value >=8 and <10				NONE
+tblBENTMET	BENT	TL89PTAX	Percent of taxa in sample with tolerance value >=8 and <10				NONE
+tblBENTMET	BENT	TOLRNIND	Number of individuals in sample with tolerance value >=7				NONE
+tblBENTMET	BENT	TOLRNTAX	No. of Tolerant (PTV>=7) taxa			0	NONE
+tblBENTMET	BENT	TOLRPIND	% Tolerant (PTV>=7) individuals		100	0	NONE
+tblBENTMET	BENT	TOLRPTAX	% Tolerant (PTV>=7) taxa		100	0	NONE
+tblBENTMET	BENT	TOTLNIND	Number of individuals in sample			0	NONE
+tblBENTMET	BENT	TOTLNTAX	Number of distinct taxa in sample			0	NONE
+tblBENTMET	BENT	TRICNIND	Number of Trichoptera individuals in sample				NONE
+tblBENTMET	BENT	TRICNTAX	No. of Trichoptera taxa			0	NONE
+tblBENTMET	BENT	TRICPIND	% Trichoptera individuals		100	0	NONE
+tblBENTMET	BENT	TRICPTAX	% Trichoptera taxa		100	0	NONE
+tblBENTMET	BENT	TUBINAIDNIND	Number of Tubificidae and Naididae individuals in sample				NONE
+tblBENTMET	BENT	TUBINAIDNTAX	No. of Tubificidae and Naididae taxa			0	NONE
+tblBENTMET	BENT	TUBINAIDPIND	% Tubificidae and Naididae individuals		100	0	NONE
+tblBENTMET	BENT	TUBINAIDPTAX	% Tubificidae and Naididae taxa		100	0	NONE
+tblBENTMET	BENT	WTD_TV	"Hilsenhoff Biotic Index (HBI), sum of TV_i*prop_i, where TV_i=tolerance value for species i and prop_i=proportion of taxon i in sample, based on all taxa in sample"		10	0	NONE
+tblSITEDATA	DESIGN	AGGR_ECO3_2015	"NARS 3-level reporting region (2015), based on aggregating AGGR_ECO9_2015 reporting regions"	EHIGH|PLNLOW|WMTNS			
+tblSITEDATA	DESIGN	AGGR_ECO9_2015	"NARS 9-level reporting region (2015), based on aggregated Omernik Level III ecoregions"	CPL|NAP|NPL|SAP|SPL|TPL|UMW|WMT|XER			
+tblVERIFICATION	VERIF	DATE_COL	Date of sample collection				None
+tblVERIFICATION	VERIF	SITE_ID	Identification code for site				
+tblVERIFICATION	VERIF	VISIT_NO	Sequential number of visit to site	|1|2			
+		UID	Unique site visit ID				
+		ECO_BIO	Bioregions				
+		YEAR	Year				

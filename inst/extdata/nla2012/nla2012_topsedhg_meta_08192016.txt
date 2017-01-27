@@ -1,0 +1,21 @@
+SAMPLE_TYPE	DATA_COLUMN	LABEL	LEGAL_VALUES	RANGE_HIGH	RANGE_LOW	UNITS
+DESIGN	AGGR_ECO3_2015	"NARS 3-level reporting region (2015), based on aggregating AGGR_ECO9_2015 reporting regions"	EHIGH|PLNLOW|WMTNS			
+DESIGN	AGGR_ECO9_2015	"NARS 9-level reporting region (2015), based on aggregated Omernik Level III ecoregions"	CPL|NAP|NPL|SAP|SPL|TPL|UMW|WMT|XER			
+DESIGN	STATE	State lake is assigned to for sampling in NLA 2012				
+VERIF	DATE_COL	Date of sample collection				None
+VERIF	SITE_ID	Identification code for site				
+VERIF	VISIT_NO	Sequential number of visit to site	|1|2			
+SEDG	TOTALHG_RESULT	Analyte value for bottom sediment mercury for Total Mercury				
+SEDG	TOTALHG_UNITS	Units for Total Mercury				
+SEDG	TOTALHG_BATCH_ID	Batch ID from lab for Total Mercury				
+SEDH	METHYLMERCURY_RESULT	Analyte value for top sediment mercury for Methyl mercury				
+SEDH	METHYLMERCURY_UNITS	Units for Methyl mercury				
+SEDH	METHYLMERCURY_BATCH_ID	Batch ID from lab for Methyl mercury				
+SEDH	TOTALHG_RESULT	Analyte value for top sediment mercury for Total Mercury				
+SEDH	TOTALHG_UNITS	Units for Total Mercury				
+SEDH	TOTALHG_BATCH_ID	Batch ID from lab for Total Mercury				
+	ECO_BIO	Bioregions				
+	LAB	Lab name 				
+	PUBLICATION_DATE	Publication Date				
+	SEDH_SAMPLE_ID	Top Sediment sample ID				
+	UID	Unique Site Visit ID				

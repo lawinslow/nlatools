@@ -1,0 +1,67 @@
+SAMPLE_TYPE	VARIABLE	LABEL	LEGAL_VALUES	RANGE_HIGH	RANGE_LOW	UNITS
+MACRO	DEPTH	Depth at collection point		10	0	m
+PROF	DEPTH	Depth for profile measurements		25	0	m
+PHAB	ODOR	Odor Type	|NONE|H2S|ANOXIC|OIL|CHEMICAL|OTHER.*			
+PROF	ODOR	Odor present	|Y|N			
+CALIB	CAL_INST_ID	ID of calibration instrument				
+CALIB	CAL_INST_MODEL	Calibration instrument model				
+CALIB	CAL_INST_OPERATOR	Name of calibration instrument operator				
+CALIB	CALIBRATION_VERIFIED	Calibration verified	|Y|N			
+CALIB	CON_STD1_VALUE	Conductivity standard 1 value		1500	0	
+CALIB	COND_QCS_DESC	Conductivity quality control sample description				
+CALIB	COND_QCS_MEASURED	Measurement for conductivity quality control sample		1500	0	uS/cm
+CALIB	COND_QCS_TRUE	True for conductivity quality control sample		1500	0	uS/cm
+CALIB	COND_STD1_DESC	Conductivity standard 1 description				
+CALIB	COND_STD1_VALUE	Conductivity standard 1 value		1500	0	
+CALIB	COND_STD2_DESC	Conductivity standard 2 description				
+CALIB	COND_STD2_VALUE	Conductivity standard 2 value		1500	0	
+CALIB	DO_BARO_PRESSURE	Barometric pressure for DO reading				mm Hg
+CALIB	DO_CALIBRATION_UNITS	Units for DO Calibration	|PERCENT|mg/L			
+CALIB	DO_CALIBRATION_VALUE	DO Calibration value		100	0	
+CALIB	DO_DISPLAYED_UNITS	DO displayed units	|PERCENT|mg/L			
+CALIB	DO_DISPLAYED_VALUE	DO displayed value		101	0	
+CALIB	DO_ELEVATION	Elevation for DO reading		9000	0	mm Hg
+CALIB	DUPLICATE_DO	Duplicate DO reading taken	|YES|NO|Y|N			
+CALIB	PH_QCS_DESC	PH quality control sample description				
+CALIB	PH_QCS_MEASURED	Measurement for PH quality control sample		14	1	
+CALIB	PH_QCS_TRUE	True for PH quality control sample		14	1	
+CALIB	PH_STD1_DESC	PH standard 1 description				
+CALIB	PH_STD1_VALUE	PH standard 1 value		14	1	
+CALIB	PH_STD2_DESC	PH standard 2 description				
+CALIB	PH_STD2_VALUE	PH standard 2 value		14	1	
+CALIB	TEMP_SENSOR	Sensor reading		30	0	c
+CALIB	TEMP_THERMOMETER	Thermometer reading		30	0	c
+MACRO	DEPTH	Depth at collection point		10	0	m
+PHAB	ODOR	Odor Type	|NONE|H2S|ANOXIC|OIL|CHEMICAL|OTHER.*			
+PROF	ARRIVAL_TIME	Time of arrival to index site				datetime
+PROF	CALIBRATION_VERIFIED	Calibration verified	|Y|N			
+PROF	CONDUCTIVITY	Conductivity for index profile		1500	0	uS/cm
+PROF	DEPTH	Depth for profile measurements		25	0	m
+PROF	DEPTH_METHOD	Method for depth measurements	|LINE|SONAR|POLE|ESTIMATE			
+PROF	DO2_2M	Dissolved oxygen averaged over the top 2 m of water				mg/L
+PROF	DUPLICATE_DO	Duplicate DO reading w/i +/-0.5 mg/L of the initial surface reading	|YES|NO|Y|N			
+PROF	E_FILE	Profile data submitted via external file	|YES|NO|Y|N			
+PROF	INDEX_GPS_FIX	"Type of GPS at the index site (2D, 3D)"	|2D|3D			
+PROF	INDEX_LAT_DD	Lattitude in decimal degrees at index site				dd
+PROF	INDEX_LON_DD	Longitude in decimal degrees at index site				dd
+PROF	INDEX_SITE_DEPTH	Depth at the index site		25	0	m
+PROF	METALIMNION	Depth indicated for (T)op and (B)ottom of the metalimnion	|T|B			
+PROF	ODOR	Odor present	|Y|N			
+PROF	OXYGEN	Oxygen for index profile		25	0	mg/L
+PROF	PH	PH for index profile		14	1	
+PROF	PRECIPITATION	Precipitation at index site	|NONE|LIGHT|HEAVY			
+PROF	SCUM	Scum present	|YES|NO			
+PROF	SCUM_DESC	Description of scum				
+PROF	SURFACE_COND	Lake surface conditions	|FLAT|RIPPLES|CHOPPY|WHITECAPS			
+PROF	TEMP_CORRECTED	Conductivity temperature corrected	|Y|N			
+PROF	TEMPERATURE	Temperature for index profile		35	0	c
+DESIGN	STATE	State lake is assigned to for sampling in NLA 2012				
+PROF	INDEX_LAT_DD	Lattitude in decimal degrees at index site				dd
+PROF	INDEX_LON_DD	Longitude in decimal degrees at index site				dd
+VERIF	DATE_COL	Date of sample collection				None
+VERIF	SITE_ID	Identification code for site				
+VERIF	VISIT_NO	Sequential number of visit to site	|1|2			
+	UID	Unique site visit ID				
+	SAMPLE_TYPE	Sample type				
+	PUBLICATION_DATE	Publication Date				
+	LINE	Line				

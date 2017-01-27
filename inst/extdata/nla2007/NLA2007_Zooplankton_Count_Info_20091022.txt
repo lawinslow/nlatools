@@ -1,0 +1,61 @@
+VARNUM	NAME	LABEL	TYPE	LENGTH
+1	SITE_ID	Unique site identification number. Sites NLA06608-0001 to NLA06608-9999 are probability sample lakes.  Others are non-probability survey lakes	2	25
+2	VISIT_NO	Lake visit number. 0-lake evaluated but no field visit for sampling; 1-1st field sampling visit; 2-2nd field sampling visit	1	
+3	SITE_TYPE	PROB_Samp: Lake is from probability sample and can be used for population estimation.  REF_Lake: Lake is not from probability sample and was selected as a candidate reference lake	2	10
+4	LAKE_SAMP	Lake evaluation status.  Target_Sampled: Target lake that was sampled. Target_Denied: Target lake but lake owner denied access.  Target_Inaccess: Target lake that was physically inaccessible. Target-Other: Target lake that should have been sampled but was	2	20
+5	DATEZOOP	Date zooplankton collected (from field form)	1	
+6	SAMPLED_ZOOP	Zooplankton sample collected?	2	24
+7	SAMPLE_CATEGORY	"Sample category (P=Primary sample, D=Field duplicate sample)"	2	4
+8	INDXSAMP_ZOOP	Index zooplankton sample for site (YES/NO)-typically the VIsit 1 Primary sample	2	3
+9	MESH_SIZE	"Mesh size of collecting Net (243um, 80 um)"	2	3
+10	SAMPLE_TYPE	4 character code for type of sample taken	2	8
+11	SAMPLE_ID	Sample ID number	1	
+12	DEPTHMAX	Maximum Observed Lake Depth (m)	1	
+13	DEPTH_X	Lake Depth (m) at Index Site	1	
+14	DEPTH_OF_TOW	Depth of tow for zooplankton sample (m)	1	
+15	JAR_NO	Number of jars in sample	1	
+16	FLAG_ZOOP_FLD	Data qualifier flag for zooplankton sampling	2	8
+17	COMMENT_ZOOP_FLD	Comment and flag explanations for zooplanktion sampling	2	1000
+18	INIT_VOL	Initial volume (mL) or proportion (0-1) of concentrated sample	1	
+19	VOL_COUNT	Volume (or proportion) of concentrated sample used for fixed count	1	
+20	OTU_CPH	Operational Taxonomic Unit (C. Hawkins)	2	40
+21	OTU	Operational Taxonomic Unit (R. Mitchell)	2	40
+22	OTUCODE	OTU Code	2	8
+23	FAMILY_CNT	Family name	2	20
+24	GENUS_CNT	Genus name	2	20
+25	SPECIES_CNT	Species name	2	30
+26	TAXANAME	Unique taxon name	2	40
+27	ABUND	Number of individuals enumerated in subsample (VOL_COUNT)	1	
+28	NAUPLII	Nauplii present (Y/N)	2	1
+29	NAUP_EST_ABUND	Estimated abundance of nauplii (C=Common (21-100) R=Rare (1-20) A=Abundant (>100)	2	1
+30	LG_SCAN	Present in large/rare scan of sample (Y/N)	2	1
+31	DISTINCT	Distinct taxon within sample (Lab)? (Y/N)	2	1
+32	EX_TAX	Exotic taxon (Y/N/)	2	1
+33	LAB_TAXON	Unique taxon code assigned by laboratory	2	8
+34	TSN	ITIS Taxonomic Serial Number	2	8
+35	PAR_TSN	Partial ITIS Taxonomic Serial Number	2	8
+36	PHYLUM	Phylum	2	15
+37	SUBPHYLUM	Subphylum	2	15
+38	CLASS	Class	2	15
+39	SUBCLASS	Subclass	2	20
+40	ORDER	Order	2	20
+41	SUBORDER	Suborder	2	15
+42	FAMILY	Family	2	20
+43	SUBFAMILY	Subfamily	2	20
+44	GENUS	Genus	2	20
+45	SUBGENUS	Subgenus	2	25
+46	SPECIES	Species	2	30
+47	RANK	Target Level of Taxonomic Resolution	2	15
+48	INVASIVE	Invasive Taxa? (Y/N)	2	5
+49	CLADOCERA_SIZE	Cladocera size class (R. Mitchell)	2	8
+50	FFG	Functional Feeding Group	2	15
+51	TAXONOMIST	Initials of taxonomist assigning the taxon name	2	16
+52	SAMP_PROB	Comments related to problems with the sample	2	150
+53	COM_LAB	Laboratory personnel comments	2	150
+54	OTUMERGE	Variable to merge count and autecology files	2	40
+55	DATATYPE	Type of data	2	3
+56	SOURCELAB	Laboratory submitting data	2	12
+57	SOURCEDATE	Date results submitted (YYYYMMDD)	2	8
+58	LAB_ID	Sample ID assiged by laboratory	2	12
+59	AUTO_ID	Sequential record number from original file	1	
+60	VISIT_ID	Number Assigned to Each Visit	1	

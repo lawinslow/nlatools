@@ -1,0 +1,156 @@
+SAMPLE_TYPE	VARIABLE	LABEL	LEGAL_VALUES	RANGE_HIGH	RANGE_LOW	UNITS
+ASSESS	REVIEWED_BY_INITIAL	Intials of form reviewer				
+PHAB	REVIEWED_BY_INITIAL	Intials of form reviewer				
+VERIF	REVIEWED_BY_INITIAL	Initial of reviewer of forms				
+ASSESS	REVIEWED_BY_INITIAL	Intials of form reviewer				
+BENT	ACTUAL_DATE	Actual date sample was collected if different from DATE_COL for site				datetime
+CARP	ACTUAL_DATE	Actual date sample was collected if different from DATE_COL for site				datetime
+CARU	ACTUAL_DATE	Actual date sample was collected if different from DATE_COL for site				datetime
+CHEM	ACTUAL_DATE	Actual date sample was collected if different from DATE_COL for site				datetime
+CHLL	ACTUAL_DATE	Actual date sample was collected if different from DATE_COL for site				datetime
+CHLX	ACTUAL_DATE	Actual date sample was collected if different from DATE_COL for site				datetime
+ISOT	ACTUAL_DATE	Actual date sample was collected if different from DATE_COL for site				datetime
+NUTS	ACTUAL_DATE	Actual date sample was collected if different from DATE_COL for site				datetime
+PHAB	AM_EMERGENT	"Emergent aquatic macrophytes (0=0%, 1=<10%, 2=10-40%, 3=40-75%, 4=>75%)"	|0|1|2|3|4			
+PHAB	AM_FLOATING	"Floating aquatic macrophytes (0=0%, 1=<10%, 2=10-40%, 3=40-75%, 4=>75%)"	|0|1|2|3|4			
+PHAB	AM_SUBMERGENT	"Submergent aquatic macrophytes (0=0%, 1=<10%, 2=10-40%, 3=40-75%, 4=>75%)"	|0|1|2|3|4			
+PHAB	AM_TOTALCOVER	"Total cover aquatic macrophytes (0=0%, 1=<10%, 2=10-40%, 3=40-75%, 4=>75%)"	|0|1|2|3|4			
+PHAB	ANGLE	Bank angle	|FLAT|GRADUAL|STEEP|NEAR_VERTICAL_UNDERCUT			
+PHAB	BS_BEDROCK	"Bottom substrate bedrock (0=0%, 1=<10%, 2=10-40%, 3=40-75%, 4=>75%)"	|0|1|2|3|4			
+PHAB	BS_BOULDER	"Bottom substrate boulders (0=0%, 1=<10%, 2=10-40%, 3=40-75%, 4=>75%)"	|0|1|2|3|4			
+PHAB	BS_COBBLE	"Bottom substrate cobble (0=0%, 1=<10%, 2=10-40%, 3=40-75%, 4=>75%)"	|0|1|2|3|4			
+PHAB	BS_COLOR	Bottom substrate color	|BLACK|GRAY|BROWN|RED|OTHER.*			
+PHAB	BS_COLOR_DESC	Description of substrate color				
+PHAB	BS_GRAVEL	"Bottom substrate gravel (0=0%, 1=<10%, 2=10-40%, 3=40-75%, 4=>75%)"	|0|1|2|3|4			
+PHAB	BS_ORGANIC	"Bottom substrate organic (0=0%, 1=<10%, 2=10-40%, 3=40-75%, 4=>75%)"	|0|1|2|3|4			
+PHAB	BS_OTHER	percent cover by other	|0|1|2|3|4			
+PHAB	BS_SAND	"Bottom substrate sand (0=0%, 1=<10%, 2=10-40%, 3=40-75%, 4=>75%)"	|0|1|2|3|4			
+PHAB	BS_SILT	"Bottom substrate silt (0=0%, 1=<10%, 2=10-40%, 3=40-75%, 4=>75%)"	|0|1|2|3|4			
+PHAB	BS_WOOD	"Bottom substrate woody debris (0=0%, 1=<10%, 2=10-40%, 3=40-75%, 4=>75%)"	|0|1|2|3|4			
+PHAB	C_BIGTREES	"Canopy big trees (Trunk > 0.3 DBH)(0=0%, 1=<10%, 2=10-40%, 3=40-75%, 4=>75%)"	|0|1|2|3|4			
+PHAB	C_BIGTREES_DD	percent cover by Canopy big trees (Trunk > 0.3 DBH) in the draw down zone	|0|1|2|3|4			
+PHAB	C_SMALLTREES	"Canopy small trees (Trunk < 0.3 DBH)(0=0%, 1=<10%, 2=10-40%, 3=40-75%, 4=>75%)"	|0|1|2|3|4			
+PHAB	C_SMALLTREES_DD	percent cover by canopy small trees (Trunk < 0.3 DBH) in the draw down zone	|0|1|2|3|4			
+PHAB	CANOPY	Canopy type	|C|D|E|M|N			
+PHAB	CANOPY_DD	Canopy type in the draw down zone	|C|D|E|M|N			
+PHAB	COLOR	NLA 2007 Littoral substrate color 	BL|BR|GY|O|RD			
+PHAB	COVER_ARTIFICIAL	NLA 2007 Littoral Fish Macrohabitat Characterization - Cover Type: Artificial 	X			
+PHAB	COVER_BOULDERS	NLA 2007 Littoral Fish Macrohabitat Characterization - Cover Type: Boulders	X			
+PHAB	COVER_CLASS	NLA 2007 Littoral Fish Macrohabitat Characterization - Cover Class	NO COVER|CONTINUOUS COVER|PATCHY COVER			
+PHAB	COVER_FILL	NLA 2007 Littoral Fish Macrohabitat Characterization - Cover Type: Fill	X			
+PHAB	COVER_NONE	NLA 2007 Littoral Fish Macrohabitat Characterization - Cover Type: None	X			
+PHAB	COVER_VEG	NLA 2007 Littoral Fish Macrohabitat Characterization - Cover Type: Vegetation	X			
+PHAB	COVER_WOODY	NLA 2007 Littoral Fish Macrohabitat Characterization - Cover Type: Woody	X			
+PHAB	DEPTH_AT_STATION	Depth at station 10m off shore		30	0	M
+PHAB	DEPTH_UNIT	Depth units used				
+PHAB	DRAWDOWN	Station dropped or relocated (X/blank)	|Y|N|YES|NO			
+PHAB	DROPPED	Drawdown?	|YES|NO|Y|N			
+PHAB	FC_AQUATIC	"Fish cover aquatic vegetation (0=0%, 1=<10%, 2=10-40%, 3=40-75%, 4=>75%)"	|0|1|2|3|4			
+PHAB	FC_AQUATIC_DD	percent fish cover by aquatic veg in the drawdown zone	|0|1|2|3|4			
+PHAB	FC_BOULDERS	"Fish cover boulders (0=0%, 1=<10%, 2=10-40%, 3=40-75%, 4=>75%)"	|0|1|2|3|4			
+PHAB	FC_BOULDERS_DD	percent fish cover by boulders in the drawdown zone	|0|1|2|3|4			
+PHAB	FC_BRUSH	"Fish cover brush (0=0%, 1=<10%, 2=10-40%, 3=40-75%, 4=>75%)"	|0|1|2|3|4			
+PHAB	FC_BRUSH_DD	percent fish cover by brush in the drawdown zone	|0|1|2|3|4			
+PHAB	FC_LEDGES	"Fish cover ledges (0=0%, 1=<10%, 2=10-40%, 3=40-75%, 4=>75%)"	|0|1|2|3|4			
+PHAB	FC_LEDGES_DD	percent fish cover by ledges in the drawdown zone	|0|1|2|3|4			
+PHAB	FC_LIVETREES	"Fish cover live trees (0=0%, 1=<10%, 2=10-40%, 3=40-75%, 4=>75%)"	|0|1|2|3|4			
+PHAB	FC_LIVETREES_DD	percent fish cover by live trees in the drawdown zone	|0|1|2|3|4			
+PHAB	FC_OVERHANG	"Fish cover overhanging vegetation (0=0%, 1=<10%, 2=10-40%, 3=40-75%, 4=>75%)"	|0|1|2|3|4			
+PHAB	FC_OVERHANG_DD	percent fish cover by overhanging veg in the drawdown zone	|0|1|2|3|4			
+PHAB	FC_SNAGS	"Fish cover woody debris/snags (0=0%, 1=<10%, 2=10-40%, 3=40-75%, 4=>75%)"	|0|1|2|3|4			
+PHAB	FC_SNAGS_DD	percent fish cover by snags in the drawdown zone	|0|1|2|3|4			
+PHAB	FC_STRUCTURES	"Fish cover human structures (0=0%, 1=<10%, 2=10-40%, 3=40-75%, 4=>75%)"	|0|1|2|3|4			
+PHAB	FC_STRUCTURES_DD	percent fish cover by human structures in the drawdown zone	|0|1|2|3|4			
+PHAB	GC_BARE	"Ground cover bare (0=0%, 1=<10%, 2=10-40%, 3=40-75%, 4=>75%)"	|0|1|2|3|4			
+PHAB	GC_BARE_DD	percent ground uncovered in the drawdown zone	|0|1|2|3|4			
+PHAB	GC_INUNDATED	"Ground cover inundated vegetation (0=0%, 1=<10%, 2=10-40%, 3=40-75%, 4=>75%)"	|0|1|2|3|4			
+PHAB	GC_INUNDATED_DD	percent ground cover by inundation in the drawdown zone	|0|1|2|3|4			
+PHAB	GC_NONWOODY	"Ground cover nonwoody (0=0%, 1=<10%, 2=10-40%, 3=40-75%, 4=>75%)"	|0|1|2|3|4			
+PHAB	GC_NONWOODY_DD	percent ground cover by nonwoody veg in the drawdown zone	|0|1|2|3|4			
+PHAB	GC_WOODY	"Ground cover woody (0=0%, 1=<10%, 2=10-40%, 3=40-75%, 4=>75%)"	|0|1|2|3|4			
+PHAB	GC_WOODY_DD	percent ground cover by woody veg in the drawdown zone	|0|1|2|3|4			
+PHAB	HI_BUILDINGS	Human influence buildings (O=non present/P=present outside plot/C=present w/i plot)	|0|P|C			
+PHAB	HI_BUILDINGS_DD	Human influence by buildings in the drawdown zone	|0|P|C			
+PHAB	HI_COMMERCIAL	Human influence commercial(O=non present/P=present outside plot/C=present w/i plot)	|0|P|C			
+PHAB	HI_COMMERCIAL_DD	Human influence by commercial use in the drawdown zone	|0|P|C			
+PHAB	HI_CROPS	Human influence row crops (O=non present/P=present outside plot/C=present w/i plot)	|0|P|C			
+PHAB	HI_CROPS_DD	Human influence by row crops in the drawdown zone	|0|P|C			
+PHAB	HI_DOCKS	Human influence docks(O=non present/P=present outside plot/C=present w/i plot)	|0|P|C			
+PHAB	HI_DOCKS_DD	Human influence by docks in the drawdown zone	|0|P|C			
+PHAB	HI_LANDFILL	Human influence landfill(O=non present/P=present outside plot/C=present w/i plot)	|0|P|C			
+PHAB	HI_LANDFILL_DD	Human influence by landfill in the drawdown zone	|0|P|C			
+PHAB	HI_LAWN	Human influence lawn (O=non present/P=present outside plot/C=present w/i plot)	|0|P|C			
+PHAB	HI_LAWN_DD	Human influence by lawn in the drawdown zone	|0|P|C			
+PHAB	HI_ORCHARD	Human influence orchard (O=non present/P=present outside plot/C=present w/i plot)	|0|P|C			
+PHAB	HI_ORCHARD_DD	Human influence by orchards in the drawdown zone	|0|P|C			
+PHAB	HI_OTHER	Human influence other (O=non present/P=present outside plot/C=present w/i plot)	|0|P|C			
+PHAB	HI_OTHER_DD	Human influence by other in the drawdown zone	|0|P|C			
+PHAB	HI_PARK	Human influence park facilities (O=non present/P=present outside plot/C=present w/i plot)	|0|P|C			
+PHAB	HI_PARK_DD	Human influence by park in the drawdown zone	|0|P|C			
+PHAB	HI_PASTURE	Human influence pasture (O=non present/P=present outside plot/C=present w/i plot)	|0|P|C			
+PHAB	HI_PASTURE_DD	Human influence by pasture in the drawdown zone	|0|P|C			
+PHAB	HI_POWERLINES	Human influence powerlines(O=non present/P=present outside plot/C=present w/i plot)	|0|P|C			
+PHAB	HI_POWERLINES_DD	Human influence by powerlines in the drawdown zone	|0|P|C			
+PHAB	HI_ROADS	Human influence roads (O=non present/P=present outside plot/C=present w/i plot)	|0|P|C			
+PHAB	HI_ROADS_DD	Human influence by roads in the drawdown zone	|0|P|C			
+PHAB	HI_WALLS	Human influence walls (O=non present/P=present outside plot/C=present w/i plot)	|0|P|C			
+PHAB	HI_WALLS_DD	Human influence by walls in the drawdown zone	|0|P|C			
+PHAB	HORIZ_DIST	Horizontal distance from waterline to high water mark (m)		1000	0	
+PHAB	HORIZ_DIST_DD	Horizontal distance from waterline to high water mark		200	0	 
+PHAB	HUMAN_DISTURBANCE	NLA 2007 Littoral Fish Macrohabitat Characterization - Human Disturbance	NONE|LOW|MODERATE|HEAVY			
+PHAB	ISLAND	Station an island (X/blank)	|Y|N|YES|NO			
+PHAB	LATITUDE	Latitude at station		90	-90	
+PHAB	LONGITUDE	Longitude at station		180	-180	
+PHAB	MACRO_LAKEWARD	Do macrophytes extend lakeward (Y/N)	|Y|N			
+PHAB	NEW_STATION	New station code	|K|L|M|N|P|Q|R|S|T|U|V|W|X|Y|Z			
+PHAB	ODOR	Odor Type	|NONE|H2S|ANOXIC|OIL|CHEMICAL|OTHER.*			
+PHAB	ODOR_DESC	Description of Odor				
+PHAB	REVIEWED_BY_INITIAL	Intials of form reviewer				
+PHAB	SHORELINE_FLOODING	Presence of Shoreling flooding	|Y|N|YES|NO			
+PHAB	SS_BEDROCK	percent cover by bedrock on shore 1-M zone	|0|1|2|3|4			
+PHAB	SS_BOULDERS	percent cover by boulders on shore 1-M zone	|0|1|2|3|4			
+PHAB	SS_COBBLE	percent cover by cobble on shore 1-M zone	|0|1|2|3|4			
+PHAB	SS_GRAVEL	percent cover by gravel on shore 1-M zone	|0|1|2|3|4			
+PHAB	SS_ORGANIC	percent cover by organic on shore 1-M zone	|0|1|2|3|4			
+PHAB	SS_OTHER	percent cover by other on shore 1-M zone	|0|1|2|3|4			
+PHAB	SS_SAND	percent cover by sand on shore 1-M zone	|0|1|2|3|4			
+PHAB	SS_SILT	percent cover by silt on shore 1-M zone	|0|1|2|3|4			
+PHAB	SS_WOOD	percent cover by woody on shore 1-M zone	|0|1|2|3|4			
+PHAB	STATION	Station	|A|B|C|D|E|F|G|H|I|J|K			
+PHAB	STATION_RELOCATED	Station relocated (Y/blank)	|Y|N|YES|NO			
+PHAB	SURFACE_FILM	Surface film type	|NONE|SCUM|ALGAL_MAT|OILY|OTHER.*			
+PHAB	SURFACE_FILM_DESC	Surface file description				
+PHAB	U_NONWOODY	"Understory - nonwoody (0=0%, 1=<10%, 2=10-40%, 3=40-75%, 4=>75%)"	|0|1|2|3|4			
+PHAB	U_NONWOODY_DD	percent understory cover by nonwoody veg in the drawdown zone	|0|1|2|3|4			
+PHAB	U_WOODY	"Understory woody (0=0%, 1=<10%, 2=10-40%, 3=40-75%, 4=>75%)"	|0|1|2|3|4			
+PHAB	U_WOODY_DD	percent understory cover by woody veg in the drawdown zone	|0|1|2|3|4			
+PHAB	UNABLE_TO_SAMPLE	Unable to sample site for physical habitat	X			
+PHAB	UNDERSTORY	Understory type	|C|D|E|M|N			
+PHAB	UNDERSTORY_DD	Understory type in the draw down zone	|C|D|E|M|N			
+PHAB	VERT_HEIGHT	Vertical height from waterline to high water mark (m)		5	0	m
+PHAB	VERT_HEIGHT_DD	Vertical height from waterline to high water mark		100	0	m
+PROF	ODOR	Odor present	|Y|N			
+PROF	ODOR_DESC	Description of odor				
+SEDB	ACTUAL_DATE	Actual date sample was collected if different from DATE_COL for site				datetime
+SEDD	ACTUAL_DATE	Actual date sample was collected if different from DATE_COL for site				datetime
+SEDG	ACTUAL_DATE	Actual date sample was collected if different from DATE_COL for site				datetime
+SEDH	ACTUAL_DATE	Actual date sample was collected if different from DATE_COL for site				datetime
+SEDT	ACTUAL_DATE	Actual date sample was collected if different from DATE_COL for site				datetime
+SUBBENT	SUBSTRATE	Substrate Code	|ROCKY/COBBLE/WOODY_DEBRIS|MACROPHYTE_BEDS|ORGANIC/FINE_MUDS|LEAF_PACK|OTHER			
+VERIF	REVIEWED_BY_INITIAL	Initial of reviewer of forms				
+PHAB	ODOR	Odor Type	|NONE|H2S|ANOXIC|OIL|CHEMICAL|OTHER.*			
+PHAB	ODOR_DESC	Description of Odor				
+PROF	ODOR	Odor present	|Y|N			
+PROF	ODOR_DESC	Description of odor				
+DESIGN	STATE	State lake is assigned to for sampling in NLA 2012				
+SUBBENT	SUBSTRATE	Substrate Code	|ROCKY/COBBLE/WOODY_DEBRIS|MACROPHYTE_BEDS|ORGANIC/FINE_MUDS|LEAF_PACK|OTHER			
+ASSESS	REVIEWED_BY_INITIAL	Intials of form reviewer				
+PHAB	REVIEWED_BY_INITIAL	Intials of form reviewer				
+VERIF	DATE_COL	Date of sample collection				None
+VERIF	REVIEWED_BY_INITIAL	Initial of reviewer of forms				
+VERIF	SITE_ID	Identification code for site				
+VERIF	VISIT_NO	Sequential number of visit to site	|1|2			
+	FORM_TYPE	Form type				
+	PUBLICATION_DATE	Publication Date				
+	SAMPLE_TYPE	Sample type				
+	UID	Unique site visit ID				

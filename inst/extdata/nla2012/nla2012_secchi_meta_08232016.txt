@@ -1,0 +1,16 @@
+SAMPLE_TYPE	DATA_COLUMN	LABEL	LEGAL_VALUES	RANGE_HIGH	RANGE_LOW	UNITS
+CHEM	SAMPLE_DEPTH	Depth of integrated sample		10	0	m
+SECH	CLEAR_TO_BOTTOM	Lake clear to the bottom	|Y|N			
+SECH	DISAPPEARS	Depth at which secchi disk disappears		10	0	m
+SECH	REAPPEARS	Depth at which secchi disk reappears		10	0	m
+DESIGN	AGGR_ECO3_2015	"NARS 3-level reporting region (2015), based on aggregating AGGR_ECO9_2015 reporting regions"	EHIGH|PLNLOW|WMTNS			
+DESIGN	AGGR_ECO9_2015	"NARS 9-level reporting region (2015), based on aggregated Omernik Level III ecoregions"	CPL|NAP|NPL|SAP|SPL|TPL|UMW|WMT|XER			
+DESIGN	STATE	State lake is assigned to for sampling in NLA 2012				
+VERIF	DATE_COL	Date of sample collection				None
+VERIF	SITE_ID	Identification code for site				
+VERIF	VISIT_NO	Sequential number of visit to site	|1|2			
+	UID	Unique site visit ID				
+	ECO_BIO	Bioregions	CPL|EHIGH|PLAINS|UMW|WMTNS			
+	SECCHI	Secchi depth (m)				
+	PUBLICATION_DATE	Publication Date				
+	YEAR	Year				

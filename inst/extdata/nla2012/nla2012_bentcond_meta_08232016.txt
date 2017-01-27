@@ -1,0 +1,18 @@
+TABLE_NAME	SAMPLE_TYPE	DATA_COLUMN	LABEL	LEGAL_VALUES	RANGE_HIGH	RANGE_LOW	UNITS
+tblBENTMET	BENT	COMP_PT	Composition metric score		10	0	NONE
+tblBENTMET	BENT	DIVS_PT	Diversity metric score		10	0	NONE
+tblBENTMET	BENT	FEED_PT	Functional feeding group metric score				NONE
+tblBENTMET	BENT	HABT_PT	Habit metric score		10	0	NONE
+tblBENTMET	BENT	MMI_BENT_NLA12	NLA 2012 Benthic MMI score		100	0	NONE
+tblBENTMET	BENT	RICH_PT	Taxa richness metric score		10	0	NONE
+tblBENTMET	BENT	TOLR_PT	Tolerance metric score		10	0	NONE
+tblBENTMET	BENT	TOTLNIND	Number of individuals in sample			0	NONE
+tblCONDITION	BENT	BENT_COND	Benthic macroinvertebrate MMI condition class 	Good|Fair|Poor|Not Assessed			NONE
+tblSITEDATA	DESIGN	AGGR_ECO3_2015	"NARS 3-level reporting region (2015), based on aggregating AGGR_ECO9_2015 reporting regions"	EHIGH|PLNLOW|WMTNS			
+tblSITEDATA	DESIGN	AGGR_ECO9_2015	"NARS 9-level reporting region (2015), based on aggregated Omernik Level III ecoregions"	CPL|NAP|NPL|SAP|SPL|TPL|UMW|WMT|XER			
+tblVERIFICATION	VERIF	DATE_COL	Date of sample collection				None
+tblVERIFICATION	VERIF	SITE_ID	Identification code for site				
+tblVERIFICATION	VERIF	VISIT_NO	Sequential number of visit to site	|1|2			
+		UID	Unique site visit ID				
+		ECO_BIO	Bioregions				
+		PUBLICATION_DATE	Publication Date				

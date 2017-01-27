@@ -1,0 +1,49 @@
+VARNUM	NAME	LABEL	TYPE	LENGTH
+1	SITE_ID	Unique site identification number	2	25
+2	VISIT_NO	Lake visit number	1	
+3	INDXSAMP_INF	Index sample for site (YES/NO); typically visit 1)	2	3
+4	CORE_CONFIDENCE	Does bottom slice represent pre-disturbance conditions? (YES/NO/UNCERTAIN)	2	9
+5	COMMENT_CONFIDENCE	Comment for CORE-CONFIDENCE	2	50
+6	NUT_REG_INF	Nutrient Ecoregion (numeric) 1-14	1	
+7	NUT_REG	Nutrient Ecoregion (Roman) I-XIV	2	4
+8	LAKE_ORIGIN	Lake origin 9Natural/Man-made)	2	8
+9	LAKE_ORIGIN_INF	"Lake origin, numeric code 91=natural, 2=man-made)"	1	
+10	REF_CLUSTER	NLA Reference Site Cluster (A-G)	2	1
+11	WSA_ECO9	Wadeable Stream Assessment nine aggregrated Omernik level 3 ecoregions	2	3
+12	SITE_TYPE	PROB_Samp: Lake is from probability sample and can be used for population estimation.  REF_Lake: Lake is not from probability sample and was selected as a candidate reference lake	2	9
+13	ST	State two letter code	2	2
+14	LAKENAME	Lake name (from field forms)	2	33
+15	RT_NLA	"NLA Reference Class Assignment (REF=reference, SO-SO=intermediate, TRASH=impacted)"	2	5
+16	PH_FIELD	Field pH (measured at first subsurface depth)	1	
+17	COND	"COnductivity (lab), uS/cm at 25 deg C.)"	1	
+18	NTL	Total Nitrogen (ug/L)	1	
+19	PTL	Total Phosphorus (ug/L)	1	
+20	DOC	Dissolved Organic Carbon (mg/L)	1	
+21	PTL_INF_TOP	Diatom-inferred Total Phosphorus in top core sample based on jackknifed values (ug/L)	1	
+22	PTL_INF_BOT	Diatom-inferred Total Phosphorus in bottom core sample based on jackknifed values (ug/L)	1	
+23	PTL_INF_DIF	Difference (Top - Bottom) in Diatom-inferred Total Phosphorus (ug/L)	1	
+24	PTL_SIGTEST	Is PTL_INF_DIF significantly different from 0? (Yes/No)	2	3
+25	NTL_INF_TOP	Diatom-inferred Total Nitrogen in top core sample based on jackknifed values (ug/L)	1	
+26	NTL_INF_BOT	Diatom-inferred Total Nitrogen in bottom core sample based on jackknifed values (ug/L)	1	
+27	NTL_INF_DIF	Difference (Top - Bottom) in Diatom-inferred Total Nitrogen (ug/L)	1	
+28	NTL_SIGTEST	Is NTL_INF_DIF significantly different from 0? (Yes/No)	2	3
+29	COND_INF_TOP	Diatom-inferred Conductivity in top core sample based on jackknifed values (uS/cm)	1	
+30	COND_INF_BOT	Diatom-inferred Conductivity in bottom core sample based on jackknifed values (uS/cm)	1	
+31	COND_INF_DIF	Difference (Top - Bottom) in Diatom-inferred Conductivity (uS/cm)	1	
+32	COND_SIGTEST	Is COND_INF_DIF significantly different from 0? (Yes/No)	2	3
+33	PH_INF_TOP	Diatom-inferred pH in top core sample based on jackknifed values	1	
+34	PH_INF_BOT	Diatom-inferred pH in bottom core sample based on jackknifed values	1	
+35	PH_INF_DIF	Difference (Top - Bottom) in Diatom-inferred pH	1	
+36	PH_SIGTEST	Is PH_INF_DIF significantly different from 0? (Yes/No)	2	3
+37	ELEV_PT	Elevation at index site (m)	1	
+38	DOM_GEOL	Geology type with largest percent coverage within the watershed-- from C. Hawkins GIS file	2	15
+39	ECO3_PT	Omernik Level 3 ecoregion at index site	2	2
+40	LAKEAREA_KM2	Estimated lake polygon area (km^2) from NHD	1	
+41	BASINAREA_KM2	Estimated lake polygon area (km^2) from NHD	1	
+42	BASIN_LAKE_RATIO	Basin Area:Lake Area ratio	1	
+43	PC_DISTOT	Total percent disturbance in basin - from Jan Stevenson file	1	
+44	PC_URB	Percent urban land use in basin - from Jan Stevenson file	1	
+45	PC_URB_INT	Percent intensive urban land use in basin - from Jan Stevenson file	1	
+46	PC_CROP	Percent crop land use in basin - from Jan Stevenson file	1	
+47	PC_AG	Percent agriculture land use in basin - from Jan Stevenson file	1	
+48	PC_WET	Percent wetland in basin - from Jan Stevenson file	1

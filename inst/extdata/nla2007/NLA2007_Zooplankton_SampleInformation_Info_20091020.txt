@@ -1,0 +1,16 @@
+VARNUM	NAME	LABEL	TYPE	LENGTH
+1	SITE_ID	ID assigned to each site	2	50
+2	VISIT_NO	Sequential visit number within year	1	
+3	DATEZOOP	Date zooplankton collected (from field form)	1	
+4	SAMPLED_ZOOP	Zooplankton sample collected?	2	24
+5	INDXSAMP_ZOOP	Index zooplankton sample for site (YES/NO)-typically the VIsit 1 Primary sample	2	3
+6	SAMPLE_CATEGORY	"Sample category (P=Primary sample, D=Field duplicate sample)"	2	4
+7	SAMPLE_ID	Sample ID number	1	
+8	SAMPLE_TYPE	"Type of zooplankton sample (ZOOC=coarse [243-u], ZOOF=fine [80-u])"	2	8
+9	DEPTHMAX	Maximum Observed Lake Depth (m)	1	
+10	DEPTH_X	Lake Depth (m) at Index Site	1	
+11	DEPTH_OF_TOW	Depth of tow for zooplankton sample (m)	1	
+12	FLAG_ZOOP_FLD	Data qualifier flag for zooplankton sampling	2	8
+13	COMMENT_ZOOP_FLD	Comment and flag explanations for zooplanktion sampling	2	1000
+14	JAR_NO	Number of jars in sample	1	
+15	VISIT_ID	Number Assigned to Each Visit	1	

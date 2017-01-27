@@ -1,0 +1,17 @@
+TABLE_NAME	SAMPLE_TYPE	DATA_COLUMN	LABEL	LEGAL_VALUES	RANGE_HIGH	RANGE_LOW	UNITS
+tblCONDITION	ZOOP	ZOOP_COND	Zooplankton MMI condition class	Good|Fair|Poor|Not Assessed			NONE
+tblSITEDATA	DESIGN	AGGR_ECO3_2015	"NARS 3-level reporting region (2015), based on aggregating AGGR_ECO9_2015 reporting regions"	EHIGH|PLNLOW|WMTNS			
+tblSITEDATA	DESIGN	AGGR_ECO9_2015	"NARS 9-level reporting region (2015), based on aggregated Omernik Level III ecoregions"	CPL|NAP|NPL|SAP|SPL|TPL|UMW|WMT|XER			
+tblVERIFICATION	VERIF	DATE_COL	Date of sample collection				None
+tblVERIFICATION	VERIF	SITE_ID	Identification code for site				
+tblVERIFICATION	VERIF	VISIT_NO	Sequential number of visit to site	|1|2			
+tblZOOPMET	ZOOP	ABUN_PT	Abundance metric score for zooplankton MMI		10	0	None
+tblZOOPMET	ZOOP	CLAD_PT	Cladocera metric score for zooplankton MMI		10	0	None
+tblZOOPMET	ZOOP	COPE_PT	Copepod metric score for zooplankton MMI		10	0	None
+tblZOOPMET	ZOOP	MMI_ZOOP_NLA6	Zooplankton MMI score		100	0	None
+tblZOOPMET	ZOOP	ROTI_PT	Rotifer metric score for zooplankton MMI		10	0	None
+tblZOOPMET	ZOOP	TROP_PT	Trophic metric score for zooplankton MMI		10	0	None
+		UID	Unique site visit ID				
+		ECO_BIO	Bioregions				
+		PUBLICATION_DATE	Publication Date				
+		RICH_PT	Taxa richness metric score				

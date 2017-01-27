@@ -1,0 +1,59 @@
+VARNUM	NAME	LABEL	TYPE	LENGTH
+1	SITE_ID	ID Assigned to Each Site	2	25
+2	YEAR	Year of Site Visit	1	
+3	VISIT_NO	Sequential Visit Number Within Year	1	
+4	UID	Unique site_visit no. identifier	2	37
+5	SITE_TYPE	PROB_Samp: Lake is from probability sample and can be used for population estimation.  REF_Lake: Lake is not from probability sample and was selected as a candidate reference lake	2	10
+6	LAKE_SAMP	"Eval. status. _Denied (access denied). _Inaccess (physically inaccessible). _Other. _LT_4ha (< 4ha). _Shallow (< 1m deep). _Vegetated (< 1000 m2 open H2O). _Saline (tidal). Special_Purpose (aquacult., disposal, WWT, or evap.). Not_Lake (other)"	2	20
+7	SAMPLED_PHAB	Site sampled code for physical habitat characterization	2	11
+8	DATEPHAB	Date of habitat characterization (=DATE_COL in lake information file)	1	
+9	AREA_HA	Lake polygon area (hectares) from NHD	1	
+10	WSA_ECO3	Wadeable Stream Assessment three aggregrated Omernik level 3 ecoregions	2	6
+11	WSA_ECO9	Wadeable Stream Assessment nine aggregrated Omernik level 3 ecoregions	2	3
+12	CLASSP	"Modified reference class (RT_NLA) that excludes bfxhorizdist>=10m except in UMW (R=Reference, S=Intermediate, T=Impacted"	2	1
+13	EcoP6	Aggregate ecoregions (6) used to set expectations for habitat O/E indices based on ECO_WSA9 and ECO_WSA3 regions	2	5
+14	ssiBedBld	Fractional areal cover of shoreline substrate from Bedrock and Boulders (=ssfcBedrock+ssfcBoulders)	1	
+15	ssiNATBedBld	"Fractional areal cover of shoreline substrate from natural bedrock and boulders (=0 if hipwWalls >= 0.10, otherwise=ssiBedBld)"	1	
+16	rviLowWood	Index of riparian areal cover (understory and ground layers) from Woody vegetation (= rvfcGndWoody+rvfcUndWoody)	1
+17	RVegQ_7	Riparian Cover Index 7 (=((rviLowWood/1.75)+rvfcGndInundated)/2)	1
+18	RVegQ_8	Riparian Cover Index 8 (=((rviwoody/2.5)+rvfpCanBig+rvfcGndInundated+ssiNATBedBld)/4)	1
+19	L_RVegQ_8	Log10-transfromed value of Riparian Cover Index 8 (=LOG10(0.01+RVegQ_8))	1
+20	LRCVQ_7A	Littoral-Riparian Cover Index 7A (=(RVegQ_7+LITCVR_A)/2)	1
+21	LRCVQ_7B	Littoral-Riparian Cover Index 7B (=(RVegQ_7+LITCVR_B)/2)	1
+22	LRCVQ_7C	Littoral-Riparian Cover Index 7C (=(RVegQ_7+LITCVR_C)/2)	1
+23	LRCVQ_7D	Littoral-Riparian Cover Index 7D (=(RVegQ_7+LITCVR_D)/2	1
+24	LRCVQ_8D	Littoral-Riparian Cover Index 8D (=(RVegQ_8+LITCVR_D)/2)	1
+25	L_LRCVQ_8D	Log10-transformed value of Littoral-Riparian Cover Index 8D (=Log10(0.01+LRCVQ_8D))	1
+26	ElevXLat	Site elevation x field latitude (=Elev_PT*Fld_Lat_dd) used for predictive modelling	1
+27	ElevDLat	Site elevation / field latitude (=Elev_PT/Fld_Lat_dd) used for predictive modelling	1
+28	ElevXLon	Site elevation x field longitude (=Elev_PT*Fld_Lon_dd) used ofr predictive modelling	1
+29	XER	"dummy variable (1,0) to identify Xeric sites in predictive models"	1
+30	XER_X_Elev	Site elevation for Xeric sites in predictive modelling (=XER*Elev_PT)	1
+31	WMT	"dummy variable (1,0) to identify W. Mountain sites in predictive models"	1
+32	RDisIXAgAdj5	RDisIXAgAdj5=(1-(1/(1+hiiNonAg+(5*hiiAg)))+hifpAnyCirca)/2 -- Riparian Disturbance Intensity-ExtentIndex Adj-Agric	1	
+33	RDisIXAgAdj4	RDisIXAgAdj4=(1-(1/(1+hiiNonAg+(4*hiiAg)))+hifpAnyCirca)/2 -- Riparian Disturbance Intensity-ExtentIndex Adj-Agric	1	
+34	RDisIXAgAdj3	RDisIXAgAdj3=(1-(1/(1+hiiNonAg+(3*hiiAg)))+hifpAnyCirca)/2 -- Riparian Disturbance Intensity-ExtentIndex Adj-Agric	1	
+35	RDisIXAgAdj2	RDisIXAgAdj2=(1-(1/(1+hiiNonAg+(2*hiiAg)))+hifpAnyCirca)/2 -- Riparian Disturbance Intensity-ExtentIndex Adj-Agric	1	
+36	RDis_InEx	Final Riparian Disturbance Intensity and Extent Index (=RDisInEx1a)	1	
+37	RDis_IX	Final Riparian Disturbance Intensity-Extent Index Adj for Agric (=RDisIXAgAdj5)	1	
+38	RvegQ_Var	Name of variable used to create RVegQ for a given REF_CLUSTER or WSA_ECO9	2	8
+39	RVegQ	Final Riparian Cover Index (RVegQ_Var indicates which RvegQ variant is used)	1	
+40	LogRVegQ	Log10(Riparian Cover Index+0.01)	1	
+41	Pre3A_L_RVegQ_8	Predicted log-transformed riparian vegetation index for ECO_WSA3=WMTNS (= -1.2108-[0.000037*ELEV_PT]+[0.0126*FLD_LAT_DD]+[0.1112*WMT])	1	
+42	Adj3A_L_RVegQ_8	Residual of log-transformed riparian vegetation index for ECO_WSA3=WMTNS (=L_RVegQ_8 - Pre3A_L_RVegQ_8)	1	
+43	LOE_RVQ_west	Log(0/E Riparian Cover-Complexity Index) for ECO_WSA3=WMTNS (=Adj3A_L_RVegQ_8}	1	
+44	LitCvrQ_Var	Name of variable used to create LitCvrQ for a given REF_CLUSTER	2	8
+45	LitCvrQ	Final Littoral Cover Index (LitCvrQ_Var indicates which LITCVR variant is used)	1	
+46	LogLitCvrQ	Log10(Littoral Cover Index+0.01)	1	
+47	Pre3A_L_LitCvrQ	Predicted log-transformed littoral cover index value for ECO_WSA3=WMTNS (=-0.9738-([.000073*ELEV_PT])	1	
+48	Adj3A_L_LitCvrQ	Residual of log-transformed littoral cover index value for ECO_WSA3=WMTNS (= LogLitCvrQ - Pre3A_L_LitCvrQ)	1	
+49	LOE_LitCv_west	Log(0/E Littoral Cover-Complexity Index) for ECO_WSA3=WMTNS (=Adj3A_L_LitCvrQ}	1	
+50	LitRipCVQ_Var	Name of variable used to create LitRipCVQ for a given REF_CLUSTER or WSA_ECO9	2	9
+51	LitRipCVQ	Final Littoral-Riparian Cover Index (LitCvrQ_Var indicates which LRCVQ variant is used)	1	
+52	LogLitRipCvQ	Log10 (Littoral-Riparian Cover Index+0.01)	1	
+53	Pre3A_L_LRCvQ_8D	Predicted log-transformed littoral-riparian cover index value for ECO_WSA3=WMTNS  (= -1.0751-[0.000038*ELEV_PT]+[0.0083*FLD_LAT_DD]-[0.000079*XER_X_ELEV])	1	
+54	Adj3A_L_LRCvQ_8D	Residual of log-transformed littoral-riparian cover index value for ECO_WSA3=WMTNS (= L_LRCVQ_8D - Pre3A_L_LRCvQ_8D)	1	
+55	LOE_LitRipCv_west	Log(O/E Littoral-Riparian Cover Complexity Index) for ECO_WSA3=WMTNS (=Adj3A_L_LRCvQ_8D)}	1	
+56	RVeg_OE	Observed/Expected Riparian Cover Complexity Index = (regional RVegQ)/(regional reference mean)	1	
+57	LitCvr_OE	Observed/Expected Littoral Cover Complexity Index = (regional LitCvrQ)/(regional reference mean)	1	
+58	LitRipCvr_OE	Observed/Expected Littoral-Riparian Cover Complexity Index = (regional LitRipCvrQ)/(regional reference mean)	1	

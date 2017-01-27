@@ -1,0 +1,100 @@
+VARNUM	NAME	LABEL	TYPE	LENGTH
+1	SITE_ID	ID Assigned to Each Site	2	25
+2	VISIT_NO	Sequential Visit Number Within Year	1	
+3	SAMPLED	Site Sampled Code	2	30
+4	DATE_COL	Date Sample Collected	1	
+5	REPEAT	Repeat visit lake (YES/blank)	2	3
+6	SITE_TYPE	PROB_Samp: Lake is from probability sample and can be used for population estimation.  REF_Lake: Lake is not from probability sample and was selected as a candidate reference lake	2	10
+7	LAKE_SAMP	"Eval. status. _Denied (access denied). _Inaccess (physically inaccessible). _Other. _LT_4ha (< 4ha). _Shallow (< 1m deep). _Vegetated (< 1000 m2 open H2O). _Saline (tidal). Special_Purpose (aquacult., disposal, WWT, or evap.). Not_Lake (other)"	2	20
+8	TNT	Target:Non-target evaluation status derived from LAKE_SAMP	2	10
+9	LON_DD	Longitude (decimal degrees) obtained from NHD (NAD83)	1	
+10	LAT_DD	Latitude (decimal degrees) obtained from NHD (NAD83)	1	
+11	ALBERS_X	x-coordinate from Albers projection (meters)	1	
+12	ALBERS_Y	y-coordinate from Albers projection (meters)	1	
+13	FLD_LON_DD	Longitude (decimal degrees) recorded from the field form (lake verification)	1	
+14	FLD_LAT_DD	Latitude (decimal degrees) recorded from the field form (lake verification)	1	
+15	FLD_SRC	"Field location source: Index_Site: location where index sample was taken. Launch_Site: point where boat was launched. Map_Loc: Location obtained from design file.  Priority:  lake index site; then launch site, then map location"	2	11
+16	FLD_FLAG	Not NHD Lake-reference lake not found in NHD. Not in NHD lake polygon-field location was not found in NHD lake polygon	2	24
+17	ST	State two letter code	2	2
+18	STATE_NAME	STATE_NAME	2	14
+19	CNTYNAME	County name	2	20
+20	EPA_REG	EPA Region	2	9
+21	NHDNAME	Lake name (from NHD)	2	50
+22	LAKENAME	Lake name (from field forms)	2	50
+23	AREA_CAT7	Lake area unequal probability category (7 categories)	2	10
+24	NESLAKE	NESLake-Lake was included in 1970s National Eutrophication Survey	2	7
+25	NESLAKE_ID	NESLake-Lake was included in 1970s National Eutrophication Survey	2	8
+26	STRATUM	Probability survey design stratum. NLALake is single stratum	2	8
+27	PANEL	Panel_1-lake was included in base design. OverSamp-Lake was part of over sample of lakes used for replacing lakes in base design if they could not be sampled	2	8
+28	DSGN_CAT	Probability survey design categories used to assign unequal probability of selection	2	15
+29	MDCATY	Unequal selection probability for lake	1	
+30	WGT	Initial site weight based on base design. DO NOT USE for population estimation	1	
+31	WGT_NLA	Adjusted site weight. USE for population estimation	1	
+32	ADJWGT_CAT	Categories used to adjust initial design weight (WGT) to account for use of over sample lakes.	2	5
+33	URBAN	URBAN LAKE? (YES/NO)	2	3
+34	WSA_ECO3	Wadeable Stream Assessment three aggregrated Omernik level 3 ecoregions	2	6
+35	WSA_ECO9	Wadeable Stream Assessment nine aggregrated Omernik level 3 ecoregions	2	3
+36	ECO_LEV_3	Omernik level 3 ecoregion number	2	2
+37	ECO_L3_NAM	Omernik level 3 ecoregion name	2	60
+38	NUT_REG	"Nutrient ecoregion, based on EPA nutrient criteria documents for lakes & reservoirs)"	2	4
+39	NUTREG_NAME	Nutrient ecoregion name	2	60
+40	ECO_NUTA	NLA Aggregate Nutrient Ecoregion	2	5
+41	LAKE_ORIGIN	"Lake origin (MAN-MADE, NATURAL [which includes natural lakes augmented by dams])"	2	9
+42	ECO3_X_ORIGIN	WSA_ECO3 x LAKE_ORIGIN CLASS	2	20
+43	REF_CLUSTER	NLA Reference Site Cluster (A-G)	2	1
+44	REFCLUS_NAME	NLA Reference Cluster Description	2	100
+45	RT_NLA	"NLA Reference Class Assignment (REF=reference, SO-SO=intermediate, TRASH=impacted)"	2	8
+46	REF_NUTR	Nutrient Least Disturbed Reference Site (Y/N)	2	1
+47	AREA_HA	Lake polygon area (hectares) from NHD	1	
+48	SIZE_CLASS	Lake area size class	2	20
+49	LAKEAREA	Lake polygon area (km^2) from NHD	1	
+50	LAKEPERIM	Lake polygon perimeter (km) from NHD	1	
+51	SLD	Shoreline development index (=LAKEPERIM/(2*sqrt(LAKEAREA*pi))	1	
+52	DEPTH_X	Lake Depth (m) at Index Site	1	
+53	DEPTHMAX	Maximum Observed Lake Depth (m)	1	
+54	ELEV_PT	Site elevation (meters) from the National Elevation Dataset	1	
+55	HUC_2	Hydrologic region (2-digit)	2	2
+56	HUC_8	Hydrologic region (8-digit)	2	8
+57	REACHCODE	Unique NHD 14-digit Reach Code (0=code not assigned in NHDPlus	2	14
+58	COM_ID	Unique NHD 10-digit common identifier code (0=code not assigned in NHDPlus)	2	10
+59	INDEX_SAMP	Confirmation that lake was sampled. Secchi_Samp-Secchi depth determined	2	11
+60	STATUS_VER	Lake evaluation status from lake verification form. Used with other information to construct LAKE_SAMP	2	17
+61	STATUS_FLD	Lake evaluation status from lake evaluation field form. Used with other information to construct LAKE_SAMP	2	14
+62	STATUS_DSK	Lake evaluation status from lake evaluation desktop form.Used with other information to construct LAKE_SAMP	2	14
+63	PERM_WATER	Lake is a permanent waterbody (YES). Derived from Lake evaluation desktop and field forms. Used with other information to construct LAKE_SAMP	2	7
+64	NON_SALINE	Lake is non-saline waterbody (YES). Derived from Lake evaluation desktop and field forms. Used with other information to construct LAKE_SAMP	2	7
+65	SRFC_AREA	Lake is > 4 ha (YES). Derived from Lake evaluation desktop and field forms. Used with other information to construct LAKE_SAMP.	2	7
+66	METER_DEEP	Lake is > 1 m deep (YES). Derived from Lake evaluation desktop and field forms. Used with other information to construct LAKE_SAMP	2	7
+67	OPEN_WATER	Lake has > 1000 m2 of open water (YES). Derived from Lake evaluation desktop and field forms. Used with other information to construct LAKE_SAMP	2	7
+68	AQUACULTUR	Lake is a a private aquaculture waterbody (YES). Derived from Lake evaluation desktop and field forms. Used with other information to construct LAKE_SAMP	2	7
+69	DISPOSAL	"Lake is used for disposal (tailings, mine-tailings, etc.) (YES). Derived from Lake evaluation desktop and field forms. Used with other information to construct LAKE_SAMP"	2	7
+70	SEWAGE	Lake is sewage treatment pond (YES). Derived from Lake evaluation desktop and field forms. Used with other information to to construct LAKE_SAMP	2	7
+71	EVAPORATE	Lake is used for evaporation (YES). Derived from Lake evaluation desktop and field forms. Used with other information to construct LAKE_SAMP	2	7
+72	PHYS_ACCES	Lake is physically accessible for crew and boats (YES). Derived from Lake evaluation desktop and field forms. Used with other information to construct LAKE_SAMP	2	7
+73	FLAG_INFO	Data qualifier flag for lake info data	2	12
+74	COMMENT_INFO	Comments and flag explanations for lake info data	2	160
+75	SAMPLED_PROFILE	SAMPLED variable from profile data	2	25
+76	SAMPLED_SECCHI	Secchi Depth Site Sample Status	2	24
+77	SAMPLED_ASSESS	Site Sample Status - Assessment Form	2	15
+78	SAMPLED_PHAB	Site sampled code for physical habitat characterization	2	11
+79	INDXSAMP_PHAB	Index sample for physical habitat (YES/NO)?	2	20
+80	SAMPLED_CHEM	Index chemistry sample for site (YES/NO)-typically the Visit 1 Primary sample	2	20
+81	INDXSAMP_CHEM	Index chhemistry sample for site (YES/NO)-typically the Visit 1 Primary sample	2	3
+82	SAMPLED_CHLA	CHLA SAMPLE COLLECTED/ANALYZED?	2	20
+83	INDXSAMP_CHLA	Index chlorophyll sample for site (YES/NO)-typically the Visit 1 Primary sample	2	3
+84	SAMPLED_ZOOP	Zooplankton sample collected?	2	24
+85	INDXSAMP_ZOOP	Index zooplankton sample for site (YES/NO)-typically the VIsit 1 Primary sample	2	3
+86	SAMPLED_PHYT	Phytoplankton sample collected?	2	16
+87	INDXSAMP_PHYT	Index phytoplankton sample for site (YES/NO)-typically the Visit 1 Primary sample	2	3
+88	SAMPLED_CORE	Sediment core sample collected?	2	20
+89	INDXSAMP_CORE	Index sediment core sample for site (YES/NO)-typically the Visit 1 Primary sample	2	3
+90	SAMPLED_INF	"Sediment core samples (Top, Bottom) used for diatom-inferred chemistry?"	2	20
+91	INDXSAMP_INF	Index sample for site (YES/NO); typically visit 1)	2	3
+92	SAMPLED_ENTE	Enterococci sample collected?	2	20
+93	INDXSAMP_ENTE	Index enterococci sample for site (YES/NO)-typically the Visit 1 Primary sample	2	3
+94	SAMPLED_MICR	Microcystin sample collected?	2	16
+95	INDXSAMP_MICR	Index microcystin sample for site (YES/NO)-typically the Visit 1 Primary sample	2	3
+96	SAMPLED_SDHG	Sediment Hg sample collected?	2	20
+97	INDXSAMP_SDHG	Index sediment Hg sample for site (YES/NO)-typically the Visit 1 Primary sample	2	3
+98	VISIT_ID	Number assigned to each visit	1	
+99	FID_1	GIS record number for site-visit combination	1	
