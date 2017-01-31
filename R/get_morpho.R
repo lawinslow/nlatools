@@ -15,6 +15,8 @@ get_morpho = function(){
   nla12 = readnlafile('extdata/nla2012/nla2012_wide_phab_08232016_0.csv')
   profile12 = readnlafile('extdata/nla2012/nla2012_wide_profile_08232016.csv')
 
+  nla12area = readnlafile('extdata/nla2012/nla2012_wide_siteinfo_08232016.csv')
+
   #tmp = group_by(profile, SITE_ID) %>% summarize(DEPTHMAX=max(DEPTH, na.rm=TRUE))
 
   phabdepth = group_by(nla12, SITE_ID) %>% summarize(DEPTHMAX = max(DEPTH_AT_STATION, na.rm=TRUE))
