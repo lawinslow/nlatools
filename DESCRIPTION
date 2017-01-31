@@ -1,7 +1,7 @@
 Package: nlatools
 Type: Package
 Title: Toolset for the EPA National Lake Assessment Dataset
-Version: 0.1.0
+Version: 0.2.0
 Author: Luke Winslow
 Maintainer: Luke Winslow <lawinslow@gmail.com>
 Description: The U.S. Environmental Protection Association has conducted
