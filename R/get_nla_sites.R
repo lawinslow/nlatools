@@ -13,10 +13,10 @@ get_nla_sites = function(){
   nla2007 = readnlafile('extdata/nla2007/NLA2007_SampledLakeInformation_20091113.csv')
   nla2012 = readnlafile('extdata/nla2012/nla2012_wide_siteinfo_08232016.csv')
 
-  nla2012sites = select(nla2012, LON_DD83, LAT_DD83, COMID2012, SITE_ID, SITEID_07) %>%
-    transmute(LON_DD=LON_DD83, LAT_DD=LAT_DD83, COM_ID=COMID2012, SITE_ID, SITEID_07)
+  nla2012sites = select(nla2012, LON_DD83, LAT_DD83, COMID2012, SITE_ID, SITEID_07, ELEVATION) %>%
+    transmute(LON_DD=LON_DD83, LAT_DD=LAT_DD83, COM_ID=COMID2012, SITE_ID, SITEID_07, ELEV_PT=ELEVATION)
 
-  nla2007sites = select(nla2007, LON_DD, LAT_DD, COM_ID, SITE_ID)
+  nla2007sites = select(nla2007, LON_DD, LAT_DD, COM_ID, SITE_ID, ELEV_PT)
   nla2007sites$SITEID_07 = nla2007sites$SITE_ID
 
   nlasites = bind_rows(nla2007sites, nla2012sites) %>% group_by(COM_ID) %>% slice(1)

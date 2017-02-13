@@ -3,5 +3,6 @@
 export(get_morpho)
 export(get_nla_sites)
 export(get_secchi)
+export(nla_chemistry)
 export(readnlafile)
 import(dplyr)
