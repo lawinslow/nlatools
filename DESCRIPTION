@@ -1,7 +1,7 @@
 Package: nlatools
 Type: Package
 Title: Toolset for the EPA National Lake Assessment Dataset
-Version: 0.3.0
+Version: 0.3.1
 Author: Luke Winslow
 Maintainer: Luke Winslow <lawinslow@gmail.com>
 Description: The U.S. Environmental Protection Association has conducted
@@ -10,6 +10,8 @@ Description: The U.S. Environmental Protection Association has conducted
     structures and different observation types. This package attemps to unify key pieces
     of the data and make it directly accessible through R as a simple dependency.
 License: MIT
+Imports: dplyr,
+    lubridate
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 5.0.1
