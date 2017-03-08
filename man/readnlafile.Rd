@@ -6,4 +6,3 @@
 \usage{
 readnlafile(fname)
 }
-

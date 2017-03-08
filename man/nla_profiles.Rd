@@ -9,4 +9,3 @@ nla_profiles()
 \description{
 Returns lake profile data for NLA dataset. Includes DO, Temp, and pH.
 }
-
