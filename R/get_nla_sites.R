@@ -19,7 +19,7 @@ get_nla_sites = function(){
   nla2007sites = select(nla2007, LON_DD, LAT_DD, COM_ID, SITE_ID, ELEV_PT)
   nla2007sites$SITEID_07 = nla2007sites$SITE_ID
 
-  nlasites = bind_rows(nla2007sites, nla2012sites) %>% group_by(COM_ID) %>% slice(1)
+  nlasites = bind_rows(nla2007sites, nla2012sites)
   nlasites$MLGA_ID = paste0('COMID_', nlasites$COM_ID)
 
   return(as.data.frame(nlasites))

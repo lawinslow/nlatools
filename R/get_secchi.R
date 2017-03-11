@@ -8,8 +8,8 @@
 #'
 #' @export
 get_secchi = function(){
-  nla7 = read.table(system.file('extdata/nla2007/NLA2007_Secchi_20091008.csv', package=packageName()), sep=',', header=TRUE, comment.char = '', quote='\"', as.is=TRUE)
-  nla12 = read.table(system.file('extdata/nla2012/nla2012_secchi_08232016.csv', package=packageName()), sep=',', header=TRUE, comment.char = '', quote='\"', as.is=TRUE)
+  nla7 = readnlafile('extdata/nla2007/NLA2007_Secchi_20091008.csv')
+  nla12 = readnlafile('extdata/nla2012/nla2012_secchi_08232016.csv')
 
   nla12 = nla12 %>% mutate(SECMEAN = SECCHI, datetime=DATE_COL) %>% select(SITE_ID, datetime, SECMEAN)
   nla7  = nla7 %>% mutate(datetime=DATE_SECCHI) %>% select(SITE_ID, datetime, SECMEAN)
