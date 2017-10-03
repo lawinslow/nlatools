@@ -9,4 +9,18 @@ get_morpho()
 \description{
 Combine and return max observed depth and lake area from the NLA lakes
 }
+\note{
+For NLA2012, no DEPTHMAX column was supplied. Here it is estimated in the
+same way as NLA2007, which basically looks at the maximum observed depth in
+the profile data
+
+Personal Communication with A. Pollard
+\emph{The field crews locate the max depth that they encounter in 30 minutes
+on the lake. If folks have lake maps or other bathymetry information, this
+really might be the maximum depth. In other lakes, the crews are simply looking
+for the deepest area that they encounter in their 30 minute foray around the
+lake. For this reason, I thought that a column marked as max depth was misleading
+and it was not included in the NLA 2012 files. It looks like they left the files
+in roughly the same format as the data sheets}
+}
 
